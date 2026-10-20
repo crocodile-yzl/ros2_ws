@@ -1,0 +1,55 @@
+[0.903s] Invoking command in '/home/y/ros2_ws/src/port_camera_publisher': PYTHONPATH=/home/y/ros2_ws/build/port_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/port_camera_publisher build --build-base /home/y/ros2_ws/build/port_camera_publisher/build install --record /home/y/ros2_ws/build/port_camera_publisher/install.log --install-scripts $base/lib/port_camera_publisher --single-version-externally-managed install_data
+[1.209s] running egg_info
+[1.210s] creating ../../build/port_camera_publisher/port_camera_publisher.egg-info
+[1.231s] writing ../../build/port_camera_publisher/port_camera_publisher.egg-info/PKG-INFO
+[1.231s] writing dependency_links to ../../build/port_camera_publisher/port_camera_publisher.egg-info/dependency_links.txt
+[1.231s] writing entry points to ../../build/port_camera_publisher/port_camera_publisher.egg-info/entry_points.txt
+[1.231s] writing requirements to ../../build/port_camera_publisher/port_camera_publisher.egg-info/requires.txt
+[1.231s] writing top-level names to ../../build/port_camera_publisher/port_camera_publisher.egg-info/top_level.txt
+[1.232s] writing manifest file '../../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+[1.275s] reading manifest file '../../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+[1.276s] writing manifest file '../../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+[1.276s] running build
+[1.276s] running build_py
+[1.276s] creating /home/y/ros2_ws/build/port_camera_publisher/build
+[1.276s] creating /home/y/ros2_ws/build/port_camera_publisher/build/lib
+[1.276s] creating /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] copying port_camera_publisher/__init__.py -> /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] copying port_camera_publisher/tcp_jpeg_receiver_node.py -> /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] copying port_camera_publisher/utils.py -> /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] copying port_camera_publisher/check_topic.py -> /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] copying port_camera_publisher/video_publisher_node.py -> /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher
+[1.277s] running install
+[1.284s] running install_lib
+[1.306s] creating /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.306s] copying /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher/__init__.py -> /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.306s] copying /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher/tcp_jpeg_receiver_node.py -> /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.306s] copying /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher/utils.py -> /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.306s] copying /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher/check_topic.py -> /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.307s] copying /home/y/ros2_ws/build/port_camera_publisher/build/lib/port_camera_publisher/video_publisher_node.py -> /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher
+[1.307s] byte-compiling /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher/__init__.py to __init__.cpython-312.pyc
+[1.307s] byte-compiling /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher/tcp_jpeg_receiver_node.py to tcp_jpeg_receiver_node.cpython-312.pyc
+[1.310s] byte-compiling /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher/utils.py to utils.cpython-312.pyc
+[1.311s] byte-compiling /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher/check_topic.py to check_topic.cpython-312.pyc
+[1.312s] byte-compiling /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher/video_publisher_node.py to video_publisher_node.cpython-312.pyc
+[1.315s] running install_data
+[1.316s] creating /home/y/ros2_ws/install/port_camera_publisher/share/ament_index
+[1.316s] creating /home/y/ros2_ws/install/port_camera_publisher/share/ament_index/resource_index
+[1.316s] creating /home/y/ros2_ws/install/port_camera_publisher/share/ament_index/resource_index/packages
+[1.316s] copying resource/port_camera_publisher -> /home/y/ros2_ws/install/port_camera_publisher/share/ament_index/resource_index/packages
+[1.316s] copying package.xml -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher
+[1.316s] creating /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/launch
+[1.316s] copying launch/video_publisher.launch.py -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/launch
+[1.317s] copying launch/d435i_video.launch.py -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/launch
+[1.317s] copying launch/tcp_jpeg_receiver.launch.py -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/launch
+[1.317s] creating /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/config
+[1.317s] copying config/video_publisher.yaml -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/config
+[1.317s] copying config/tcp_jpeg_receiver.yaml -> /home/y/ros2_ws/install/port_camera_publisher/share/port_camera_publisher/config
+[1.317s] running install_egg_info
+[1.340s] Copying ../../build/port_camera_publisher/port_camera_publisher.egg-info to /home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages/port_camera_publisher-0.1.0-py3.12.egg-info
+[1.341s] running install_scripts
+[1.485s] Installing check_video script to /home/y/ros2_ws/install/port_camera_publisher/lib/port_camera_publisher
+[1.486s] Installing tcp_jpeg_receiver script to /home/y/ros2_ws/install/port_camera_publisher/lib/port_camera_publisher
+[1.486s] Installing video_publisher script to /home/y/ros2_ws/install/port_camera_publisher/lib/port_camera_publisher
+[1.486s] writing list of installed files to '/home/y/ros2_ws/build/port_camera_publisher/install.log'
+[1.514s] Invoked command in '/home/y/ros2_ws/src/port_camera_publisher' returned '0': PYTHONPATH=/home/y/ros2_ws/build/port_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/install/port_camera_publisher/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/port_camera_publisher build --build-base /home/y/ros2_ws/build/port_camera_publisher/build install --record /home/y/ros2_ws/build/port_camera_publisher/install.log --install-scripts $base/lib/port_camera_publisher --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+check_video = port_camera_publisher.check_topic:main
+tcp_jpeg_receiver = port_camera_publisher.tcp_jpeg_receiver_node:main
+video_publisher = port_camera_publisher.video_publisher_node:main

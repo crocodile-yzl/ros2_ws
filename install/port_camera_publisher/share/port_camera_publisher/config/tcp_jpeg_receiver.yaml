@@ -1,0 +1,13 @@
+tcp_jpeg_receiver:
+  ros__parameters:
+    bind_address: "0.0.0.0"
+    port: 8080
+    topic: "/video"
+    frame_id: "camera_link"
+    publish_rate: 30.0
+    queue_size: 1
+    reliable: false
+    publish_compressed: true
+    jpeg_quality: 80
+    max_buffer_mb: 16
+    log_every_n: 150
