@@ -1,0 +1,42 @@
+In file included from /home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_node.cpp:1:
+/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:51:173: warning: ‘stdcall’ attribute ignored [-Wattributes]
+   51 |     static void __attribute__((__stdcall__)) onDeviceStatusChange(const char* deviceUri, const char* deviceSerialNumber, BerxelHawkDeviceStatus deviceState, void* pUserData);
+      |                                                                                                                                                                             ^
+/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:52:142: warning: ‘stdcall’ attribute ignored [-Wattributes]
+   52 |         static void __attribute__((__stdcall__)) onNewFrameCallback(BerxelHawkStreamType streamType, BerxelHawkFrame* pFrame, void* pUserData);
+      |                                                                                                                                              ^
+In file included from /home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:1:
+/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:51:173: warning: ‘stdcall’ attribute ignored [-Wattributes]
+   51 |     static void __attribute__((__stdcall__)) onDeviceStatusChange(const char* deviceUri, const char* deviceSerialNumber, BerxelHawkDeviceStatus deviceState, void* pUserData);
+      |                                                                                                                                                                             ^
+/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:52:142: warning: ‘stdcall’ attribute ignored [-Wattributes]
+   52 |         static void __attribute__((__stdcall__)) onNewFrameCallback(BerxelHawkStreamType streamType, BerxelHawkFrame* pFrame, void* pUserData);
+      |                                                                                                                                              ^
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp: In member function ‘int32_t berxel_ros2::BerxelCameraDriver::startCamera()’:
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:177:43: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint32_t’ {aka ‘unsigned int’} [-Wsign-compare]
+  177 |                         for (int i = 0; i < deviceCount; i++) {
+      |                                         ~~^~~~~~~~~~~~~
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:187:35: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint32_t’ {aka ‘unsigned int’} [-Wsign-compare]
+  187 |                 for (int i = 0; i < deviceCount; i++)
+      |                                 ~~^~~~~~~~~~~~~
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:189:112: warning: comparison of integer expressions of different signedness: ‘int’ and ‘uint32_t’ {aka ‘unsigned int’} [-Wsign-compare]
+  189 |                         if (strcmp(pDeviceInfo[i].devicePort, m_str_device_port.c_str()) == 0 && (m_nDeviceBus == pDeviceInfo[i].devBus))
+      |                                                                                                   ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp: At global scope:
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:347:163: warning: ‘stdcall’ attribute ignored [-Wattributes]
+  347 | void __attribute__((__stdcall__)) BerxelCameraDriver::onNewFrameCallback(berxel::BerxelHawkStreamType streamType, berxel::BerxelHawkFrame* pFrame, void* pUserData)
+      |                                                                                                                                                                   ^
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:389:190: warning: ‘stdcall’ attribute ignored [-Wattributes]
+  389 | void __attribute__((__stdcall__)) BerxelCameraDriver::onDeviceStatusChange(const char* deviceUri, const char* deviceSerialNumber, berxel::BerxelHawkDeviceStatus deviceState, void* pUserData)
+      |                                                                                                                                                                                              ^
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp: In member function ‘void berxel_ros2::BerxelCameraDriver::berxelDepthFrameCallback(berxel::BerxelHawkFrame*)’:
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:505:19: warning: unused variable ‘pData’ [-Wunused-variable]
+  505 |         uint16_t* pData = (uint16_t*)pFrame->getData();
+      |                   ^~~~~
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp: In member function ‘void berxel_ros2::BerxelCameraDriver::convertDepthToCv16UC(uint16_t*, uint16_t*, int, int, berxel::BerxelHawkPixelType)’:
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:624:39: warning: comparison of integer expressions of different signedness: ‘uint32_t’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+  624 |                 for(uint32_t i = 0; i < width * height; ++i)
+      |                                     ~~^~~~~~~~~~~~~~~~
+/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:627:39: warning: comparison of integer expressions of different signedness: ‘uint32_t’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+  627 |                 for(uint32_t i = 0; i < width * height; ++i)
+      |                                     ~~^~~~~~~~~~~~~~~~

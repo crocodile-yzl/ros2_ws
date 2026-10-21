@@ -1,0 +1,17 @@
+/home/y/ros2_ws/install/d435i_video_c/lib/d435i_video_c/d435i_video_c
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/launch/d435i_video_c.launch.py
+/home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/package_run_dependencies/d435i_video_c
+/home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/parent_prefix_path/d435i_video_c
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/ament_prefix_path.sh
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/ament_prefix_path.dsv
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/path.sh
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/path.dsv
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.bash
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.sh
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.zsh
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.dsv
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/package.dsv
+/home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/packages/d435i_video_c
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/cmake/d435i_video_cConfig.cmake
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/cmake/d435i_video_cConfig-version.cmake
+/home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/package.xml

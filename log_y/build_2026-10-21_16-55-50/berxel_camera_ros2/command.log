@@ -1,0 +1,2 @@
+Invoking command in '/home/y/ros2_ws/build_y/berxel_camera_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/berxel_camera_ros2
+Invoked command in '/home/y/ros2_ws/build_y/berxel_camera_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/berxel_camera_ros2

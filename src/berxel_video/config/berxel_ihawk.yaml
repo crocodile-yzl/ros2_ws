@@ -1,0 +1,21 @@
+/**:
+  ros__parameters:
+    # 硬件流模式：1 单流 / 2 Mix VGA(彩色+深度 640x400) / 3 Mix HD(1280x800) / 4 Mix QVGA(320x200)
+    stream_flag: 2
+    # 流类型位掩码：1 彩色 / 2 深度 / 3 彩色+深度 / 4 泛光红外 / 5 点光红外
+    stream_type: 3
+    color_width: 640
+    color_height: 400
+    depth_width: 640
+    depth_height: 400
+    depth_fps: 30
+    enable_align: false            # 深度对齐到彩色
+    enable_pointcloud: false       # 点云比较占带宽，默认关
+    enable_denoise: false
+    enable_device_timestamp: true  # 用图像自带时间戳
+    enable_temperature_compensation: false
+    depth_current: 15              # 激光器电流 8~15
+    depth_exposure_time: 33        # 0.1ms 单位，AE 关闭时有效
+    depth_gain: 1                  # 1~4
+    enable_depth_ae: true
+    serial_number: ""              # 多机时填序列号

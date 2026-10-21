@@ -1,0 +1,426 @@
+[0.220s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'berxel_camera_ros2', 'berxel_video']
+[0.220s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['berxel_camera_ros2', 'berxel_video'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x76b5d4e38bf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x76b5d4e384a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x76b5d4e384a0>>, mixin_verb=('build',))
+[0.288s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.289s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.290s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastdds.meta'
+[0.291s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.291s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.291s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/y/ros2_ws'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.291s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.292s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'python'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extensions ['python_setup_py']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk) by extension 'python_setup_py'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'ros'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['cmake', 'python']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'cmake'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Documentation) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'ros'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['cmake', 'python']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'cmake'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'python'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extensions ['python_setup_py']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/Include) by extension 'python_setup_py'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'ros'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['cmake', 'python']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'cmake'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'python'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extensions ['python_setup_py']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1) by extension 'python_setup_py'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera' with type 'ros.catkin' and name 'berxel_camera'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description' with type 'ros.catkin' and name 'berxel_description'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/RosSDKNode/berxel_camera_ros2) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel-sdk/RosSDKNode/berxel_camera_ros2' with type 'ros.ament_cmake' and name 'berxel_camera_ros2'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'ros'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['cmake', 'python']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'cmake'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'python'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extensions ['python_setup_py']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/libs) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/bin) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/Common) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'cmake'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'python'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extensions ['python_setup_py']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColor) by extension 'python_setup_py'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'ros'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['cmake', 'python']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkColorDoubleDevice) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'ros'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['cmake', 'python']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'cmake'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'python'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extensions ['python_setup_py']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepth) by extension 'python_setup_py'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'ros'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['cmake', 'python']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'cmake'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'python'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extensions ['python_setup_py']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkDepthDoubleDevice) by extension 'python_setup_py'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'ignore'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'ignore_ament_install'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['colcon_pkg']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'colcon_pkg'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['colcon_meta']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkIr) by extension 'python_setup_py'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'ros'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['cmake', 'python']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'cmake'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'python'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extensions ['python_setup_py']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkLightIr) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'colcon_pkg'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['colcon_meta']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'colcon_meta'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['ros']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'ros'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['cmake', 'python']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'cmake'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'python'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extensions ['python_setup_py']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepth) by extension 'python_setup_py'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'ignore'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'ignore_ament_install'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['colcon_pkg']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'python'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extensions ['python_setup_py']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthDoubleDevice) by extension 'python_setup_py'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'ros'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['cmake', 'python']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'cmake'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixColorDepthMatting) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'colcon_pkg'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['colcon_meta']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'colcon_meta'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['ros']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'ros'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['cmake', 'python']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'cmake'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'python'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extensions ['python_setup_py']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkMixHDColorDepth) by extension 'python_setup_py'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'ignore_ament_install'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['colcon_pkg']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'ros'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['cmake', 'python']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'cmake'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'python'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extensions ['python_setup_py']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(berxel-sdk/samples/src/HawkNetDeviceInfo) by extension 'python_setup_py'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extensions ['colcon_pkg']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extension 'colcon_pkg'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extensions ['colcon_meta']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extension 'colcon_meta'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extensions ['ros']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_camera_ros2) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'src/berxel_camera_ros2' with type 'ros.ament_cmake' and name 'berxel_camera_ros2'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extensions ['ignore', 'ignore_ament_install']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extension 'ignore'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extension 'ignore_ament_install'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(src/berxel_video) by extension 'ros'
+[0.359s] DEBUG:colcon.colcon_core.package_identification:Package 'src/berxel_video' with type 'ros.ament_cmake' and name 'berxel_video'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(src/d435i_video_c) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/d435i_video_c' with type 'ros.ament_cmake' and name 'd435i_video_c'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/port_camera_publisher) by extension 'ros'
+[0.361s] DEBUG:colcon.colcon_core.package_identification:Package 'src/port_camera_publisher' with type 'ros.ament_python' and name 'port_camera_publisher'
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.361s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.395s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'berxel_camera' in 'berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_camera'
+[0.395s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'berxel_description' in 'berxel-sdk/RosSDKNode/berxel_camera_ros1/berxel_description'
+[0.395s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'd435i_video_c' in 'src/d435i_video_c'
+[0.395s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'port_camera_publisher' in 'src/port_camera_publisher'
+[0.395s] ERROR:colcon:colcon build: Duplicate package names not supported:
+- berxel_camera_ros2:
+  - berxel-sdk/RosSDKNode/berxel_camera_ros2
+  - src/berxel_camera_ros2

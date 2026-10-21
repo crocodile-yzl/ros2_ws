@@ -1,0 +1,51 @@
+[0.020s] Invoking command in '/home/y/ros2_ws/build/berxel_camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install/berxel_camera_ros2
+[0.111s] -- The C compiler identification is GNU 13.3.0
+[0.190s] -- The CXX compiler identification is GNU 13.3.0
+[0.215s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.374s] -- Detecting CXX compiler ABI info
+[0.509s] -- Detecting CXX compiler ABI info - done
+[0.521s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.521s] -- Detecting CXX compile features
+[0.522s] -- Detecting CXX compile features - done
+[0.534s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.753s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.952s] -- Found builtin_interfaces: 2.0.4 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.034s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.064s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.099s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.136s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.173s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[1.418s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.426s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.571s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.598s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.633s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.782s] -- Found image_transport: 5.1.8 (/opt/ros/jazzy/share/image_transport/cmake)
+[1.854s] -- Found tf2_ros: 0.36.23 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.201s] -- Configuring done (2.2s)
+[2.219s] -- Generating done (0.0s)
+[2.225s] -- Build files have been written to: /home/y/ros2_ws/build/berxel_camera_ros2
+[2.239s] Invoked command in '/home/y/ros2_ws/build/berxel_camera_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install/berxel_camera_ros2
+[2.240s] Invoking command in '/home/y/ros2_ws/build/berxel_camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --build /home/y/ros2_ws/build/berxel_camera_ros2 -- -j24 -l24
+[2.321s] [ 33%] [32mBuilding CXX object CMakeFiles/berxel_camera_ros2.dir/src/berxel_camera_ros2_driver.cpp.o[0m
+[2.322s] [ 66%] [32mBuilding CXX object CMakeFiles/berxel_camera_ros2.dir/src/berxel_camera_ros2_node.cpp.o[0m
+[2.727s] In file included from [01m[K/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_node.cpp:1[m[K:
+[2.728s] [01m[K/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:10:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[2.728s]    10 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[2.728s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.728s] In file included from [01m[K/home/y/ros2_ws/src/berxel_camera_ros2/src/berxel_camera_ros2_driver.cpp:1[m[K:
+[2.728s] [01m[K/home/y/ros2_ws/src/berxel_camera_ros2/include/berxel_camera_ros2_driver.h:10:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: No such file or directory
+[2.728s]    10 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[2.729s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.729s] compilation terminated.
+[2.729s] compilation terminated.
+[2.731s] gmake[2]: *** [CMakeFiles/berxel_camera_ros2.dir/build.make:76: CMakeFiles/berxel_camera_ros2.dir/src/berxel_camera_ros2_driver.cpp.o] Error 1
+[2.731s] gmake[2]: *** Waiting for unfinished jobs....
+[2.731s] gmake[2]: *** [CMakeFiles/berxel_camera_ros2.dir/build.make:90: CMakeFiles/berxel_camera_ros2.dir/src/berxel_camera_ros2_node.cpp.o] Error 1
+[2.732s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/berxel_camera_ros2.dir/all] Error 2
+[2.732s] gmake: *** [Makefile:146: all] Error 2
+[2.735s] Invoked command in '/home/y/ros2_ws/build/berxel_camera_ros2' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --build /home/y/ros2_ws/build/berxel_camera_ros2 -- -j24 -l24

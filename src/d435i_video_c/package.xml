@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>d435i_video_c</name>
+  <version>0.1.0</version>
+  <description>Intel RealSense D435i 图像发布节点，纯 C 实现（rcl C API + librealsense C API）</description>
+  <maintainer email="dev@example.com">dev</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rcl</depend>
+  <depend>sensor_msgs</depend>
+  <depend>rosidl_runtime_c</depend>
+  <depend>librealsense2</depend>
+
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

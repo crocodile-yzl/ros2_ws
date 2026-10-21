@@ -1,0 +1,57 @@
+[0.021s] Invoking command in '/home/y/ros2_ws/build/d435i_video_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake /home/y/ros2_ws/src/d435i_video_c -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install/d435i_video_c
+[0.235s] -- The C compiler identification is GNU 13.3.0
+[0.364s] -- The CXX compiler identification is GNU 13.3.0
+[0.395s] -- Detecting C compiler ABI info
+[0.531s] -- Detecting C compiler ABI info - done
+[0.542s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.543s] -- Detecting C compile features
+[0.544s] -- Detecting C compile features - done
+[0.559s] -- Detecting CXX compiler ABI info
+[0.697s] -- Detecting CXX compiler ABI info - done
+[0.709s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.709s] -- Detecting CXX compile features
+[0.710s] -- Detecting CXX compile features - done
+[0.723s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.947s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.162s] -- Found rcl: 9.2.11 (/opt/ros/jazzy/share/rcl/cmake)
+[1.271s] -- Found rosidl_generator_c: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.303s] -- Found rosidl_generator_cpp: 4.6.9 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.342s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.515s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.524s] -- Found rmw_fastrtps_cpp: 8.4.4 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.692s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.725s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.763s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.820s] -- Found sensor_msgs: 5.3.8 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[2.082s] -- Configuring done (2.0s)
+[2.096s] -- Generating done (0.0s)
+[2.101s] -- Build files have been written to: /home/y/ros2_ws/build/d435i_video_c
+[2.112s] Invoked command in '/home/y/ros2_ws/build/d435i_video_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake /home/y/ros2_ws/src/d435i_video_c -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install/d435i_video_c
+[2.114s] Invoking command in '/home/y/ros2_ws/build/d435i_video_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --build /home/y/ros2_ws/build/d435i_video_c -- -j24 -l24
+[2.192s] [ 50%] [32mBuilding C object CMakeFiles/d435i_video_c.dir/src/d435i_video_c.c.o[0m
+[2.394s] [100%] [32m[1mLinking CXX executable d435i_video_c[0m
+[2.593s] [100%] Built target d435i_video_c
+[2.612s] Invoked command in '/home/y/ros2_ws/build/d435i_video_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --build /home/y/ros2_ws/build/d435i_video_c -- -j24 -l24
+[2.628s] Invoking command in '/home/y/ros2_ws/build/d435i_video_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --install /home/y/ros2_ws/build/d435i_video_c
+[2.638s] -- Install configuration: ""
+[2.639s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/lib/d435i_video_c/d435i_video_c
+[2.639s] -- Set non-toolchain portion of runtime path of "/home/y/ros2_ws/install/d435i_video_c/lib/d435i_video_c/d435i_video_c" to ""
+[2.639s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/launch
+[2.639s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/launch/d435i_video_c.launch.py
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/package_run_dependencies/d435i_video_c
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/parent_prefix_path/d435i_video_c
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/ament_prefix_path.sh
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/ament_prefix_path.dsv
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/path.sh
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/environment/path.dsv
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.bash
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.sh
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.zsh
+[2.640s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/local_setup.dsv
+[2.641s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/package.dsv
+[2.641s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/ament_index/resource_index/packages/d435i_video_c
+[2.641s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/cmake/d435i_video_cConfig.cmake
+[2.641s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/cmake/d435i_video_cConfig-version.cmake
+[2.641s] -- Installing: /home/y/ros2_ws/install/d435i_video_c/share/d435i_video_c/package.xml
+[2.643s] Invoked command in '/home/y/ros2_ws/build/d435i_video_c' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install/port_camera_publisher:/opt/ros/jazzy /usr/bin/cmake --install /home/y/ros2_ws/build/d435i_video_c

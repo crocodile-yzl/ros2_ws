@@ -1,0 +1,10 @@
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/uninstall.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/d435i_video_c_uninstall.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/d435i_video_c.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/test.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/edit_cache.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/rebuild_cache.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/list_install_components.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/install.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/install/local.dir
+/home/y/ros2_ws/build/d435i_video_c/CMakeFiles/install/strip.dir
