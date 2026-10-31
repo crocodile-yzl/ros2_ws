@@ -1,0 +1,14 @@
+[0.038s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24
+[0.149s] Consolidate compiler generated dependencies of target stick_detector_node
+[0.161s] Consolidate compiler generated dependencies of target cloud_sim_node
+[0.189s] [ 25%] Building CXX object CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o
+[0.198s] [ 75%] Built target cloud_sim_node
+[4.283s] /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp: In constructor ‘StickDetectorNode::StickDetectorNode()’:
+[4.283s] /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:78:9: error: ‘gresfresh_’ was not declared in this scope; did you mean ‘grefresh_’?
+[4.283s]    78 |     if (gresfresh_ < 1) grefresh_ = 1;
+[4.283s]       |         ^~~~~~~~~~
+[4.283s]       |         grefresh_
+[7.813s] gmake[2]: *** [CMakeFiles/stick_detector_node.dir/build.make:76：CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o] 错误 1
+[7.814s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/stick_detector_node.dir/all] 错误 2
+[7.814s] gmake: *** [Makefile:146：all] 错误 2
+[7.817s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24

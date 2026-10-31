@@ -1,0 +1,5 @@
+[0.018s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp --target ground_segment_node -- -j24 -l24
+[0.200s] [ 50%] Building CXX object CMakeFiles/ground_segment_node.dir/src/ground_segment_node.cpp.o
+[14.666s] [100%] Linking CXX executable ground_segment_node
+[14.878s] [100%] Built target ground_segment_node
+[14.894s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp --target ground_segment_node -- -j24 -l24

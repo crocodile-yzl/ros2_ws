@@ -1,0 +1,236 @@
+[0.000000] (-) TimerEvent: {}
+[0.000203] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000250] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000285] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000316] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.000346] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.000381] (stick_detector_cpp) JobQueued: {'identifier': 'stick_detector_cpp', 'dependencies': OrderedDict()}
+[0.000417] (stick_detector_cpp) JobStarted: {'identifier': 'stick_detector_cpp'}
+[0.012437] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'cmake'}
+[0.014063] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'build'}
+[0.015382] (stick_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/stick_detector_cpp', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/stick_detector_cpp', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.104'), ('MANAGERPID', '2476'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/71d58b37-4b66-41cb-993d-6d0884f9e340.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '89565'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('CODEX_TOOL_CALL_ID', 'exec-44c89391-095b-41bf-8d56-adff84415353'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:12720'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0WG9GTG:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2729,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2729'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('INVOCATION_ID', 'f76fb30b44eb40e8a035baa04312602e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/stick_detector_cpp'), ('LOCAL_IP', '192.168.3.104'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[0.087460] (stick_detector_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099044] (-) TimerEvent: {}
+[0.199300] (-) TimerEvent: {}
+[0.253393] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.297944] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.299397] (-) TimerEvent: {}
+[0.300978] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.310401] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.322948] (stick_detector_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.341295] (stick_detector_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.385014] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.387183] (stick_detector_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399527] (-) TimerEvent: {}
+[0.499855] (-) TimerEvent: {}
+[0.529274] (stick_detector_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599989] (-) TimerEvent: {}
+[0.602326] (stick_detector_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.639439] (stick_detector_cpp) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.662376] (stick_detector_cpp) StdoutLine: {'line': b'-- Found shape_msgs: 4.9.1 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[0.700123] (-) TimerEvent: {}
+[0.800387] (-) TimerEvent: {}
+[0.833869] (stick_detector_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.868078] (stick_detector_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.880935] (stick_detector_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/y/ros2_ws/build_y/stick_detector_cpp\n'}
+[0.900488] (-) TimerEvent: {}
+[0.920916] (stick_detector_cpp) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target stick_detector_node\n'}
+[0.923208] (stick_detector_cpp) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target cloud_sim_node\n'}
+[0.923569] (stick_detector_cpp) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ground_segment_node\n'}
+[0.927484] (stick_detector_cpp) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target calib_check_node\n'}
+[0.951265] (stick_detector_cpp) StdoutLine: {'line': b'[ 25%] Built target calib_check_node\n'}
+[0.952199] (stick_detector_cpp) StdoutLine: {'line': b'[ 50%] Built target stick_detector_node\n'}
+[0.953187] (stick_detector_cpp) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/ground_segment_node.dir/src/ground_segment_node.cpp.o\n'}
+[0.956507] (stick_detector_cpp) StdoutLine: {'line': b'[ 87%] Built target cloud_sim_node\n'}
+[1.000680] (-) TimerEvent: {}
+[1.101074] (-) TimerEvent: {}
+[1.201326] (-) TimerEvent: {}
+[1.301568] (-) TimerEvent: {}
+[1.401952] (-) TimerEvent: {}
+[1.502189] (-) TimerEvent: {}
+[1.602425] (-) TimerEvent: {}
+[1.702702] (-) TimerEvent: {}
+[1.802946] (-) TimerEvent: {}
+[1.903139] (-) TimerEvent: {}
+[2.003326] (-) TimerEvent: {}
+[2.103594] (-) TimerEvent: {}
+[2.203887] (-) TimerEvent: {}
+[2.304077] (-) TimerEvent: {}
+[2.404287] (-) TimerEvent: {}
+[2.504491] (-) TimerEvent: {}
+[2.604773] (-) TimerEvent: {}
+[2.704961] (-) TimerEvent: {}
+[2.805157] (-) TimerEvent: {}
+[2.905368] (-) TimerEvent: {}
+[3.005647] (-) TimerEvent: {}
+[3.105883] (-) TimerEvent: {}
+[3.206074] (-) TimerEvent: {}
+[3.306288] (-) TimerEvent: {}
+[3.406551] (-) TimerEvent: {}
+[3.506847] (-) TimerEvent: {}
+[3.607039] (-) TimerEvent: {}
+[3.707246] (-) TimerEvent: {}
+[3.807456] (-) TimerEvent: {}
+[3.907657] (-) TimerEvent: {}
+[4.007884] (-) TimerEvent: {}
+[4.108082] (-) TimerEvent: {}
+[4.208367] (-) TimerEvent: {}
+[4.308575] (-) TimerEvent: {}
+[4.408861] (-) TimerEvent: {}
+[4.509056] (-) TimerEvent: {}
+[4.609267] (-) TimerEvent: {}
+[4.709537] (-) TimerEvent: {}
+[4.809748] (-) TimerEvent: {}
+[4.909943] (-) TimerEvent: {}
+[5.010131] (-) TimerEvent: {}
+[5.110397] (-) TimerEvent: {}
+[5.210601] (-) TimerEvent: {}
+[5.310861] (-) TimerEvent: {}
+[5.411047] (-) TimerEvent: {}
+[5.511234] (-) TimerEvent: {}
+[5.611450] (-) TimerEvent: {}
+[5.711758] (-) TimerEvent: {}
+[5.812005] (-) TimerEvent: {}
+[5.912304] (-) TimerEvent: {}
+[6.012698] (-) TimerEvent: {}
+[6.113003] (-) TimerEvent: {}
+[6.213287] (-) TimerEvent: {}
+[6.313619] (-) TimerEvent: {}
+[6.413889] (-) TimerEvent: {}
+[6.514139] (-) TimerEvent: {}
+[6.614500] (-) TimerEvent: {}
+[6.714884] (-) TimerEvent: {}
+[6.815201] (-) TimerEvent: {}
+[6.915414] (-) TimerEvent: {}
+[7.015622] (-) TimerEvent: {}
+[7.115807] (-) TimerEvent: {}
+[7.215992] (-) TimerEvent: {}
+[7.316196] (-) TimerEvent: {}
+[7.416502] (-) TimerEvent: {}
+[7.516710] (-) TimerEvent: {}
+[7.616903] (-) TimerEvent: {}
+[7.717092] (-) TimerEvent: {}
+[7.817305] (-) TimerEvent: {}
+[7.917587] (-) TimerEvent: {}
+[8.017872] (-) TimerEvent: {}
+[8.118068] (-) TimerEvent: {}
+[8.218295] (-) TimerEvent: {}
+[8.318501] (-) TimerEvent: {}
+[8.418780] (-) TimerEvent: {}
+[8.518979] (-) TimerEvent: {}
+[8.619205] (-) TimerEvent: {}
+[8.719487] (-) TimerEvent: {}
+[8.819776] (-) TimerEvent: {}
+[8.919984] (-) TimerEvent: {}
+[9.020190] (-) TimerEvent: {}
+[9.120466] (-) TimerEvent: {}
+[9.220769] (-) TimerEvent: {}
+[9.321047] (-) TimerEvent: {}
+[9.421324] (-) TimerEvent: {}
+[9.521602] (-) TimerEvent: {}
+[9.621882] (-) TimerEvent: {}
+[9.722164] (-) TimerEvent: {}
+[9.822467] (-) TimerEvent: {}
+[9.922659] (-) TimerEvent: {}
+[10.022965] (-) TimerEvent: {}
+[10.123236] (-) TimerEvent: {}
+[10.223493] (-) TimerEvent: {}
+[10.323762] (-) TimerEvent: {}
+[10.424030] (-) TimerEvent: {}
+[10.524305] (-) TimerEvent: {}
+[10.624567] (-) TimerEvent: {}
+[10.724848] (-) TimerEvent: {}
+[10.825031] (-) TimerEvent: {}
+[10.925247] (-) TimerEvent: {}
+[11.025446] (-) TimerEvent: {}
+[11.125705] (-) TimerEvent: {}
+[11.225881] (-) TimerEvent: {}
+[11.326063] (-) TimerEvent: {}
+[11.426272] (-) TimerEvent: {}
+[11.526543] (-) TimerEvent: {}
+[11.626824] (-) TimerEvent: {}
+[11.727004] (-) TimerEvent: {}
+[11.827208] (-) TimerEvent: {}
+[11.927476] (-) TimerEvent: {}
+[12.027679] (-) TimerEvent: {}
+[12.127865] (-) TimerEvent: {}
+[12.228051] (-) TimerEvent: {}
+[12.328260] (-) TimerEvent: {}
+[12.428559] (-) TimerEvent: {}
+[12.528876] (-) TimerEvent: {}
+[12.629074] (-) TimerEvent: {}
+[12.729270] (-) TimerEvent: {}
+[12.829463] (-) TimerEvent: {}
+[12.929657] (-) TimerEvent: {}
+[13.029919] (-) TimerEvent: {}
+[13.130128] (-) TimerEvent: {}
+[13.230339] (-) TimerEvent: {}
+[13.330554] (-) TimerEvent: {}
+[13.430849] (-) TimerEvent: {}
+[13.531115] (-) TimerEvent: {}
+[13.631319] (-) TimerEvent: {}
+[13.731516] (-) TimerEvent: {}
+[13.831824] (-) TimerEvent: {}
+[13.932093] (-) TimerEvent: {}
+[14.032397] (-) TimerEvent: {}
+[14.132653] (-) TimerEvent: {}
+[14.232907] (-) TimerEvent: {}
+[14.333160] (-) TimerEvent: {}
+[14.433406] (-) TimerEvent: {}
+[14.533694] (-) TimerEvent: {}
+[14.633955] (-) TimerEvent: {}
+[14.734214] (-) TimerEvent: {}
+[14.834524] (-) TimerEvent: {}
+[14.934784] (-) TimerEvent: {}
+[15.035016] (-) TimerEvent: {}
+[15.135248] (-) TimerEvent: {}
+[15.235486] (-) TimerEvent: {}
+[15.335757] (-) TimerEvent: {}
+[15.436048] (-) TimerEvent: {}
+[15.536291] (-) TimerEvent: {}
+[15.636539] (-) TimerEvent: {}
+[15.736786] (-) TimerEvent: {}
+[15.763071] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Linking CXX executable ground_segment_node\n'}
+[15.836916] (-) TimerEvent: {}
+[15.937157] (-) TimerEvent: {}
+[15.986022] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Built target ground_segment_node\n'}
+[16.000743] (stick_detector_cpp) CommandEnded: {'returncode': 0}
+[16.001979] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'install'}
+[16.015828] (stick_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/stick_detector_cpp'], 'cwd': '/home/y/ros2_ws/build_y/stick_detector_cpp', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.104'), ('MANAGERPID', '2476'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/71d58b37-4b66-41cb-993d-6d0884f9e340.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '89565'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('CODEX_TOOL_CALL_ID', 'exec-44c89391-095b-41bf-8d56-adff84415353'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:12720'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0WG9GTG:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2729,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2729'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('INVOCATION_ID', 'f76fb30b44eb40e8a035baa04312602e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/stick_detector_cpp'), ('LOCAL_IP', '192.168.3.104'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[16.024215] (stick_detector_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.025632] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/stick_detector_node\n'}
+[16.026366] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/cloud_sim_node\n'}
+[16.026922] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/calib_check_node\n'}
+[16.027424] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/ground_segment_node\n'}
+[16.028325] (stick_detector_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/ground_segment_node" to ""\n'}
+[16.028379] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch\n'}
+[16.028646] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__\n'}
+[16.029059] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/stick_detect.launch.cpython-310.pyc\n'}
+[16.029110] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/camera_with_detector.launch.cpython-310.pyc\n'}
+[16.029159] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/sim_test.launch.cpython-310.pyc\n'}
+[16.029279] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/camera_with_detector.launch.py\n'}
+[16.029325] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/stick_detect.launch.py\n'}
+[16.029369] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/sim_test.launch.py\n'}
+[16.029412] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config\n'}
+[16.029505] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config/stick_detector.yaml\n'}
+[16.029547] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz\n'}
+[16.029679] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz/stick_detector.rviz\n'}
+[16.029801] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/package_run_dependencies/stick_detector_cpp\n'}
+[16.030318] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/parent_prefix_path/stick_detector_cpp\n'}
+[16.030516] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.sh\n'}
+[16.030575] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.dsv\n'}
+[16.030771] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.sh\n'}
+[16.031111] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.dsv\n'}
+[16.031185] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.bash\n'}
+[16.031237] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.sh\n'}
+[16.031284] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.zsh\n'}
+[16.031344] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.dsv\n'}
+[16.031391] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.dsv\n'}
+[16.031509] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/packages/stick_detector_cpp\n'}
+[16.031557] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig.cmake\n'}
+[16.031598] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig-version.cmake\n'}
+[16.031638] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.xml\n'}
+[16.033025] (stick_detector_cpp) CommandEnded: {'returncode': 0}
+[16.037241] (-) TimerEvent: {}
+[16.054456] (stick_detector_cpp) JobEnded: {'identifier': 'stick_detector_cpp', 'rc': 0}
+[16.054973] (-) EventReactorShutdown: {}

@@ -1,0 +1,23 @@
+Start testing: Oct 28 11:19 CST
+----------------------------------------------------------
+1/1 Testing: ground_segment_regression
+1/1 Test: ground_segment_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/stick_detector_cpp/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/stick_detector_cpp/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/stick_detector_cpp
+"ground_segment_regression" start time: Oct 28 11:19 CST
+Output:
+----------------------------------------------------------
+...
+----------------------------------------------------------------------
+Ran 3 tests in 0.760s
+
+OK
+<end of output>
+Test time =   1.21 sec
+----------------------------------------------------------
+Test Passed.
+"ground_segment_regression" end time: Oct 28 11:19 CST
+"ground_segment_regression" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Oct 28 11:19 CST

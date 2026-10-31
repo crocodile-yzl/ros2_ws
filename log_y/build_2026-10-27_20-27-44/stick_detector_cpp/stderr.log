@@ -1,0 +1,55 @@
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp: In constructor ‘StickDetectorNode::StickDetectorNode()’:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:77:25: error: no matching function for call to ‘max(long int, int)’
+   77 |     grefresh_ = std::max(declare_parameter<int>("ground_plane_refresh", 30), 1);
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/specfun.h:45,
+                 from /usr/include/c++/11/cmath:1935,
+                 from /usr/include/eigen3/Eigen/src/Core/util/Macros.h:679,
+                 from /usr/include/eigen3/Eigen/Core:19,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)’
+  254 |     max(const _Tp& __a, const _Tp& __b)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:77:25: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long int’ and ‘int’)
+   77 |     grefresh_ = std::max(declare_parameter<int>("ground_plane_refresh", 30), 1);
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/bits/specfun.h:45,
+                 from /usr/include/c++/11/cmath:1935,
+                 from /usr/include/eigen3/Eigen/src/Core/util/Macros.h:679,
+                 from /usr/include/eigen3/Eigen/Core:19,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+  300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:77:25: note:   deduced conflicting types for parameter ‘const _Tp’ (‘long int’ and ‘int’)
+   77 |     grefresh_ = std::max(declare_parameter<int>("ground_plane_refresh", 30), 1);
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/functional:65,
+                 from /usr/include/eigen3/Eigen/Core:85,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)’
+ 3461 |     max(initializer_list<_Tp> __l)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:77:25: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘long int’
+   77 |     grefresh_ = std::max(declare_parameter<int>("ground_plane_refresh", 30), 1);
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/c++/11/functional:65,
+                 from /usr/include/eigen3/Eigen/Core:85,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6,
+                 from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+ 3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+      |     ^~~
+/usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:77:25: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘long int’
+   77 |     grefresh_ = std::max(declare_parameter<int>("ground_plane_refresh", 30), 1);
+      |                 ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/stick_detector_node.dir/build.make:76：CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/stick_detector_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

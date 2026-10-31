@@ -1,0 +1,4 @@
+Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/stick_detector_cpp
+Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/stick_detector_cpp
+Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24
+Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24

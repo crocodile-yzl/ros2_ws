@@ -1,0 +1,7 @@
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:27:10: fatal error: geometry_msgs/msg/plane_stamped.hpp: 没有那个文件或目录
+   27 | #include "geometry_msgs/msg/plane_stamped.hpp"
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ground_segment_node.dir/build.make:76：CMakeFiles/ground_segment_node.dir/src/ground_segment_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/ground_segment_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

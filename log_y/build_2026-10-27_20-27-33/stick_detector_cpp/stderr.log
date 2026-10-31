@@ -1,0 +1,15 @@
+In file included from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+/home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6:10: fatal error: Eigen/Core: 没有那个文件或目录
+    6 | #include <Eigen/Core>
+      |          ^~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/stick_detector_node.dir/build.make:76：CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/stick_detector_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+/home/y/ros2_ws/src/stick_detector_cpp/src/cloud_sim_node.cpp:15:10: fatal error: Eigen/Geometry: 没有那个文件或目录
+   15 | #include <Eigen/Geometry>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cloud_sim_node.dir/build.make:76：CMakeFiles/cloud_sim_node.dir/src/cloud_sim_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/cloud_sim_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

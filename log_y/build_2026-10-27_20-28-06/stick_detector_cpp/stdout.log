@@ -1,0 +1,4 @@
+Consolidate compiler generated dependencies of target stick_detector_node
+Consolidate compiler generated dependencies of target cloud_sim_node
+[ 25%] Building CXX object CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o
+[ 75%] Built target cloud_sim_node

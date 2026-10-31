@@ -1,0 +1,216 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000296] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000371] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000411] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.000445] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.000489] (stick_detector_cpp) JobQueued: {'identifier': 'stick_detector_cpp', 'dependencies': OrderedDict()}
+[0.000603] (stick_detector_cpp) JobStarted: {'identifier': 'stick_detector_cpp'}
+[0.036949] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'cmake'}
+[0.052236] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'build'}
+[0.053687] (stick_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/stick_detector_cpp', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/stick_detector_cpp', 'env': OrderedDict([('CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION', '1080'), ('CODEBUDDY_INCLUDE_TOPIC_MESSAGE', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEBUDDY_GIT_REPO_SCAN_DISABLED', '1'), ('TENCENT_DOCS_LOCAL_MCP', 'http://127.0.0.1:39099/mcp'), ('WORKBUDDY_NODE_ENV', 'production'), ('ACC_PRODUCT_CONFIG_PATH', '/tmp/workbuddy-product-spill-E8enAb/acc-product-config-v3.json'), ('CLIENT_INFO_PRODUCT_VERSION', '5.5.6'), ('PYTHONIOENCODING', 'utf-8'), ('HTTPS_PROXY', 'http://127.0.0.1:32975'), ('WORKBUDDY_DAEMON_CATALOG_STDIO', '1'), ('LANGUAGE', 'zh_CN:zh'), ('NO_UPDATE_NOTIFIER', '1'), ('CLAUDE_SESSION_ID', '77acdb0c-dfd9-424c-bc0d-237ab7c58cb3'), ('USER', 'y'), ('WORKBUDDY_USER_DATA_DIR', '/home/y/.workbuddy/app'), ('CODEBUDDY_POWERSHELL_USE_PTY', '1'), ('CODEBUDDY_BUILTIN_SKILLS_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills'), ('SYSTEMD_PAGER', 'cat'), ('XDG_SESSION_TYPE', 'x11'), ('WORKBUDDY_PAC_RPC_TOKEN', 'emYZmypBdPt0e29SChWRjNtanHmMTn1w'), ('WORKBUDDY_LOCALE', 'zh-CN'), ('WORKBUDDY_RESOURCES_PATH', '/opt/WorkBuddy/resources'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SERVER__HOST', '127.0.0.1'), ('CODEBUDDY_CONVERSATION_REQUEST_ID', 'b113e31a41314d1e9fcf544ec14f9f49'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'WorkBuddy.desktop'), ('OLDPWD', '/home/y/ros2_ws/src/stick_detector_cpp'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED', '1'), ('CODEBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_SERVICE_PROXY_URL', 'http://127.0.0.1:33471/internal/hooks/services/invoke'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/workbuddy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('CODEBUDDY_CONVERSATION_MESSAGE_ID', '0b39cf9166ee4b76a1ea8745af9b66e8'), ('NODE_OPTIONS', ''), ('CODEBUDDY_MCP_CONFIG', '{"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:45361/mcp","headers":{"Authorization":"Bearer e8XgTo4frouDxamaw7seDB-WW0_2b-jME_MtsSOu1eU","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":false,"tools":{"automation_update":{"bare_name":true,"defer_loading":false},"present_files":{"bare_name":true,"defer_loading":false},"connect_cloud_service":{"bare_name":true,"defer_loading":true},"connect_open_platform":{"bare_name":true,"defer_loading":true},"read_me":{"bare_name":true,"defer_loading":false},"show_widget":{"bare_name":true,"defer_loading":false},"workbuddy_sites_deploy":{"bare_name":true,"defer_loading":true},"workbuddy_sites_unpublish":{"bare_name":true,"defer_loading":true},"workbuddy_cloud_service":{"bare_name":true,"defer_loading":true},"workbuddy_marketplace_skill":{"bare_name":true,"defer_loading":true},"agentic_search":{"bare_name":true,"defer_loading":true},"conversation_search":{"bare_name":true,"defer_loading":true},"agent_mail_upload_attachment":{"bare_name":true,"defer_loading":true},"agent_mail_download_attachment":{"bare_name":true,"defer_loading":true},"search_plugins":{"bare_name":true,"defer_loading":true},"suggest_plugin_install":{"bare_name":true,"defer_loading":true}},"transparent_proxy":true,"builtin_tools":["automation_update","present_files","connect_cloud_service","connect_open_platform","read_me","show_widget","workbuddy_sites_deploy","workbuddy_sites_unpublish","workbuddy_cloud_service","workbuddy_marketplace_skill","agentic_search","conversation_search","agent_mail_upload_attachment","agent_mail_download_attachment","search_plugins","suggest_plugin_install"]},"agent-mail":{"type":"http","url":"http://127.0.0.1:45361/a9bcc7dd302f2b262507f7590d97b1b4/mcp","headers":{"Authorization":"Bearer atiOuHBMbJun7ZTeGuyqCzIy10f0Ky2tEUm10AV98K4","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":true},"genie-baas":{"type":"http","url":"http://127.0.0.1:45361/881f8b0f3d2c03fadb7743e0aaca8a28/mcp","headers":{"Authorization":"Bearer CkJbcmMue8170w0l5NdrYVM3JyuTHn7EMSBVGWgBqL4","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":true},"weixinpay":{"type":"stdio","command":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/bin/run-node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/dist/mcp-server.mjs"],"env":{"WECHATPAY_PAYSIGN_SERVICE_ID":"agentpay","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2","CLAUDE_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2"},"defer_loading":true},"sheetagent":{"type":"stdio","command":"node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f/mcp/start.mjs"],"env":{"SHEETAGENT_MCP_TRANSPORT":"stdio","SHEET_MCP_DEBUG":"0","SHEETAGENT_LOG_LEVEL":"info","SHEET_API_MODE":"local","SHEET_REMOTE_MCP_URL":"https://docs.qq.com/api/v6/sheet/mcp","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2","CLAUDE_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2"},"defer_loading":true}}}'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLIENT_INFO_PLATFORM', 'WorkBuddy'), ('CLIENT_INFO_PLUGIN_NAME', 'workbuddy-desktop'), ('PAGER', 'cat'), ('CODEBUDDY_SKIP_GIT_BASH_CHECK', '1'), ('MANAGERPID', '2476'), ('WORKBUDDY_STARTUP_DATE', '2026-10-27'), ('SYSTEMD_EXEC_PID', '2760'), ('WORKBUDDY_EXTRA_PATHS', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9933'), ('CLIENT_INFO_PRODUCT_NAME', 'WorkBuddy'), ('TENCENT_DOCS_LOCAL_SERVER', 'http://127.0.0.1:39099'), ('SERVER__PORT', '33471'), ('BAGGAGE', 'codebuddy.session_id=77acdb0c-dfd9-424c-bc0d-237ab7c58cb3,codebuddy.conversation_request_id=b113e31a41314d1e9fcf544ec14f9f49,codebuddy.conversation_message_id=0b39cf9166ee4b76a1ea8745af9b66e8'), ('WORKBUDDY_APP_VERSION', '5.5.6'), ('CODEBUDDY_ENABLE_SECURITY_AUDIT', '1'), ('CODEBUDDY_NODE_BIN', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin/node'), ('https_proxy', 'http://127.0.0.1:32975'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('PLAYWRIGHT_MCP_NO_SANDBOX', '1'), ('LOGNAME', 'y'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CODEBUDDY_REPLAY_SHOW_PRE_COMPACT', '1'), ('CODEBUDDY_SAFE_DELETE_BULK_STATE_DIR', '/tmp/codebuddy-safe-delete-bulk'), ('GALILEO_SDK_READY', '1'), ('http_proxy', 'http://127.0.0.1:32975'), ('CLIENT_INFO_MACHINE_ID', 'b381008b-ef8f-46c1-b67b-cc1bf66922bb'), ('JOURNAL_STREAM', '8:12720'), ('CODEBUDDY_SAFE_DELETE_BROKER_DELETE', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-broker-delete.cjs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD', '1'), ('WORKBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_FORCE_HEADLESS_BUNDLE', '1'), ('XDG_SESSION_CLASS', 'user'), ('CODEBUDDY_DISABLE_IDE', '1'), ('USERNAME', 'y'), ('GALILEO_ENABLE', 'true'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WORKBUDDY_MENU_LOCALE', 'zh-CN'), ('WORKBUDDY_ENABLE_LINUX_SANDBOX_CLI', '1'), ('WINDOWPATH', '2'), ('CODEBUDDY_PROMPT_SUGGESTION_DISABLED', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2729,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2729'), ('IN_DOCKER', '1'), ('LESSHISTFILE', '-'), ('AWS_PAGER', ''), ('INVOCATION_ID', 'f76fb30b44eb40e8a035baa04312602e'), ('XDG_MENU_PREFIX', 'gnome-'), ('CODEBUDDY_SAFE_DELETE_REPORT_PATH', '/tmp/codebuddy-safe-delete/report-51992-1793107157645-z5817sm8g6e.jsonl'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('WORKBUDDY_FS_PROTECTION_ROLE', 'daemon'), ('GDK_BACKEND', 'x11'), ('CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY', '1'), ('WORKBUDDY_STARTUP_PID', '9933'), ('DISPLAY', ':1'), ('CLIENT_INFO_IDE_TYPE', 'WorkBuddy'), ('WORKBUDDY_PROMPT_TEMPLATES_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/templates'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('TRACEPARENT', '00-b113e31a41314d1e9fcf544ec14f9f49-5ee4b508a3f0a291-01'), ('HGPAGER', 'cat'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MANPAGER', 'cat'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CODEBUDDY_DISABLE_AUTO_MEMORY', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('WORKBUDDY_APP_NAME', 'WorkBuddy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('CODEBUDDY_PROJECT_DIR', '/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2'), ('CODEBUDDY_GATEWAY_AUTH', 'password'), ('WORKBUDDY_STARTUP_TIME', '172220'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('BROWSER_USE_CHROMIUM_SANDBOX', 'false'), ('CODEBUDDY_SAFE_DELETE_SANDBOX', '1'), ('CODEBUDDY_REASONING_ONLY_END_TURN', '1'), ('AGENT_BROWSER_ARGS', '--no-sandbox'), ('GDMSESSION', 'ubuntu-xorg'), ('CODEBUDDY_API_KEY_HELPER_DISABLED', '1'), ('CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP', '1'), ('CODEBUDDY_GATEWAY_DISABLE_API_DOCS', '1'), ('PYTHONUTF8', '1'), ('CODEBUDDY_TOOL_CALL_ID', 'call_00_MnIddr8h9TYTWqTmFsbr5856'), ('CODEBUDDY_DISABLE_FORK_SUBAGENT', '1'), ('ACC_PRODUCT_CONFIG_V2', ''), ('CLIENT_INFO_PLATFORM_VERSION', '5.5.6'), ('editor_sdk_port', '39099'), ('ACC_PRODUCT_CONFIG_V3', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CODEBUDDY_SAFE_DELETE_ENABLED', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CODEBUDDY_SKILL_TOOL_CHAR_BUDGET', '30000'), ('CODEBUDDY_CURRENT_MODEL_ID', 'deepseek-v4-pro'), ('CODEBUDDY_HOST_CAPABILITIES', 'elicitation.form,weixinpay.interception'), ('GIT_PAGER', 'cat'), ('BASH_ENV', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/shell-runtime-bash-env.sh'), ('QT_IM_MODULE', 'ibus'), ('CLAUDE_PROJECT_DIR', '/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2'), ('CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS', '0'), ('CODEBUDDY_DISABLE_REQUEST_VALIDATION', '1'), ('ACC_PRODUCT_CONFIG', ''), ('PWD', '/home/y/ros2_ws/build_y/stick_detector_cpp'), ('GENIE_TRASH_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/genie-trash'), ('WORKBUDDY_IS_PACKAGED', '1'), ('DISABLE_AUTOUPDATER', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('WORKBUDDY_PRODUCT_NAME', 'WorkBuddy'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CODEBUDDY_SAFE_DELETE_BULK_GUARD', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-bulk-guard.cjs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim'), ('HTTP_PROXY', 'http://127.0.0.1:32975'), ('CODEBUDDY_SESSION_ID', '77acdb0c-dfd9-424c-bc0d-237ab7c58cb3'), ('CLIENT_INFO_PLUGIN_VERSION', '5.5.6'), ('CODEBUDDY_GATEWAY_PASSWORD', 'U3xFjsbx76xuOtrCqGaCfwt5Qj_XILY4YZKN-k7WFQ0'), ('CODEBUDDY_SAFE_DELETE_BIN_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin'), ('CODEBUDDY_SKILL_DESC_MAX_OVERRIDES', '{"tencent-docs-routing":300,"tencent-pptx":300,"tencent-docx":300,"tencent-docs-sheet-generation":300,"tencent-docs-sheetagent":300}'), ('WORKBUDDY_APPLICATION_NAME', 'WorkBuddy'), ('CODEBUDDY_DISABLE_CRON', '1'), ('COLCON', '1'), ('CLIENT_INFO_USER_AGENT_EXTENSION', 'CLI/2.137.1'), ('CODEBUDDY_INTERNET_ENVIRONMENT', 'internal'), ('WORKBUDDY_PAC_RPC_SOCKET', '/tmp/workbuddy-pac-10028-e1debfd21614dda1.sock'), ('CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD', '50'), ('WORKBUDDY_DATA_FOLDER_NAME', '.workbuddy'), ('WORKBUDDY_APP_PATH', '/opt/WorkBuddy/resources/app.asar'), ('CODEBUDDY_HOST', 'workbuddy-desktop'), ('CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.104231] (-) TimerEvent: {}
+[0.204433] (-) TimerEvent: {}
+[0.266113] (stick_detector_cpp) StdoutLine: {'line': b'[ 66%] Building CXX object CMakeFiles/calib_check_node.dir/src/calib_check_node.cpp.o\n'}
+[0.266396] (stick_detector_cpp) StdoutLine: {'line': b'[ 66%] Built target stick_detector_node\n'}
+[0.274487] (stick_detector_cpp) StdoutLine: {'line': b'[ 83%] Built target cloud_sim_node\n'}
+[0.304528] (-) TimerEvent: {}
+[0.404818] (-) TimerEvent: {}
+[0.505014] (-) TimerEvent: {}
+[0.605223] (-) TimerEvent: {}
+[0.705482] (-) TimerEvent: {}
+[0.805677] (-) TimerEvent: {}
+[0.905879] (-) TimerEvent: {}
+[1.006059] (-) TimerEvent: {}
+[1.106255] (-) TimerEvent: {}
+[1.206472] (-) TimerEvent: {}
+[1.306700] (-) TimerEvent: {}
+[1.406891] (-) TimerEvent: {}
+[1.507076] (-) TimerEvent: {}
+[1.607253] (-) TimerEvent: {}
+[1.707434] (-) TimerEvent: {}
+[1.807634] (-) TimerEvent: {}
+[1.907834] (-) TimerEvent: {}
+[2.008025] (-) TimerEvent: {}
+[2.108234] (-) TimerEvent: {}
+[2.208454] (-) TimerEvent: {}
+[2.308712] (-) TimerEvent: {}
+[2.408963] (-) TimerEvent: {}
+[2.509194] (-) TimerEvent: {}
+[2.609422] (-) TimerEvent: {}
+[2.709651] (-) TimerEvent: {}
+[2.809884] (-) TimerEvent: {}
+[2.910102] (-) TimerEvent: {}
+[3.010337] (-) TimerEvent: {}
+[3.110561] (-) TimerEvent: {}
+[3.210804] (-) TimerEvent: {}
+[3.311034] (-) TimerEvent: {}
+[3.411261] (-) TimerEvent: {}
+[3.511470] (-) TimerEvent: {}
+[3.611682] (-) TimerEvent: {}
+[3.711970] (-) TimerEvent: {}
+[3.812207] (-) TimerEvent: {}
+[3.912464] (-) TimerEvent: {}
+[4.012698] (-) TimerEvent: {}
+[4.112969] (-) TimerEvent: {}
+[4.213258] (-) TimerEvent: {}
+[4.313491] (-) TimerEvent: {}
+[4.413729] (-) TimerEvent: {}
+[4.514017] (-) TimerEvent: {}
+[4.614274] (-) TimerEvent: {}
+[4.714532] (-) TimerEvent: {}
+[4.814783] (-) TimerEvent: {}
+[4.915001] (-) TimerEvent: {}
+[5.015251] (-) TimerEvent: {}
+[5.115489] (-) TimerEvent: {}
+[5.215682] (-) TimerEvent: {}
+[5.316010] (-) TimerEvent: {}
+[5.416241] (-) TimerEvent: {}
+[5.516533] (-) TimerEvent: {}
+[5.616793] (-) TimerEvent: {}
+[5.717035] (-) TimerEvent: {}
+[5.817271] (-) TimerEvent: {}
+[5.917507] (-) TimerEvent: {}
+[6.017800] (-) TimerEvent: {}
+[6.118028] (-) TimerEvent: {}
+[6.218266] (-) TimerEvent: {}
+[6.318525] (-) TimerEvent: {}
+[6.418889] (-) TimerEvent: {}
+[6.519128] (-) TimerEvent: {}
+[6.619380] (-) TimerEvent: {}
+[6.719638] (-) TimerEvent: {}
+[6.819968] (-) TimerEvent: {}
+[6.920220] (-) TimerEvent: {}
+[7.020449] (-) TimerEvent: {}
+[7.120793] (-) TimerEvent: {}
+[7.221035] (-) TimerEvent: {}
+[7.321271] (-) TimerEvent: {}
+[7.421525] (-) TimerEvent: {}
+[7.521868] (-) TimerEvent: {}
+[7.622064] (-) TimerEvent: {}
+[7.722250] (-) TimerEvent: {}
+[7.822453] (-) TimerEvent: {}
+[7.922657] (-) TimerEvent: {}
+[8.022808] (-) TimerEvent: {}
+[8.123018] (-) TimerEvent: {}
+[8.223203] (-) TimerEvent: {}
+[8.323394] (-) TimerEvent: {}
+[8.423685] (-) TimerEvent: {}
+[8.523903] (-) TimerEvent: {}
+[8.624120] (-) TimerEvent: {}
+[8.724397] (-) TimerEvent: {}
+[8.824637] (-) TimerEvent: {}
+[8.924850] (-) TimerEvent: {}
+[9.025149] (-) TimerEvent: {}
+[9.125397] (-) TimerEvent: {}
+[9.225642] (-) TimerEvent: {}
+[9.325890] (-) TimerEvent: {}
+[9.426130] (-) TimerEvent: {}
+[9.526380] (-) TimerEvent: {}
+[9.626624] (-) TimerEvent: {}
+[9.726838] (-) TimerEvent: {}
+[9.827081] (-) TimerEvent: {}
+[9.927321] (-) TimerEvent: {}
+[10.027596] (-) TimerEvent: {}
+[10.127850] (-) TimerEvent: {}
+[10.228096] (-) TimerEvent: {}
+[10.328347] (-) TimerEvent: {}
+[10.428630] (-) TimerEvent: {}
+[10.528900] (-) TimerEvent: {}
+[10.629134] (-) TimerEvent: {}
+[10.729369] (-) TimerEvent: {}
+[10.829605] (-) TimerEvent: {}
+[10.929839] (-) TimerEvent: {}
+[11.030087] (-) TimerEvent: {}
+[11.130324] (-) TimerEvent: {}
+[11.230629] (-) TimerEvent: {}
+[11.330905] (-) TimerEvent: {}
+[11.431112] (-) TimerEvent: {}
+[11.531306] (-) TimerEvent: {}
+[11.631499] (-) TimerEvent: {}
+[11.731684] (-) TimerEvent: {}
+[11.831876] (-) TimerEvent: {}
+[11.932063] (-) TimerEvent: {}
+[12.032270] (-) TimerEvent: {}
+[12.132482] (-) TimerEvent: {}
+[12.232781] (-) TimerEvent: {}
+[12.332973] (-) TimerEvent: {}
+[12.433175] (-) TimerEvent: {}
+[12.533438] (-) TimerEvent: {}
+[12.633709] (-) TimerEvent: {}
+[12.733914] (-) TimerEvent: {}
+[12.834104] (-) TimerEvent: {}
+[12.934286] (-) TimerEvent: {}
+[13.034556] (-) TimerEvent: {}
+[13.134850] (-) TimerEvent: {}
+[13.235046] (-) TimerEvent: {}
+[13.335258] (-) TimerEvent: {}
+[13.435456] (-) TimerEvent: {}
+[13.535727] (-) TimerEvent: {}
+[13.635922] (-) TimerEvent: {}
+[13.736123] (-) TimerEvent: {}
+[13.836331] (-) TimerEvent: {}
+[13.936593] (-) TimerEvent: {}
+[14.036911] (-) TimerEvent: {}
+[14.137117] (-) TimerEvent: {}
+[14.237307] (-) TimerEvent: {}
+[14.337515] (-) TimerEvent: {}
+[14.437695] (-) TimerEvent: {}
+[14.537888] (-) TimerEvent: {}
+[14.638067] (-) TimerEvent: {}
+[14.738272] (-) TimerEvent: {}
+[14.838460] (-) TimerEvent: {}
+[14.938727] (-) TimerEvent: {}
+[15.039045] (-) TimerEvent: {}
+[15.139320] (-) TimerEvent: {}
+[15.239586] (-) TimerEvent: {}
+[15.339877] (-) TimerEvent: {}
+[15.440065] (-) TimerEvent: {}
+[15.540276] (-) TimerEvent: {}
+[15.640554] (-) TimerEvent: {}
+[15.740763] (-) TimerEvent: {}
+[15.796038] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Linking CXX executable calib_check_node\n'}
+[15.840836] (-) TimerEvent: {}
+[15.941017] (-) TimerEvent: {}
+[16.041227] (-) TimerEvent: {}
+[16.057548] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Built target calib_check_node\n'}
+[16.073571] (stick_detector_cpp) CommandEnded: {'returncode': 0}
+[16.074575] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'install'}
+[16.091881] (stick_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/stick_detector_cpp'], 'cwd': '/home/y/ros2_ws/build_y/stick_detector_cpp', 'env': OrderedDict([('CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION', '1080'), ('CODEBUDDY_INCLUDE_TOPIC_MESSAGE', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEBUDDY_GIT_REPO_SCAN_DISABLED', '1'), ('TENCENT_DOCS_LOCAL_MCP', 'http://127.0.0.1:39099/mcp'), ('WORKBUDDY_NODE_ENV', 'production'), ('ACC_PRODUCT_CONFIG_PATH', '/tmp/workbuddy-product-spill-E8enAb/acc-product-config-v3.json'), ('CLIENT_INFO_PRODUCT_VERSION', '5.5.6'), ('PYTHONIOENCODING', 'utf-8'), ('HTTPS_PROXY', 'http://127.0.0.1:32975'), ('WORKBUDDY_DAEMON_CATALOG_STDIO', '1'), ('LANGUAGE', 'zh_CN:zh'), ('NO_UPDATE_NOTIFIER', '1'), ('CLAUDE_SESSION_ID', '77acdb0c-dfd9-424c-bc0d-237ab7c58cb3'), ('USER', 'y'), ('WORKBUDDY_USER_DATA_DIR', '/home/y/.workbuddy/app'), ('CODEBUDDY_POWERSHELL_USE_PTY', '1'), ('CODEBUDDY_BUILTIN_SKILLS_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills'), ('SYSTEMD_PAGER', 'cat'), ('XDG_SESSION_TYPE', 'x11'), ('WORKBUDDY_PAC_RPC_TOKEN', 'emYZmypBdPt0e29SChWRjNtanHmMTn1w'), ('WORKBUDDY_LOCALE', 'zh-CN'), ('WORKBUDDY_RESOURCES_PATH', '/opt/WorkBuddy/resources'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SERVER__HOST', '127.0.0.1'), ('CODEBUDDY_CONVERSATION_REQUEST_ID', 'b113e31a41314d1e9fcf544ec14f9f49'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'WorkBuddy.desktop'), ('OLDPWD', '/home/y/ros2_ws/src/stick_detector_cpp'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED', '1'), ('CODEBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_SERVICE_PROXY_URL', 'http://127.0.0.1:33471/internal/hooks/services/invoke'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/workbuddy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('CODEBUDDY_CONVERSATION_MESSAGE_ID', '0b39cf9166ee4b76a1ea8745af9b66e8'), ('NODE_OPTIONS', ''), ('CODEBUDDY_MCP_CONFIG', '{"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:45361/mcp","headers":{"Authorization":"Bearer e8XgTo4frouDxamaw7seDB-WW0_2b-jME_MtsSOu1eU","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":false,"tools":{"automation_update":{"bare_name":true,"defer_loading":false},"present_files":{"bare_name":true,"defer_loading":false},"connect_cloud_service":{"bare_name":true,"defer_loading":true},"connect_open_platform":{"bare_name":true,"defer_loading":true},"read_me":{"bare_name":true,"defer_loading":false},"show_widget":{"bare_name":true,"defer_loading":false},"workbuddy_sites_deploy":{"bare_name":true,"defer_loading":true},"workbuddy_sites_unpublish":{"bare_name":true,"defer_loading":true},"workbuddy_cloud_service":{"bare_name":true,"defer_loading":true},"workbuddy_marketplace_skill":{"bare_name":true,"defer_loading":true},"agentic_search":{"bare_name":true,"defer_loading":true},"conversation_search":{"bare_name":true,"defer_loading":true},"agent_mail_upload_attachment":{"bare_name":true,"defer_loading":true},"agent_mail_download_attachment":{"bare_name":true,"defer_loading":true},"search_plugins":{"bare_name":true,"defer_loading":true},"suggest_plugin_install":{"bare_name":true,"defer_loading":true}},"transparent_proxy":true,"builtin_tools":["automation_update","present_files","connect_cloud_service","connect_open_platform","read_me","show_widget","workbuddy_sites_deploy","workbuddy_sites_unpublish","workbuddy_cloud_service","workbuddy_marketplace_skill","agentic_search","conversation_search","agent_mail_upload_attachment","agent_mail_download_attachment","search_plugins","suggest_plugin_install"]},"agent-mail":{"type":"http","url":"http://127.0.0.1:45361/a9bcc7dd302f2b262507f7590d97b1b4/mcp","headers":{"Authorization":"Bearer atiOuHBMbJun7ZTeGuyqCzIy10f0Ky2tEUm10AV98K4","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":true},"genie-baas":{"type":"http","url":"http://127.0.0.1:45361/881f8b0f3d2c03fadb7743e0aaca8a28/mcp","headers":{"Authorization":"Bearer CkJbcmMue8170w0l5NdrYVM3JyuTHn7EMSBVGWgBqL4","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiI3N2FjZGIwYy1kZmQ5LTQyNGMtYmMwZC0yMzdhYjdjNThjYjMiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvYmVyeGVsLXNkay9Sb3NTREtOb2RlL2JlcnhlbF9jYW1lcmFfcm9zMiIsImFsbG93ZWRCdWlsdGluVG9vbHMiOlsiYWdlbnRfbWFpbF9kb3dubG9hZF9hdHRhY2htZW50IiwiYWdlbnRfbWFpbF91cGxvYWRfYXR0YWNobWVudCIsImFnZW50aWNfc2VhcmNoIiwiYXV0b21hdGlvbl91cGRhdGUiLCJjb25uZWN0X2Nsb3VkX3NlcnZpY2UiLCJjb25uZWN0X29wZW5fcGxhdGZvcm0iLCJjb252ZXJzYXRpb25fc2VhcmNoIiwicHJlc2VudF9maWxlcyIsInJlYWRfbWUiLCJzZWFyY2hfcGx1Z2lucyIsInNob3dfd2lkZ2V0Iiwic3VnZ2VzdF9wbHVnaW5faW5zdGFsbCIsIndvcmtidWRkeV9jbG91ZF9zZXJ2aWNlIiwid29ya2J1ZGR5X21hcmtldHBsYWNlX3NraWxsIiwid29ya2J1ZGR5X3NpdGVzX2RlcGxveSIsIndvcmtidWRkeV9zaXRlc191bnB1Ymxpc2giXX0.3NErRZjinuYCVuOFfoHViqjdi7PuudqilwPx1d55res"},"defer_loading":true},"weixinpay":{"type":"stdio","command":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/bin/run-node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/dist/mcp-server.mjs"],"env":{"WECHATPAY_PAYSIGN_SERVICE_ID":"agentpay","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2","CLAUDE_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2"},"defer_loading":true},"sheetagent":{"type":"stdio","command":"node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f/mcp/start.mjs"],"env":{"SHEETAGENT_MCP_TRANSPORT":"stdio","SHEET_MCP_DEBUG":"0","SHEETAGENT_LOG_LEVEL":"info","SHEET_API_MODE":"local","SHEET_REMOTE_MCP_URL":"https://docs.qq.com/api/v6/sheet/mcp","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2","CLAUDE_PROJECT_DIR":"/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2"},"defer_loading":true}}}'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLIENT_INFO_PLATFORM', 'WorkBuddy'), ('CLIENT_INFO_PLUGIN_NAME', 'workbuddy-desktop'), ('PAGER', 'cat'), ('CODEBUDDY_SKIP_GIT_BASH_CHECK', '1'), ('MANAGERPID', '2476'), ('WORKBUDDY_STARTUP_DATE', '2026-10-27'), ('SYSTEMD_EXEC_PID', '2760'), ('WORKBUDDY_EXTRA_PATHS', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '9933'), ('CLIENT_INFO_PRODUCT_NAME', 'WorkBuddy'), ('TENCENT_DOCS_LOCAL_SERVER', 'http://127.0.0.1:39099'), ('SERVER__PORT', '33471'), ('BAGGAGE', 'codebuddy.session_id=77acdb0c-dfd9-424c-bc0d-237ab7c58cb3,codebuddy.conversation_request_id=b113e31a41314d1e9fcf544ec14f9f49,codebuddy.conversation_message_id=0b39cf9166ee4b76a1ea8745af9b66e8'), ('WORKBUDDY_APP_VERSION', '5.5.6'), ('CODEBUDDY_ENABLE_SECURITY_AUDIT', '1'), ('CODEBUDDY_NODE_BIN', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin/node'), ('https_proxy', 'http://127.0.0.1:32975'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('PLAYWRIGHT_MCP_NO_SANDBOX', '1'), ('LOGNAME', 'y'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CODEBUDDY_REPLAY_SHOW_PRE_COMPACT', '1'), ('CODEBUDDY_SAFE_DELETE_BULK_STATE_DIR', '/tmp/codebuddy-safe-delete-bulk'), ('GALILEO_SDK_READY', '1'), ('http_proxy', 'http://127.0.0.1:32975'), ('CLIENT_INFO_MACHINE_ID', 'b381008b-ef8f-46c1-b67b-cc1bf66922bb'), ('JOURNAL_STREAM', '8:12720'), ('CODEBUDDY_SAFE_DELETE_BROKER_DELETE', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-broker-delete.cjs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD', '1'), ('WORKBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_FORCE_HEADLESS_BUNDLE', '1'), ('XDG_SESSION_CLASS', 'user'), ('CODEBUDDY_DISABLE_IDE', '1'), ('USERNAME', 'y'), ('GALILEO_ENABLE', 'true'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WORKBUDDY_MENU_LOCALE', 'zh-CN'), ('WORKBUDDY_ENABLE_LINUX_SANDBOX_CLI', '1'), ('WINDOWPATH', '2'), ('CODEBUDDY_PROMPT_SUGGESTION_DISABLED', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2729,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2729'), ('IN_DOCKER', '1'), ('LESSHISTFILE', '-'), ('AWS_PAGER', ''), ('INVOCATION_ID', 'f76fb30b44eb40e8a035baa04312602e'), ('XDG_MENU_PREFIX', 'gnome-'), ('CODEBUDDY_SAFE_DELETE_REPORT_PATH', '/tmp/codebuddy-safe-delete/report-51992-1793107157645-z5817sm8g6e.jsonl'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('WORKBUDDY_FS_PROTECTION_ROLE', 'daemon'), ('GDK_BACKEND', 'x11'), ('CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY', '1'), ('WORKBUDDY_STARTUP_PID', '9933'), ('DISPLAY', ':1'), ('CLIENT_INFO_IDE_TYPE', 'WorkBuddy'), ('WORKBUDDY_PROMPT_TEMPLATES_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/templates'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('TRACEPARENT', '00-b113e31a41314d1e9fcf544ec14f9f49-5ee4b508a3f0a291-01'), ('HGPAGER', 'cat'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MANPAGER', 'cat'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CODEBUDDY_DISABLE_AUTO_MEMORY', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('WORKBUDDY_APP_NAME', 'WorkBuddy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('CODEBUDDY_PROJECT_DIR', '/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2'), ('CODEBUDDY_GATEWAY_AUTH', 'password'), ('WORKBUDDY_STARTUP_TIME', '172220'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('BROWSER_USE_CHROMIUM_SANDBOX', 'false'), ('CODEBUDDY_SAFE_DELETE_SANDBOX', '1'), ('CODEBUDDY_REASONING_ONLY_END_TURN', '1'), ('AGENT_BROWSER_ARGS', '--no-sandbox'), ('GDMSESSION', 'ubuntu-xorg'), ('CODEBUDDY_API_KEY_HELPER_DISABLED', '1'), ('CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP', '1'), ('CODEBUDDY_GATEWAY_DISABLE_API_DOCS', '1'), ('PYTHONUTF8', '1'), ('CODEBUDDY_TOOL_CALL_ID', 'call_00_MnIddr8h9TYTWqTmFsbr5856'), ('CODEBUDDY_DISABLE_FORK_SUBAGENT', '1'), ('ACC_PRODUCT_CONFIG_V2', ''), ('CLIENT_INFO_PLATFORM_VERSION', '5.5.6'), ('editor_sdk_port', '39099'), ('ACC_PRODUCT_CONFIG_V3', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CODEBUDDY_SAFE_DELETE_ENABLED', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CODEBUDDY_SKILL_TOOL_CHAR_BUDGET', '30000'), ('CODEBUDDY_CURRENT_MODEL_ID', 'deepseek-v4-pro'), ('CODEBUDDY_HOST_CAPABILITIES', 'elicitation.form,weixinpay.interception'), ('GIT_PAGER', 'cat'), ('BASH_ENV', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/shell-runtime-bash-env.sh'), ('QT_IM_MODULE', 'ibus'), ('CLAUDE_PROJECT_DIR', '/home/y/berxel-sdk/RosSDKNode/berxel_camera_ros2'), ('CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS', '0'), ('CODEBUDDY_DISABLE_REQUEST_VALIDATION', '1'), ('ACC_PRODUCT_CONFIG', ''), ('PWD', '/home/y/ros2_ws/build_y/stick_detector_cpp'), ('GENIE_TRASH_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/genie-trash'), ('WORKBUDDY_IS_PACKAGED', '1'), ('DISABLE_AUTOUPDATER', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('WORKBUDDY_PRODUCT_NAME', 'WorkBuddy'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CODEBUDDY_SAFE_DELETE_BULK_GUARD', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-bulk-guard.cjs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim'), ('HTTP_PROXY', 'http://127.0.0.1:32975'), ('CODEBUDDY_SESSION_ID', '77acdb0c-dfd9-424c-bc0d-237ab7c58cb3'), ('CLIENT_INFO_PLUGIN_VERSION', '5.5.6'), ('CODEBUDDY_GATEWAY_PASSWORD', 'U3xFjsbx76xuOtrCqGaCfwt5Qj_XILY4YZKN-k7WFQ0'), ('CODEBUDDY_SAFE_DELETE_BIN_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin'), ('CODEBUDDY_SKILL_DESC_MAX_OVERRIDES', '{"tencent-docs-routing":300,"tencent-pptx":300,"tencent-docx":300,"tencent-docs-sheet-generation":300,"tencent-docs-sheetagent":300}'), ('WORKBUDDY_APPLICATION_NAME', 'WorkBuddy'), ('CODEBUDDY_DISABLE_CRON', '1'), ('COLCON', '1'), ('CLIENT_INFO_USER_AGENT_EXTENSION', 'CLI/2.137.1'), ('CODEBUDDY_INTERNET_ENVIRONMENT', 'internal'), ('WORKBUDDY_PAC_RPC_SOCKET', '/tmp/workbuddy-pac-10028-e1debfd21614dda1.sock'), ('CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD', '50'), ('WORKBUDDY_DATA_FOLDER_NAME', '.workbuddy'), ('WORKBUDDY_APP_PATH', '/opt/WorkBuddy/resources/app.asar'), ('CODEBUDDY_HOST', 'workbuddy-desktop'), ('CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[16.112014] (stick_detector_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[16.112364] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/stick_detector_node\n'}
+[16.112602] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/cloud_sim_node\n'}
+[16.112800] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/calib_check_node\n'}
+[16.123955] (stick_detector_cpp) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/calib_check_node" to ""\n'}
+[16.124063] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch\n'}
+[16.124124] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__\n'}
+[16.124176] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/stick_detect.launch.cpython-310.pyc\n'}
+[16.124264] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/camera_with_detector.launch.cpython-310.pyc\n'}
+[16.124316] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/__pycache__/sim_test.launch.cpython-310.pyc\n'}
+[16.124369] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/camera_with_detector.launch.py\n'}
+[16.124420] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/stick_detect.launch.py\n'}
+[16.124469] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/sim_test.launch.py\n'}
+[16.124518] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config\n'}
+[16.124566] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config/stick_detector.yaml\n'}
+[16.124615] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz\n'}
+[16.124664] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz/stick_detector.rviz\n'}
+[16.124893] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/package_run_dependencies/stick_detector_cpp\n'}
+[16.124947] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/parent_prefix_path/stick_detector_cpp\n'}
+[16.124992] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.sh\n'}
+[16.125037] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.dsv\n'}
+[16.125080] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.sh\n'}
+[16.125125] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.dsv\n'}
+[16.125169] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.bash\n'}
+[16.125213] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.sh\n'}
+[16.125269] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.zsh\n'}
+[16.125328] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.dsv\n'}
+[16.125373] (stick_detector_cpp) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.dsv\n'}
+[16.135046] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/packages/stick_detector_cpp\n'}
+[16.135167] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig.cmake\n'}
+[16.135220] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig-version.cmake\n'}
+[16.135269] (stick_detector_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.xml\n'}
+[16.141318] (-) TimerEvent: {}
+[16.146656] (stick_detector_cpp) CommandEnded: {'returncode': 0}
+[16.241458] (-) TimerEvent: {}
+[16.260911] (stick_detector_cpp) JobEnded: {'identifier': 'stick_detector_cpp', 'rc': 0}
+[16.271279] (-) EventReactorShutdown: {}

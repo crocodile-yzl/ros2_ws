@@ -1,0 +1,26 @@
+[0.883s] Invoking command in '/home/y/ros2_ws/src/stick_detector': PYTHONPATH=/home/y/ros2_ws/build_y/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_y/stick_detector build --build-base /home/y/ros2_ws/build_y/stick_detector/build install --record /home/y/ros2_ws/build_y/stick_detector/install.log --single-version-externally-managed install_data
+[1.221s] running egg_info
+[1.222s] writing ../../build_y/stick_detector/stick_detector.egg-info/PKG-INFO
+[1.222s] writing dependency_links to ../../build_y/stick_detector/stick_detector.egg-info/dependency_links.txt
+[1.222s] writing entry points to ../../build_y/stick_detector/stick_detector.egg-info/entry_points.txt
+[1.222s] writing requirements to ../../build_y/stick_detector/stick_detector.egg-info/requires.txt
+[1.222s] writing top-level names to ../../build_y/stick_detector/stick_detector.egg-info/top_level.txt
+[1.224s] reading manifest file '../../build_y/stick_detector/stick_detector.egg-info/SOURCES.txt'
+[1.225s] writing manifest file '../../build_y/stick_detector/stick_detector.egg-info/SOURCES.txt'
+[1.226s] running build
+[1.226s] running build_py
+[1.226s] warning: build_py: byte-compiling is disabled, skipping.
+[1.226s] 
+[1.226s] running install
+[1.226s] running install_lib
+[1.227s] warning: install_lib: byte-compiling is disabled, skipping.
+[1.227s] 
+[1.227s] running install_data
+[1.228s] running install_egg_info
+[1.230s] removing '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info' (and everything under it)
+[1.230s] Copying ../../build_y/stick_detector/stick_detector.egg-info to /home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info
+[1.231s] running install_scripts
+[1.257s] Installing cloud_sim_node script to /home/y/ros2_ws/install_y/stick_detector/lib/stick_detector
+[1.257s] Installing stick_detector_node script to /home/y/ros2_ws/install_y/stick_detector/lib/stick_detector
+[1.257s] writing list of installed files to '/home/y/ros2_ws/build_y/stick_detector/install.log'
+[1.285s] Invoked command in '/home/y/ros2_ws/src/stick_detector' returned '0': PYTHONPATH=/home/y/ros2_ws/build_y/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build_y/stick_detector build --build-base /home/y/ros2_ws/build_y/stick_detector/build install --record /home/y/ros2_ws/build_y/stick_detector/install.log --single-version-externally-managed install_data

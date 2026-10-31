@@ -1,0 +1,29 @@
+running egg_info
+writing ../../build_y/stick_detector/stick_detector.egg-info/PKG-INFO
+writing dependency_links to ../../build_y/stick_detector/stick_detector.egg-info/dependency_links.txt
+writing entry points to ../../build_y/stick_detector/stick_detector.egg-info/entry_points.txt
+writing requirements to ../../build_y/stick_detector/stick_detector.egg-info/requires.txt
+writing top-level names to ../../build_y/stick_detector/stick_detector.egg-info/top_level.txt
+reading manifest file '../../build_y/stick_detector/stick_detector.egg-info/SOURCES.txt'
+writing manifest file '../../build_y/stick_detector/stick_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+copying stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/build_y/stick_detector/build/lib/stick_detector
+copying stick_detector/stick_detector_node.py -> /home/y/ros2_ws/build_y/stick_detector/build/lib/stick_detector
+warning: build_py: byte-compiling is disabled, skipping.
+
+running install
+running install_lib
+copying /home/y/ros2_ws/build_y/stick_detector/build/lib/stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector
+copying /home/y/ros2_ws/build_y/stick_detector/build/lib/stick_detector/stick_detector_node.py -> /home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector
+warning: install_lib: byte-compiling is disabled, skipping.
+
+running install_data
+copying config/stick_detector.yaml -> /home/y/ros2_ws/install_y/stick_detector/share/stick_detector/config
+running install_egg_info
+removing '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info' (and everything under it)
+Copying ../../build_y/stick_detector/stick_detector.egg-info to /home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info
+running install_scripts
+Installing cloud_sim_node script to /home/y/ros2_ws/install_y/stick_detector/lib/stick_detector
+Installing stick_detector_node script to /home/y/ros2_ws/install_y/stick_detector/lib/stick_detector
+writing list of installed files to '/home/y/ros2_ws/build_y/stick_detector/install.log'

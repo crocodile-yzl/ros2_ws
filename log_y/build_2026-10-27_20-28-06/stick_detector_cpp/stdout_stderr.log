@@ -1,0 +1,12 @@
+Consolidate compiler generated dependencies of target stick_detector_node
+Consolidate compiler generated dependencies of target cloud_sim_node
+[ 25%] Building CXX object CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o
+[ 75%] Built target cloud_sim_node
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp: In constructor ‘StickDetectorNode::StickDetectorNode()’:
+/home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:78:9: error: ‘gresfresh_’ was not declared in this scope; did you mean ‘grefresh_’?
+   78 |     if (gresfresh_ < 1) grefresh_ = 1;
+      |         ^~~~~~~~~~
+      |         grefresh_
+gmake[2]: *** [CMakeFiles/stick_detector_node.dir/build.make:76：CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/stick_detector_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

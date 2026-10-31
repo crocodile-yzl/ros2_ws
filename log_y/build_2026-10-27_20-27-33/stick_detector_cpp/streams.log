@@ -1,0 +1,50 @@
+[0.053s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/stick_detector_cpp
+[0.225s] -- The CXX compiler identification is GNU 11.4.0
+[0.253s] -- Detecting CXX compiler ABI info
+[0.592s] -- Detecting CXX compiler ABI info - done
+[0.602s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.606s] -- Detecting CXX compile features
+[0.606s] -- Detecting CXX compile features - done
+[0.616s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.087s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.280s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.345s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.351s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.363s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.382s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.469s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.472s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.631s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.668s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.725s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.755s] -- Looking for C++ include pthread.h
+[2.071s] -- Looking for C++ include pthread.h - found
+[2.076s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.382s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.384s] -- Found Threads: TRUE  
+[2.474s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.521s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[2.767s] -- Configuring done
+[3.106s] -- Generating done
+[3.221s] -- Build files have been written to: /home/y/ros2_ws/build_y/stick_detector_cpp
+[3.230s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/stick_detector_cpp
+[3.233s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24
+[3.354s] [ 50%] Building CXX object CMakeFiles/cloud_sim_node.dir/src/cloud_sim_node.cpp.o
+[3.355s] [ 50%] Building CXX object CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o
+[3.386s] In file included from /home/y/ros2_ws/src/stick_detector_cpp/src/stick_detector_node.cpp:12:
+[3.386s] /home/y/ros2_ws/src/stick_detector_cpp/include/stick_detector_cpp/geometry.hpp:6:10: fatal error: Eigen/Core: 没有那个文件或目录
+[3.386s]     6 | #include <Eigen/Core>
+[3.386s]       |          ^~~~~~~~~~~~
+[3.386s] compilation terminated.
+[3.387s] gmake[2]: *** [CMakeFiles/stick_detector_node.dir/build.make:76：CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o] 错误 1
+[3.387s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/stick_detector_node.dir/all] 错误 2
+[3.387s] gmake[1]: *** 正在等待未完成的任务....
+[3.754s] /home/y/ros2_ws/src/stick_detector_cpp/src/cloud_sim_node.cpp:15:10: fatal error: Eigen/Geometry: 没有那个文件或目录
+[3.754s]    15 | #include <Eigen/Geometry>
+[3.754s]       |          ^~~~~~~~~~~~~~~~
+[3.754s] compilation terminated.
+[3.756s] gmake[2]: *** [CMakeFiles/cloud_sim_node.dir/build.make:76：CMakeFiles/cloud_sim_node.dir/src/cloud_sim_node.cpp.o] 错误 1
+[3.757s] gmake[1]: *** [CMakeFiles/Makefile2:165：CMakeFiles/cloud_sim_node.dir/all] 错误 2
+[3.757s] gmake: *** [Makefile:146：all] 错误 2
+[3.760s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24

@@ -1,0 +1,166 @@
+[0.000000] (-) TimerEvent: {}
+[0.000111] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000196] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000324] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000357] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.000389] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.000425] (stick_detector_cpp) JobQueued: {'identifier': 'stick_detector_cpp', 'dependencies': OrderedDict()}
+[0.000466] (stick_detector_cpp) JobStarted: {'identifier': 'stick_detector_cpp'}
+[0.012350] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'cmake'}
+[0.014511] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': 'build'}
+[0.015815] (stick_detector_cpp) JobProgress: {'identifier': 'stick_detector_cpp', 'progress': "build target 'ground_segment_node'"}
+[0.015897] (stick_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/stick_detector_cpp', '--target', 'ground_segment_node', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/stick_detector_cpp', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.104'), ('MANAGERPID', '2476'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/71d58b37-4b66-41cb-993d-6d0884f9e340.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '89565'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_PERMISSION_PROFILE', ':danger-full-access'), ('CODEX_TOOL_CALL_ID', 'exec-67f7c87e-266e-4864-8fef-c3eff4cb2b15'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:12720'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0WG9GTG:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2729,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2729'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('INVOCATION_ID', 'f76fb30b44eb40e8a035baa04312602e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a1806f-98d4-7d30-9696-aac0b0f24934'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAb/CSkoVuCJmvIJx06DswwUtTB0zV0Hm4A4jRIA2QDuI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/stick_detector_cpp'), ('LOCAL_IP', '192.168.3.104'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[0.099134] (-) TimerEvent: {}
+[0.199377] (-) TimerEvent: {}
+[0.199872] (stick_detector_cpp) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/ground_segment_node.dir/src/ground_segment_node.cpp.o\n'}
+[0.299507] (-) TimerEvent: {}
+[0.399781] (-) TimerEvent: {}
+[0.500020] (-) TimerEvent: {}
+[0.600214] (-) TimerEvent: {}
+[0.700447] (-) TimerEvent: {}
+[0.800704] (-) TimerEvent: {}
+[0.900940] (-) TimerEvent: {}
+[1.001260] (-) TimerEvent: {}
+[1.101499] (-) TimerEvent: {}
+[1.201763] (-) TimerEvent: {}
+[1.302105] (-) TimerEvent: {}
+[1.402455] (-) TimerEvent: {}
+[1.502664] (-) TimerEvent: {}
+[1.602863] (-) TimerEvent: {}
+[1.703056] (-) TimerEvent: {}
+[1.803242] (-) TimerEvent: {}
+[1.903484] (-) TimerEvent: {}
+[2.003693] (-) TimerEvent: {}
+[2.103903] (-) TimerEvent: {}
+[2.204112] (-) TimerEvent: {}
+[2.304327] (-) TimerEvent: {}
+[2.404542] (-) TimerEvent: {}
+[2.504757] (-) TimerEvent: {}
+[2.604970] (-) TimerEvent: {}
+[2.705202] (-) TimerEvent: {}
+[2.805416] (-) TimerEvent: {}
+[2.905629] (-) TimerEvent: {}
+[3.005839] (-) TimerEvent: {}
+[3.106047] (-) TimerEvent: {}
+[3.206269] (-) TimerEvent: {}
+[3.306479] (-) TimerEvent: {}
+[3.406689] (-) TimerEvent: {}
+[3.506898] (-) TimerEvent: {}
+[3.607142] (-) TimerEvent: {}
+[3.707348] (-) TimerEvent: {}
+[3.807561] (-) TimerEvent: {}
+[3.907779] (-) TimerEvent: {}
+[4.008000] (-) TimerEvent: {}
+[4.108203] (-) TimerEvent: {}
+[4.208421] (-) TimerEvent: {}
+[4.308641] (-) TimerEvent: {}
+[4.408855] (-) TimerEvent: {}
+[4.509073] (-) TimerEvent: {}
+[4.609305] (-) TimerEvent: {}
+[4.709521] (-) TimerEvent: {}
+[4.809764] (-) TimerEvent: {}
+[4.909987] (-) TimerEvent: {}
+[5.010206] (-) TimerEvent: {}
+[5.110430] (-) TimerEvent: {}
+[5.210658] (-) TimerEvent: {}
+[5.310877] (-) TimerEvent: {}
+[5.411098] (-) TimerEvent: {}
+[5.511328] (-) TimerEvent: {}
+[5.611557] (-) TimerEvent: {}
+[5.711771] (-) TimerEvent: {}
+[5.811990] (-) TimerEvent: {}
+[5.912223] (-) TimerEvent: {}
+[6.012419] (-) TimerEvent: {}
+[6.112622] (-) TimerEvent: {}
+[6.212885] (-) TimerEvent: {}
+[6.313182] (-) TimerEvent: {}
+[6.413401] (-) TimerEvent: {}
+[6.513611] (-) TimerEvent: {}
+[6.613823] (-) TimerEvent: {}
+[6.714037] (-) TimerEvent: {}
+[6.814259] (-) TimerEvent: {}
+[6.914472] (-) TimerEvent: {}
+[7.014683] (-) TimerEvent: {}
+[7.114898] (-) TimerEvent: {}
+[7.215095] (-) TimerEvent: {}
+[7.315308] (-) TimerEvent: {}
+[7.415528] (-) TimerEvent: {}
+[7.515746] (-) TimerEvent: {}
+[7.615967] (-) TimerEvent: {}
+[7.716190] (-) TimerEvent: {}
+[7.816400] (-) TimerEvent: {}
+[7.916615] (-) TimerEvent: {}
+[8.016839] (-) TimerEvent: {}
+[8.117057] (-) TimerEvent: {}
+[8.217291] (-) TimerEvent: {}
+[8.317503] (-) TimerEvent: {}
+[8.417721] (-) TimerEvent: {}
+[8.517921] (-) TimerEvent: {}
+[8.618112] (-) TimerEvent: {}
+[8.718300] (-) TimerEvent: {}
+[8.818483] (-) TimerEvent: {}
+[8.918668] (-) TimerEvent: {}
+[9.018871] (-) TimerEvent: {}
+[9.119156] (-) TimerEvent: {}
+[9.219430] (-) TimerEvent: {}
+[9.319641] (-) TimerEvent: {}
+[9.419836] (-) TimerEvent: {}
+[9.520027] (-) TimerEvent: {}
+[9.620188] (-) TimerEvent: {}
+[9.720362] (-) TimerEvent: {}
+[9.820568] (-) TimerEvent: {}
+[9.920838] (-) TimerEvent: {}
+[10.021104] (-) TimerEvent: {}
+[10.121307] (-) TimerEvent: {}
+[10.221494] (-) TimerEvent: {}
+[10.321673] (-) TimerEvent: {}
+[10.421864] (-) TimerEvent: {}
+[10.522131] (-) TimerEvent: {}
+[10.622308] (-) TimerEvent: {}
+[10.722505] (-) TimerEvent: {}
+[10.822687] (-) TimerEvent: {}
+[10.922960] (-) TimerEvent: {}
+[11.023172] (-) TimerEvent: {}
+[11.123361] (-) TimerEvent: {}
+[11.223537] (-) TimerEvent: {}
+[11.323750] (-) TimerEvent: {}
+[11.423958] (-) TimerEvent: {}
+[11.524147] (-) TimerEvent: {}
+[11.624327] (-) TimerEvent: {}
+[11.724590] (-) TimerEvent: {}
+[11.824791] (-) TimerEvent: {}
+[11.924986] (-) TimerEvent: {}
+[12.025260] (-) TimerEvent: {}
+[12.125442] (-) TimerEvent: {}
+[12.225642] (-) TimerEvent: {}
+[12.325910] (-) TimerEvent: {}
+[12.426196] (-) TimerEvent: {}
+[12.526470] (-) TimerEvent: {}
+[12.626681] (-) TimerEvent: {}
+[12.726945] (-) TimerEvent: {}
+[12.827234] (-) TimerEvent: {}
+[12.927509] (-) TimerEvent: {}
+[13.027712] (-) TimerEvent: {}
+[13.127987] (-) TimerEvent: {}
+[13.228196] (-) TimerEvent: {}
+[13.328393] (-) TimerEvent: {}
+[13.428595] (-) TimerEvent: {}
+[13.528806] (-) TimerEvent: {}
+[13.629079] (-) TimerEvent: {}
+[13.729284] (-) TimerEvent: {}
+[13.829478] (-) TimerEvent: {}
+[13.929750] (-) TimerEvent: {}
+[14.030026] (-) TimerEvent: {}
+[14.130292] (-) TimerEvent: {}
+[14.230595] (-) TimerEvent: {}
+[14.330832] (-) TimerEvent: {}
+[14.431111] (-) TimerEvent: {}
+[14.531359] (-) TimerEvent: {}
+[14.631594] (-) TimerEvent: {}
+[14.666678] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Linking CXX executable ground_segment_node\n'}
+[14.731736] (-) TimerEvent: {}
+[14.831972] (-) TimerEvent: {}
+[14.878165] (stick_detector_cpp) StdoutLine: {'line': b'[100%] Built target ground_segment_node\n'}
+[14.893839] (stick_detector_cpp) CommandEnded: {'returncode': 0}
+[14.915099] (stick_detector_cpp) JobEnded: {'identifier': 'stick_detector_cpp', 'rc': 0}
+[14.915877] (-) EventReactorShutdown: {}

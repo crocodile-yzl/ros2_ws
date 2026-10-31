@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261028-0326-Experimental"
+	Name="y-Shadow-SH16-74"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="y-Shadow-SH16-74"
+	OSRelease="6.8.0-111-generic"
+	OSVersion="#111~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 17:13:45 UTC "
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15763"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2200"
+	>
+	<Testing>
+		<StartDateTime>Oct 28 11:26 CST</StartDateTime>
+		<StartTestTime>1793158018</StartTestTime>
+		<TestList>
+			<Test>./ground_segment_regression</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ground_segment_regression</Name>
+			<Path>.</Path>
+			<FullName>./ground_segment_regression</FullName>
+			<FullCommandLine>/usr/bin/python3 "/home/y/ros2_ws/src/stick_detector_cpp/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/stick_detector_cpp/ground_segment_node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>1.44808</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "/home/y/ros2_ws/src/stick_detector_cpp/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/stick_detector_cpp/ground_segment_node"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>.....
+----------------------------------------------------------------------
+Ran 5 tests in 1.057s
+
+OK
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Oct 28 11:26 CST</EndDateTime>
+		<EndTestTime>1793158019</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

@@ -1,0 +1,2 @@
+source;share/stick_detector_cpp/environment/ament_prefix_path.sh
+source;share/stick_detector_cpp/environment/path.sh

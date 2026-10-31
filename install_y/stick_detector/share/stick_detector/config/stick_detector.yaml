@@ -1,0 +1,70 @@
+stick_detector:
+  ros__parameters:
+    # 输入话题（Berxel 相机点云）
+    cloud_topic: /berxel_cloudpoint
+    # 处理频率上限（Hz），点云 30fps 时跳帧处理
+    process_hz: 8.0
+    # 像素降采样步长（1=不降采样；2=快 4 倍，精度足够）
+    downsample_stride: 2
+    # 有效深度范围（米）
+    max_range: 5.0
+
+    # ---- ROI 裁剪（相机光学坐标系：+x 右 / +y 下 / +z 前）----
+    # 场景是"地面上的长棍"时，把 roi_y_min 设成相机高度附近（略低于0），
+    # 就能直接丢掉天花板、高处杂物 → 既提速又减少误报。
+    roi_enable: true
+    roi_x_min: -1.5
+    roi_x_max: 1.5
+    roi_y_min: -0.10       # 越小保留越高；想只看地面附近可设 0.05~0.2
+    roi_y_max: 2.0
+    roi_z_min: 0.20
+    roi_z_max: 5.0
+
+    # ---- 地面高度带 ROI（贴地障碍场景的关键裁剪）----
+    # 只保留"离地 band_min..band_max 米"的点：天花板/墙/货架/行人整块切掉。
+    # auto 模式自动 RANSAC 估计地面，无需知道相机高度和俯仰角；
+    # manual 模式用 camera_height + camera_pitch_deg（下俯为正）直接算平面。
+    ground_roi_enable: true
+    ground_band_min: -0.03     # 地面以下（噪点/穿透）
+    ground_band_max: 0.30      # 地面以上 30cm（挡车杆高 200mm，必须留够）
+    ground_plane_mode: auto    # auto | manual
+    camera_height: 0.80
+    camera_pitch_deg: 15.0
+    ground_plane_refresh: 30   # 每 N 帧重估一次地面
+    ground_plane_thresh: 0.02
+    ground_plane_sample: 4000
+    # 用地平面直接把地面点"挖掉"（高通），只留离地 hp_min..band_max 的障碍。
+    # 实测点数 -85%，且不再需要逐团块 RANSAC，单帧 16ms -> 10ms。
+    ground_hp_enable: true
+    ground_hp_min: 0.012       # 高于地面 1.2cm 才算障碍（地面噪声约 ±3mm）
+
+    # ---- 目标类型开关 ----
+    stick_enable: false        # 目标只有挡车杆时关掉直棍检测，减少误报
+
+    # ---- 挡车杆（Π 形门字杆 800x200mm）识别 ----
+    # 顶部横杆做主结构，直接输出宽度 W 和高度 H（避障真正需要的量）。
+    barrier_enable: true
+    barrier_width_min: 0.40
+    barrier_width_max: 1.60
+    barrier_height_min: 0.10
+    barrier_height_max: 0.45
+    barrier_top_frac: 0.65     # 取顶部 35% 的点当作横杆
+    barrier_min_elongation: 3.0
+    barrier_max_tilt: 0.45     # 横杆与地面法向夹角余弦上限（越小越"水平"）
+    # 最小聚类像素数（降采样后），过滤噪点碎块
+    min_cluster_px: 250
+
+    # 背景平面剔除（桌面/地面贴着的棍子必须先剔除平面才能分离）
+    plane_remove: true
+    plane_thresh: 0.012        # 平面内点距离阈值（米）
+    plane_iters: 60            # RANSAC 迭代次数
+    plane_sample: 6000         # RANSAC 采样点数上限
+    plane_min_px: 2500         # 触发平面剔除的最小团块像素数
+    plane_min_ratio: 0.35       # 平面内点占比达到才认为存在主导平面
+
+    # “长棍”判定条件：满足全部三条才输出
+    min_length: 0.25           # 长度下限（米）
+    max_length: 3.0            # 长度上限（米）
+    min_elongation: 5.0         # 细长比 sqrt(λ1/λ2)，杆状物通常 >10
+    max_radius: 0.035            # 截面半径上限（米，超限则触发核心修剪精化）
+    debug_log: false           # true 时每帧打印候选团块 L/r/细长比（首次实机调参用）

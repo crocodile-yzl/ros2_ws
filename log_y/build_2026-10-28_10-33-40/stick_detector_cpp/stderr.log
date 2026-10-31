@@ -1,0 +1,19 @@
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp: In member function ‘void GroundSegmentNode::onCloud(sensor_msgs::msg::PointCloud2_<std::allocator<void> >::SharedPtr)’:
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:148:40: error: ‘const SharedPtr’ {aka ‘const class std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >’} has no member named ‘width’
+  148 |     const int w = static_cast<int>(msg.width);
+      |                                        ^~~~~
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:149:40: error: ‘const SharedPtr’ {aka ‘const class std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >’} has no member named ‘height’
+  149 |     const int h = static_cast<int>(msg.height);
+      |                                        ^~~~~~
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:150:43: error: ‘const SharedPtr’ {aka ‘const class std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >’} has no member named ‘point_step’
+  150 |     const int step = static_cast<int>(msg.point_step);
+      |                                           ^~~~~~~~~~
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:151:23: error: ‘const SharedPtr’ {aka ‘const class std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >’} has no member named ‘data’
+  151 |     if (h <= 1 || msg.data.size() < static_cast<size_t>(w) * h * step) return;
+      |                       ^~~~
+/home/y/ros2_ws/src/stick_detector_cpp/src/ground_segment_node.cpp:156:31: error: ‘const SharedPtr’ {aka ‘const class std::shared_ptr<sensor_msgs::msg::PointCloud2_<std::allocator<void> > >’} has no member named ‘data’
+  156 |     const uint8_t* base = msg.data.data();
+      |                               ^~~~
+gmake[2]: *** [CMakeFiles/ground_segment_node.dir/build.make:76：CMakeFiles/ground_segment_node.dir/src/ground_segment_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:195：CMakeFiles/ground_segment_node.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,37 @@
+[0.044s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24
+[0.144s] Consolidate compiler generated dependencies of target stick_detector_node
+[0.165s] [ 50%] Built target cloud_sim_node
+[0.175s] [ 75%] Building CXX object CMakeFiles/stick_detector_node.dir/src/stick_detector_node.cpp.o
+[17.969s] [100%] Linking CXX executable stick_detector_node
+[18.210s] [100%] Built target stick_detector_node
+[18.230s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/stick_detector_cpp -- -j24 -l24
+[18.251s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/stick_detector_cpp
+[18.267s] -- Install configuration: ""
+[18.267s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/stick_detector_node
+[18.274s] -- Set runtime path of "/home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/stick_detector_node" to ""
+[18.274s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/cloud_sim_node
+[18.280s] -- Set runtime path of "/home/y/ros2_ws/install_y/stick_detector_cpp/lib/stick_detector_cpp/cloud_sim_node" to ""
+[18.280s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch
+[18.280s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/camera_with_detector.launch.py
+[18.285s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/stick_detect.launch.py
+[18.290s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/launch/sim_test.launch.py
+[18.295s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config
+[18.295s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/config/stick_detector.yaml
+[18.300s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz
+[18.300s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/rviz/stick_detector.rviz
+[18.305s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/package_run_dependencies/stick_detector_cpp
+[18.310s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/parent_prefix_path/stick_detector_cpp
+[18.315s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.sh
+[18.319s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/ament_prefix_path.dsv
+[18.324s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.sh
+[18.329s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/environment/path.dsv
+[18.334s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.bash
+[18.338s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.sh
+[18.343s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.zsh
+[18.348s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/local_setup.dsv
+[18.354s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.dsv
+[18.354s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/ament_index/resource_index/packages/stick_detector_cpp
+[18.359s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig.cmake
+[18.364s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/cmake/stick_detector_cppConfig-version.cmake
+[18.369s] -- Installing: /home/y/ros2_ws/install_y/stick_detector_cpp/share/stick_detector_cpp/package.xml
+[18.381s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/stick_detector_cpp

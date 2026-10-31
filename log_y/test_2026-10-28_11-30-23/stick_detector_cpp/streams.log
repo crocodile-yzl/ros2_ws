@@ -1,0 +1,32 @@
+[0.026s] Invoking command in '/home/y/ros2_ws/build_y/stick_detector_cpp': CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.032s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/stick_detector_cpp/CTestConfiguration.ini
+[0.032s] Parse Config file:/home/y/ros2_ws/build_y/stick_detector_cpp/CTestConfiguration.ini
+[0.032s]    Site: y-Shadow-SH16-74
+[0.033s]    Build name: (empty)
+[0.033s]  Add coverage exclude regular expressions.
+[0.033s] Create new tag: 20261028-0330 - Experimental
+[0.033s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/stick_detector_cpp/CTestConfiguration.ini
+[0.033s] Parse Config file:/home/y/ros2_ws/build_y/stick_detector_cpp/CTestConfiguration.ini
+[0.033s] Test project /home/y/ros2_ws/build_y/stick_detector_cpp
+[0.033s] Constructing a list of tests
+[0.033s] Done constructing a list of tests
+[0.033s] Updating test list for fixtures
+[0.033s] Added 0 tests to meet fixture requirements
+[0.033s] Checking test dependency graph...
+[0.033s] Checking test dependency graph end
+[0.033s] test 1
+[0.033s]     Start 1: ground_segment_regression
+[0.033s] 
+[0.033s] 1: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/stick_detector_cpp/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/stick_detector_cpp/ground_segment_node"
+[0.033s] 1: Test timeout computed to be: 45
+[1.704s] 1: ......
+[1.704s] 1: ----------------------------------------------------------------------
+[1.704s] 1: Ran 6 tests in 1.412s
+[1.704s] 1: 
+[1.704s] 1: OK
+[1.838s] 1/1 Test #1: ground_segment_regression ........   Passed    1.80 sec
+[1.838s] 
+[1.838s] 100% tests passed, 0 tests failed out of 1
+[1.838s] 
+[1.839s] Total Test time (real) =   1.81 sec
+[1.845s] Invoked command in '/home/y/ros2_ws/build_y/stick_detector_cpp' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
