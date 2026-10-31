@@ -1,0 +1,38 @@
+Consolidate compiler generated dependencies of target voxel_map
+[ 16%] Building CXX object CMakeFiles/voxel_map.dir/src/voxel_map.cpp.o
+[ 33%] Linking CXX static library libvoxel_map.a
+[ 33%] Built target voxel_map
+Consolidate compiler generated dependencies of target test_voxel_map
+Consolidate compiler generated dependencies of target occupancy_node
+[ 50%] Building CXX object CMakeFiles/test_voxel_map.dir/test/test_voxel_map.cpp.o
+[ 66%] Building CXX object CMakeFiles/occupancy_node.dir/src/occupancy_node.cpp.o
+[ 83%] Linking CXX executable test_voxel_map
+[ 83%] Built target test_voxel_map
+[100%] Linking CXX executable occupancy_node
+[100%] Built target occupancy_node
+-- Install configuration: "Release"
+-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node
+-- Set runtime path of "/home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node" to ""
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch/occupancy.launch.py
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz/occupancy.rviz
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config/occupancy.yaml
+-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/README.md
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/NOTICE
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/package_run_dependencies/berxel_occupancy
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/parent_prefix_path/berxel_occupancy
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.bash
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.zsh
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.dsv
+-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/packages/berxel_occupancy
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig.cmake
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig-version.cmake
+-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.xml

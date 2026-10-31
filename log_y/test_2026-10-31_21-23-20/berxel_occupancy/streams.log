@@ -1,0 +1,39 @@
+[0.029s] Invoking command in '/home/y/ros2_ws/build_y/berxel_occupancy': CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector_cpp CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.037s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.038s] Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.038s]    Site: y-Shadow-SH16-74
+[0.038s]    Build name: (empty)
+[0.038s]  Add coverage exclude regular expressions.
+[0.038s] Create new tag: 20261031-1323 - Experimental
+[0.038s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.038s] Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.038s] Test project /home/y/ros2_ws/build_y/berxel_occupancy
+[0.038s] Constructing a list of tests
+[0.038s] Done constructing a list of tests
+[0.038s] Updating test list for fixtures
+[0.038s] Added 0 tests to meet fixture requirements
+[0.038s] Checking test dependency graph...
+[0.038s] Checking test dependency graph end
+[0.038s] test 1
+[0.038s]     Start 1: voxel_map
+[0.039s] 
+[0.039s] 1: Test command: /home/y/ros2_ws/build_y/berxel_occupancy/test_voxel_map
+[0.039s] 1: Test timeout computed to be: 10000000
+[0.041s] 1: PASS unknown distinct
+[0.041s] 1: PASS ray frees interiors and hits endpoint
+[0.041s] 1: PASS diagonal DDA
+[0.041s] 1: PASS clipped ray is free without border hit
+[0.041s] 1: PASS outside origin clips
+[0.041s] 1: PASS per-frame hit precedence and deduplication
+[0.041s] 1: PASS clearing and clamp
+[0.042s] 1: PASS nonfinite endpoints never clear
+[0.042s] 1: PASS optical transform height pitch
+[0.042s] 1: PASS depth encoding and invalid values
+[0.042s] 1: PASS partial boundary voxel remains published
+[0.042s] 1: PASS conservative projection requires full height observation
+[0.042s] 1/1 Test #1: voxel_map ........................   Passed    0.00 sec
+[0.042s] 
+[0.042s] 100% tests passed, 0 tests failed out of 1
+[0.042s] 
+[0.042s] Total Test time (real) =   0.00 sec
+[0.048s] Invoked command in '/home/y/ros2_ws/build_y/berxel_occupancy' returned '0': CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector_cpp CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

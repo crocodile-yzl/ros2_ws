@@ -1,0 +1,8 @@
+source;share/berxel_occupancy/hook/cmake_prefix_path.ps1
+source;share/berxel_occupancy/hook/cmake_prefix_path.dsv
+source;share/berxel_occupancy/hook/cmake_prefix_path.sh
+source;share/berxel_occupancy/local_setup.bash
+source;share/berxel_occupancy/local_setup.dsv
+source;share/berxel_occupancy/local_setup.ps1
+source;share/berxel_occupancy/local_setup.sh
+source;share/berxel_occupancy/local_setup.zsh

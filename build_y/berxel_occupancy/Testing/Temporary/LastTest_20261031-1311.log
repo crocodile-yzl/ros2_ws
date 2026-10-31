@@ -1,0 +1,30 @@
+Start testing: Oct 31 21:11 CST
+----------------------------------------------------------
+1/1 Testing: voxel_map
+1/1 Test: voxel_map
+Command: "/home/y/ros2_ws/build_y/berxel_occupancy/test_voxel_map"
+Directory: /home/y/ros2_ws/build_y/berxel_occupancy
+"voxel_map" start time: Oct 31 21:11 CST
+Output:
+----------------------------------------------------------
+PASS unknown distinct
+PASS ray frees interiors and hits endpoint
+PASS diagonal DDA
+PASS clipped ray is free without border hit
+PASS outside origin clips
+PASS per-frame hit precedence and deduplication
+PASS clearing and clamp
+PASS nonfinite endpoints never clear
+PASS optical transform height pitch
+PASS depth encoding and invalid values
+PASS partial boundary voxel remains published
+PASS conservative projection requires full height observation
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"voxel_map" end time: Oct 31 21:11 CST
+"voxel_map" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 31 21:11 CST

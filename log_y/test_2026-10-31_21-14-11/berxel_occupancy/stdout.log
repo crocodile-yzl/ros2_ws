@@ -1,0 +1,37 @@
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+   Site: y-Shadow-SH16-74
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261031-1314 - Experimental
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+Test project /home/y/ros2_ws/build_y/berxel_occupancy
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: voxel_map
+
+1: Test command: /home/y/ros2_ws/build_y/berxel_occupancy/test_voxel_map
+1: Test timeout computed to be: 10000000
+1: PASS unknown distinct
+1: PASS ray frees interiors and hits endpoint
+1: PASS diagonal DDA
+1: PASS clipped ray is free without border hit
+1: PASS outside origin clips
+1: PASS per-frame hit precedence and deduplication
+1: PASS clearing and clamp
+1: PASS nonfinite endpoints never clear
+1: PASS optical transform height pitch
+1: PASS depth encoding and invalid values
+1: PASS partial boundary voxel remains published
+1: PASS conservative projection requires full height observation
+1/1 Test #1: voxel_map ........................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.00 sec

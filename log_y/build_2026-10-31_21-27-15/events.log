@@ -1,0 +1,243 @@
+[0.000000] (-) TimerEvent: {}
+[0.000279] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000337] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000670] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000932] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.001109] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.001154] (-) JobUnselected: {'identifier': 'stick_detector_cpp'}
+[0.001267] (berxel_occupancy) JobQueued: {'identifier': 'berxel_occupancy', 'dependencies': OrderedDict([('berxel_camera_ros2', '/home/y/ros2_ws/install_y/berxel_camera_ros2')])}
+[0.001327] (berxel_occupancy) JobStarted: {'identifier': 'berxel_occupancy'}
+[0.011416] (berxel_occupancy) JobProgress: {'identifier': 'berxel_occupancy', 'progress': 'cmake'}
+[0.012000] (berxel_occupancy) JobProgress: {'identifier': 'berxel_occupancy', 'progress': 'build'}
+[0.012767] (berxel_occupancy) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/berxel_occupancy', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/berxel_occupancy', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '2499'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/9d3301a9-7c28-4da7-8703-af3eef22d3c9.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13465'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-11bae254-6e4f-47d1-8052-b676ef76faff'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:33831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0i5Y5oy:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2738,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2738'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'def47ccea916438280e002e4b4c73184'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/berxel_occupancy'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[0.084857] (berxel_occupancy) StdoutLine: {'line': b'[ 33%] Built target voxel_map\n'}
+[0.099578] (-) TimerEvent: {}
+[0.110043] (berxel_occupancy) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target occupancy_node\n'}
+[0.115657] (berxel_occupancy) StdoutLine: {'line': b'[ 66%] Built target test_voxel_map\n'}
+[0.133441] (berxel_occupancy) StdoutLine: {'line': b'[ 83%] Building CXX object CMakeFiles/occupancy_node.dir/src/occupancy_node.cpp.o\n'}
+[0.199704] (-) TimerEvent: {}
+[0.299924] (-) TimerEvent: {}
+[0.400091] (-) TimerEvent: {}
+[0.500280] (-) TimerEvent: {}
+[0.600491] (-) TimerEvent: {}
+[0.700687] (-) TimerEvent: {}
+[0.800943] (-) TimerEvent: {}
+[0.901162] (-) TimerEvent: {}
+[1.001353] (-) TimerEvent: {}
+[1.101537] (-) TimerEvent: {}
+[1.201721] (-) TimerEvent: {}
+[1.301908] (-) TimerEvent: {}
+[1.402115] (-) TimerEvent: {}
+[1.502299] (-) TimerEvent: {}
+[1.602507] (-) TimerEvent: {}
+[1.702716] (-) TimerEvent: {}
+[1.802904] (-) TimerEvent: {}
+[1.903120] (-) TimerEvent: {}
+[2.003326] (-) TimerEvent: {}
+[2.103542] (-) TimerEvent: {}
+[2.203767] (-) TimerEvent: {}
+[2.304040] (-) TimerEvent: {}
+[2.404318] (-) TimerEvent: {}
+[2.504611] (-) TimerEvent: {}
+[2.604889] (-) TimerEvent: {}
+[2.705134] (-) TimerEvent: {}
+[2.805402] (-) TimerEvent: {}
+[2.905666] (-) TimerEvent: {}
+[3.005929] (-) TimerEvent: {}
+[3.106195] (-) TimerEvent: {}
+[3.206451] (-) TimerEvent: {}
+[3.306705] (-) TimerEvent: {}
+[3.406976] (-) TimerEvent: {}
+[3.507245] (-) TimerEvent: {}
+[3.607495] (-) TimerEvent: {}
+[3.707751] (-) TimerEvent: {}
+[3.808070] (-) TimerEvent: {}
+[3.908313] (-) TimerEvent: {}
+[4.008564] (-) TimerEvent: {}
+[4.108848] (-) TimerEvent: {}
+[4.209199] (-) TimerEvent: {}
+[4.309425] (-) TimerEvent: {}
+[4.409628] (-) TimerEvent: {}
+[4.509842] (-) TimerEvent: {}
+[4.610065] (-) TimerEvent: {}
+[4.710273] (-) TimerEvent: {}
+[4.810463] (-) TimerEvent: {}
+[4.910656] (-) TimerEvent: {}
+[5.010865] (-) TimerEvent: {}
+[5.111088] (-) TimerEvent: {}
+[5.211306] (-) TimerEvent: {}
+[5.311508] (-) TimerEvent: {}
+[5.411712] (-) TimerEvent: {}
+[5.512003] (-) TimerEvent: {}
+[5.612238] (-) TimerEvent: {}
+[5.712501] (-) TimerEvent: {}
+[5.812780] (-) TimerEvent: {}
+[5.913000] (-) TimerEvent: {}
+[6.013208] (-) TimerEvent: {}
+[6.113418] (-) TimerEvent: {}
+[6.213646] (-) TimerEvent: {}
+[6.313872] (-) TimerEvent: {}
+[6.414104] (-) TimerEvent: {}
+[6.514307] (-) TimerEvent: {}
+[6.614509] (-) TimerEvent: {}
+[6.714712] (-) TimerEvent: {}
+[6.814912] (-) TimerEvent: {}
+[6.915111] (-) TimerEvent: {}
+[7.015337] (-) TimerEvent: {}
+[7.115583] (-) TimerEvent: {}
+[7.215826] (-) TimerEvent: {}
+[7.316057] (-) TimerEvent: {}
+[7.416256] (-) TimerEvent: {}
+[7.516463] (-) TimerEvent: {}
+[7.616657] (-) TimerEvent: {}
+[7.716860] (-) TimerEvent: {}
+[7.817050] (-) TimerEvent: {}
+[7.917239] (-) TimerEvent: {}
+[8.017430] (-) TimerEvent: {}
+[8.117626] (-) TimerEvent: {}
+[8.217853] (-) TimerEvent: {}
+[8.318090] (-) TimerEvent: {}
+[8.418310] (-) TimerEvent: {}
+[8.518535] (-) TimerEvent: {}
+[8.618743] (-) TimerEvent: {}
+[8.718952] (-) TimerEvent: {}
+[8.819211] (-) TimerEvent: {}
+[8.919423] (-) TimerEvent: {}
+[9.019638] (-) TimerEvent: {}
+[9.119938] (-) TimerEvent: {}
+[9.220199] (-) TimerEvent: {}
+[9.320432] (-) TimerEvent: {}
+[9.420705] (-) TimerEvent: {}
+[9.520957] (-) TimerEvent: {}
+[9.621232] (-) TimerEvent: {}
+[9.721494] (-) TimerEvent: {}
+[9.821821] (-) TimerEvent: {}
+[9.922084] (-) TimerEvent: {}
+[10.022331] (-) TimerEvent: {}
+[10.122581] (-) TimerEvent: {}
+[10.222875] (-) TimerEvent: {}
+[10.323150] (-) TimerEvent: {}
+[10.423420] (-) TimerEvent: {}
+[10.523680] (-) TimerEvent: {}
+[10.623928] (-) TimerEvent: {}
+[10.724183] (-) TimerEvent: {}
+[10.824507] (-) TimerEvent: {}
+[10.924762] (-) TimerEvent: {}
+[11.025008] (-) TimerEvent: {}
+[11.125240] (-) TimerEvent: {}
+[11.225508] (-) TimerEvent: {}
+[11.325822] (-) TimerEvent: {}
+[11.426150] (-) TimerEvent: {}
+[11.526401] (-) TimerEvent: {}
+[11.626661] (-) TimerEvent: {}
+[11.726906] (-) TimerEvent: {}
+[11.827213] (-) TimerEvent: {}
+[11.927418] (-) TimerEvent: {}
+[12.027616] (-) TimerEvent: {}
+[12.127830] (-) TimerEvent: {}
+[12.228036] (-) TimerEvent: {}
+[12.328221] (-) TimerEvent: {}
+[12.428419] (-) TimerEvent: {}
+[12.528629] (-) TimerEvent: {}
+[12.628813] (-) TimerEvent: {}
+[12.729189] (-) TimerEvent: {}
+[12.829406] (-) TimerEvent: {}
+[12.929611] (-) TimerEvent: {}
+[13.029804] (-) TimerEvent: {}
+[13.130017] (-) TimerEvent: {}
+[13.230227] (-) TimerEvent: {}
+[13.330446] (-) TimerEvent: {}
+[13.430669] (-) TimerEvent: {}
+[13.530891] (-) TimerEvent: {}
+[13.631101] (-) TimerEvent: {}
+[13.731289] (-) TimerEvent: {}
+[13.831495] (-) TimerEvent: {}
+[13.931711] (-) TimerEvent: {}
+[14.031925] (-) TimerEvent: {}
+[14.132131] (-) TimerEvent: {}
+[14.232327] (-) TimerEvent: {}
+[14.332550] (-) TimerEvent: {}
+[14.432767] (-) TimerEvent: {}
+[14.533073] (-) TimerEvent: {}
+[14.633262] (-) TimerEvent: {}
+[14.733470] (-) TimerEvent: {}
+[14.833661] (-) TimerEvent: {}
+[14.933857] (-) TimerEvent: {}
+[15.034071] (-) TimerEvent: {}
+[15.134280] (-) TimerEvent: {}
+[15.234494] (-) TimerEvent: {}
+[15.334701] (-) TimerEvent: {}
+[15.434913] (-) TimerEvent: {}
+[15.535114] (-) TimerEvent: {}
+[15.635319] (-) TimerEvent: {}
+[15.735556] (-) TimerEvent: {}
+[15.835779] (-) TimerEvent: {}
+[15.935982] (-) TimerEvent: {}
+[16.036332] (-) TimerEvent: {}
+[16.136601] (-) TimerEvent: {}
+[16.236871] (-) TimerEvent: {}
+[16.337125] (-) TimerEvent: {}
+[16.437381] (-) TimerEvent: {}
+[16.537634] (-) TimerEvent: {}
+[16.637924] (-) TimerEvent: {}
+[16.738187] (-) TimerEvent: {}
+[16.838444] (-) TimerEvent: {}
+[16.938697] (-) TimerEvent: {}
+[17.038959] (-) TimerEvent: {}
+[17.139278] (-) TimerEvent: {}
+[17.239529] (-) TimerEvent: {}
+[17.339792] (-) TimerEvent: {}
+[17.440115] (-) TimerEvent: {}
+[17.540346] (-) TimerEvent: {}
+[17.640600] (-) TimerEvent: {}
+[17.740848] (-) TimerEvent: {}
+[17.841131] (-) TimerEvent: {}
+[17.941384] (-) TimerEvent: {}
+[18.041639] (-) TimerEvent: {}
+[18.141884] (-) TimerEvent: {}
+[18.242145] (-) TimerEvent: {}
+[18.342350] (-) TimerEvent: {}
+[18.442562] (-) TimerEvent: {}
+[18.542764] (-) TimerEvent: {}
+[18.642964] (-) TimerEvent: {}
+[18.743165] (-) TimerEvent: {}
+[18.843470] (-) TimerEvent: {}
+[18.943696] (-) TimerEvent: {}
+[18.975334] (berxel_occupancy) StdoutLine: {'line': b'[100%] Linking CXX executable occupancy_node\n'}
+[19.043839] (-) TimerEvent: {}
+[19.144167] (-) TimerEvent: {}
+[19.212371] (berxel_occupancy) StdoutLine: {'line': b'[100%] Built target occupancy_node\n'}
+[19.227392] (berxel_occupancy) CommandEnded: {'returncode': 0}
+[19.228653] (berxel_occupancy) JobProgress: {'identifier': 'berxel_occupancy', 'progress': 'install'}
+[19.238194] (berxel_occupancy) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/berxel_occupancy'], 'cwd': '/home/y/ros2_ws/build_y/berxel_occupancy', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '2499'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/9d3301a9-7c28-4da7-8703-af3eef22d3c9.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13465'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-11bae254-6e4f-47d1-8052-b676ef76faff'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:33831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0i5Y5oy:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2738,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2738'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'def47ccea916438280e002e4b4c73184'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/berxel_occupancy'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[19.244256] (-) TimerEvent: {}
+[19.251208] (berxel_occupancy) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[19.251554] (berxel_occupancy) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node\n'}
+[19.255609] (berxel_occupancy) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node" to ""\n'}
+[19.255822] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch\n'}
+[19.256062] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch/occupancy.launch.py\n'}
+[19.256195] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz\n'}
+[19.257151] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz/occupancy.rviz\n'}
+[19.257285] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config\n'}
+[19.257625] (berxel_occupancy) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config/occupancy.yaml\n'}
+[19.257749] (berxel_occupancy) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/README.md\n'}
+[19.257866] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/NOTICE\n'}
+[19.257981] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/LICENSE\n'}
+[19.258110] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/package_run_dependencies/berxel_occupancy\n'}
+[19.258230] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/parent_prefix_path/berxel_occupancy\n'}
+[19.258366] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.sh\n'}
+[19.258484] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.dsv\n'}
+[19.258601] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.sh\n'}
+[19.258896] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.dsv\n'}
+[19.259812] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.bash\n'}
+[19.259971] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.sh\n'}
+[19.260172] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.zsh\n'}
+[19.260299] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.dsv\n'}
+[19.260418] (berxel_occupancy) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.dsv\n'}
+[19.260538] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/packages/berxel_occupancy\n'}
+[19.260661] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig.cmake\n'}
+[19.261073] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig-version.cmake\n'}
+[19.261508] (berxel_occupancy) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.xml\n'}
+[19.261697] (berxel_occupancy) CommandEnded: {'returncode': 0}
+[19.277499] (berxel_occupancy) JobEnded: {'identifier': 'berxel_occupancy', 'rc': 0}
+[19.278539] (-) EventReactorShutdown: {}

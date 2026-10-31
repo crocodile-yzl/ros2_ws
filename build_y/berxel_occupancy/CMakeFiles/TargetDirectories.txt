@@ -1,0 +1,12 @@
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/uninstall.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/berxel_occupancy_uninstall.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/voxel_map.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/occupancy_node.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/test_voxel_map.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/test.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/edit_cache.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/rebuild_cache.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/list_install_components.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/install.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/install/local.dir
+/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/install/strip.dir

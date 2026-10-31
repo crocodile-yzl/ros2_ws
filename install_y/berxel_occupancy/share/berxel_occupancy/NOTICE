@@ -1,0 +1,4 @@
+This is an independent implementation of probabilistic log-odds occupancy mapping
+and voxel DDA ray traversal, inspired by the occupancy mapping approach evaluated
+in SCAN-Planner. No SCAN-Planner source files were copied. It is a standalone
+fixed-camera experiment, not a port of the SCAN-Planner navigation stack.

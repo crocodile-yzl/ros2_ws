@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-00b7cceb46870ce6f840.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "berxel_occupancy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "berxel_occupancy_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-berxel_occupancy_uninstall-Release-49ca992d435b00392a70.json",
+					"name" : "berxel_occupancy_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "occupancy_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-occupancy_node-Release-b62a6d448432c0d6e8e5.json",
+					"name" : "occupancy_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_voxel_map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_voxel_map-Release-2041dcbfe407a5a4f828.json",
+					"name" : "test_voxel_map",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-6252a7fdc3140a7f662d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "voxel_map::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-voxel_map-Release-52434cb596c8dcb20b76.json",
+					"name" : "voxel_map",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/y/ros2_ws/build_y/berxel_occupancy",
+		"source" : "/home/y/ros2_ws/src/berxel_occupancy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

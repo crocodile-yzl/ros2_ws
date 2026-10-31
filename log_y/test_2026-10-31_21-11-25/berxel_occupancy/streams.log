@@ -1,0 +1,39 @@
+[0.037s] Invoking command in '/home/y/ros2_ws/build_y/berxel_occupancy': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.043s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.043s] Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.043s]    Site: y-Shadow-SH16-74
+[0.044s]    Build name: (empty)
+[0.044s]  Add coverage exclude regular expressions.
+[0.044s] Create new tag: 20261031-1311 - Experimental
+[0.044s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.044s] Parse Config file:/home/y/ros2_ws/build_y/berxel_occupancy/CTestConfiguration.ini
+[0.044s] Test project /home/y/ros2_ws/build_y/berxel_occupancy
+[0.044s] Constructing a list of tests
+[0.044s] Done constructing a list of tests
+[0.045s] Updating test list for fixtures
+[0.045s] Added 0 tests to meet fixture requirements
+[0.045s] Checking test dependency graph...
+[0.045s] Checking test dependency graph end
+[0.045s] test 1
+[0.045s]     Start 1: voxel_map
+[0.045s] 
+[0.046s] 1: Test command: /home/y/ros2_ws/build_y/berxel_occupancy/test_voxel_map
+[0.046s] 1: Test timeout computed to be: 10000000
+[0.047s] 1: PASS unknown distinct
+[0.048s] 1: PASS ray frees interiors and hits endpoint
+[0.048s] 1: PASS diagonal DDA
+[0.048s] 1: PASS clipped ray is free without border hit
+[0.048s] 1: PASS outside origin clips
+[0.048s] 1: PASS per-frame hit precedence and deduplication
+[0.048s] 1: PASS clearing and clamp
+[0.048s] 1: PASS nonfinite endpoints never clear
+[0.049s] 1: PASS optical transform height pitch
+[0.049s] 1: PASS depth encoding and invalid values
+[0.049s] 1: PASS partial boundary voxel remains published
+[0.049s] 1: PASS conservative projection requires full height observation
+[0.049s] 1/1 Test #1: voxel_map ........................   Passed    0.00 sec
+[0.049s] 
+[0.049s] 100% tests passed, 0 tests failed out of 1
+[0.049s] 
+[0.050s] Total Test time (real) =   0.00 sec
+[0.057s] Invoked command in '/home/y/ros2_ws/build_y/berxel_occupancy' returned '0': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/berxel_occupancy:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

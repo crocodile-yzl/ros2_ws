@@ -1,0 +1,84 @@
+[0.000000] (-) TimerEvent: {}
+[0.000278] (berxel_occupancy) JobQueued: {'identifier': 'berxel_occupancy', 'dependencies': OrderedDict()}
+[0.000716] (berxel_occupancy) JobStarted: {'identifier': 'berxel_occupancy'}
+[0.011470] (berxel_occupancy) JobProgress: {'identifier': 'berxel_occupancy', 'progress': 'cmake'}
+[0.012403] (berxel_occupancy) Command: {'cmd': ['/usr/bin/cmake', '/home/y/ros2_ws/src/berxel_occupancy', '-DCMAKE_BUILD_TYPE=Release', '-DPython3_EXECUTABLE=/usr/bin/python3', '-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/berxel_occupancy'], 'cwd': '/home/y/ros2_ws/build_y/berxel_occupancy', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '2499'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/9d3301a9-7c28-4da7-8703-af3eef22d3c9.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '2760'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '13465'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-7bc10223-c6d4-49ff-bcc5-526763e38058'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:33831'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0i5Y5oy:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2738,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2738'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'def47ccea916438280e002e4b4c73184'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a19210-a3de-7150-8fbb-0c03a1289d02'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAnS21ieL0uKtn0qv6h14yxC7udET6/iXHz7onKXCwAhI='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/berxel_occupancy'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_camera_ros2')]), 'shell': False}
+[0.099627] (-) TimerEvent: {}
+[0.102116] (berxel_occupancy) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.174362] (berxel_occupancy) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.186636] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199738] (-) TimerEvent: {}
+[0.282922] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.298005] (berxel_occupancy) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.298758] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.299832] (-) TimerEvent: {}
+[0.300157] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.305305] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399937] (-) TimerEvent: {}
+[0.411086] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.427145] (berxel_occupancy) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.427545] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.428490] (berxel_occupancy) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.436838] (berxel_occupancy) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500044] (-) TimerEvent: {}
+[0.600255] (-) TimerEvent: {}
+[0.635913] (berxel_occupancy) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700453] (-) TimerEvent: {}
+[0.754352] (berxel_occupancy) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800556] (-) TimerEvent: {}
+[0.813974] (berxel_occupancy) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.820093] (berxel_occupancy) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.839848] (berxel_occupancy) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.861473] (berxel_occupancy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.886142] (berxel_occupancy) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.900658] (-) TimerEvent: {}
+[0.950318] (berxel_occupancy) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.953692] (berxel_occupancy) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000777] (-) TimerEvent: {}
+[1.086738] (berxel_occupancy) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.100905] (-) TimerEvent: {}
+[1.125874] (berxel_occupancy) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.173333] (berxel_occupancy) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.186085] (berxel_occupancy) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201028] (-) TimerEvent: {}
+[1.276450] (berxel_occupancy) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.276853] (berxel_occupancy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.301150] (-) TimerEvent: {}
+[1.371892] (berxel_occupancy) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.373441] (berxel_occupancy) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.401264] (-) TimerEvent: {}
+[1.449928] (berxel_occupancy) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.490362] (berxel_occupancy) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.501412] (-) TimerEvent: {}
+[1.572767] (berxel_occupancy) StderrLine: {'line': b"Error parsing '/home/y/ros2_ws/src/berxel_occupancy/package.xml':\n"}
+[1.601609] (-) TimerEvent: {}
+[1.625253] (berxel_occupancy) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.625516] (berxel_occupancy) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[1.625629] (berxel_occupancy) StderrLine: {'line': b'    main()\n'}
+[1.625719] (berxel_occupancy) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[1.625809] (berxel_occupancy) StderrLine: {'line': b'    raise e\n'}
+[1.625896] (berxel_occupancy) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[1.625982] (berxel_occupancy) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[1.626066] (berxel_occupancy) StderrLine: {'line': b'  File "/home/y/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 788, in parse_package_string\n'}
+[1.628515] (berxel_occupancy) StderrLine: {'line': b'    pkg.validate(warnings=warnings)\n'}
+[1.628759] (berxel_occupancy) StderrLine: {'line': b'  File "/home/y/.local/lib/python3.10/site-packages/catkin_pkg/package.py", line 330, in validate\n'}
+[1.628850] (berxel_occupancy) StderrLine: {'line': b"    raise InvalidPackage('\\n'.join(errors), self.filename)\n"}
+[1.628934] (berxel_occupancy) StderrLine: {'line': b"catkin_pkg.package.InvalidPackage: Error(s) in package '/home/y/ros2_ws/src/berxel_occupancy/package.xml':\n"}
+[1.629018] (berxel_occupancy) StderrLine: {'line': b'Invalid email "user@localhost" for person "Workspace User"\n'}
+[1.644276] (berxel_occupancy) StderrLine: {'line': b'CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[1.644520] (berxel_occupancy) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[1.644599] (berxel_occupancy) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[1.644652] (berxel_occupancy) StderrLine: {'line': b'  /home/y/ros2_ws/src/berxel_occupancy/package.xml\n'}
+[1.644700] (berxel_occupancy) StderrLine: {'line': b'  /home/y/ros2_ws/build_y/berxel_occupancy/ament_cmake_core/package.cmake)\n'}
+[1.644764] (berxel_occupancy) StderrLine: {'line': b'  returned error code 1\n'}
+[1.644810] (berxel_occupancy) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.644857] (berxel_occupancy) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[1.644909] (berxel_occupancy) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)\n'}
+[1.644956] (berxel_occupancy) StderrLine: {'line': b'  CMakeLists.txt:25 (ament_package)\n'}
+[1.644999] (berxel_occupancy) StderrLine: {'line': b'\n'}
+[1.645044] (berxel_occupancy) StderrLine: {'line': b'\n'}
+[1.645089] (berxel_occupancy) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.645141] (berxel_occupancy) StdoutLine: {'line': b'See also "/home/y/ros2_ws/build_y/berxel_occupancy/CMakeFiles/CMakeOutput.log".\n'}
+[1.653209] (berxel_occupancy) CommandEnded: {'returncode': 1}
+[1.654174] (berxel_occupancy) JobEnded: {'identifier': 'berxel_occupancy', 'rc': 1}
+[1.664769] (-) EventReactorShutdown: {}

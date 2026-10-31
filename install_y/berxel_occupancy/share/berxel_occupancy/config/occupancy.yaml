@@ -1,0 +1,20 @@
+berxel_occupancy:
+  ros__parameters:
+    camera_height: 0.90
+    camera_pitch_deg: 34.0
+    resolution: 0.10
+    update_rate: 20.0
+    pixel_stride: 4
+    minimum_depth: 0.20
+    maximum_depth: 3.0
+    minimum_x: -0.5
+    maximum_x: 4.0
+    minimum_y: -1.5
+    maximum_y: 1.5
+    minimum_z: -0.2
+    maximum_z: 2.0
+    obstacle_minimum_height: 0.15
+    obstacle_maximum_height: 1.8
+    map_frame: occupancy_map
+    depth_topic: /depth/depth_raw
+    camera_info_topic: /depth/camera_info

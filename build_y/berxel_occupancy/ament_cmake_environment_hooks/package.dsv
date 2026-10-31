@@ -1,0 +1,4 @@
+source;share/berxel_occupancy/local_setup.bash
+source;share/berxel_occupancy/local_setup.dsv
+source;share/berxel_occupancy/local_setup.sh
+source;share/berxel_occupancy/local_setup.zsh

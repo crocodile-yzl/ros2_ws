@@ -1,0 +1,42 @@
+[0.014s] Invoking command in '/home/y/ros2_ws/build_y/berxel_occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/berxel_occupancy -- -j24 -l24
+[0.073s] Consolidate compiler generated dependencies of target voxel_map
+[0.088s] [ 16%] Building CXX object CMakeFiles/voxel_map.dir/src/voxel_map.cpp.o
+[1.101s] [ 33%] Linking CXX static library libvoxel_map.a
+[1.143s] [ 33%] Built target voxel_map
+[1.156s] Consolidate compiler generated dependencies of target test_voxel_map
+[1.160s] Consolidate compiler generated dependencies of target occupancy_node
+[1.171s] [ 50%] Building CXX object CMakeFiles/test_voxel_map.dir/test/test_voxel_map.cpp.o
+[1.176s] [ 66%] Building CXX object CMakeFiles/occupancy_node.dir/src/occupancy_node.cpp.o
+[1.870s] [ 83%] Linking CXX executable test_voxel_map
+[1.971s] [ 83%] Built target test_voxel_map
+[18.967s] [100%] Linking CXX executable occupancy_node
+[19.194s] [100%] Built target occupancy_node
+[19.208s] Invoked command in '/home/y/ros2_ws/build_y/berxel_occupancy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/berxel_occupancy -- -j24 -l24
+[19.220s] Invoking command in '/home/y/ros2_ws/build_y/berxel_occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/y/ros2_ws/build_y/berxel_occupancy
+[19.228s] -- Install configuration: "Release"
+[19.229s] -- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node
+[19.230s] -- Set runtime path of "/home/y/ros2_ws/install_y/berxel_occupancy/lib/berxel_occupancy/occupancy_node" to ""
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/launch/occupancy.launch.py
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/rviz/occupancy.rviz
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config
+[19.231s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/config/occupancy.yaml
+[19.232s] -- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/README.md
+[19.232s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/NOTICE
+[19.232s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/package_run_dependencies/berxel_occupancy
+[19.232s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/parent_prefix_path/berxel_occupancy
+[19.232s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.sh
+[19.233s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/ament_prefix_path.dsv
+[19.233s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.sh
+[19.234s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/environment/path.dsv
+[19.234s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.bash
+[19.234s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.sh
+[19.235s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.zsh
+[19.235s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/local_setup.dsv
+[19.235s] -- Installing: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.dsv
+[19.235s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/ament_index/resource_index/packages/berxel_occupancy
+[19.236s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig.cmake
+[19.236s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/cmake/berxel_occupancyConfig-version.cmake
+[19.236s] -- Up-to-date: /home/y/ros2_ws/install_y/berxel_occupancy/share/berxel_occupancy/package.xml
+[19.237s] Invoked command in '/home/y/ros2_ws/build_y/berxel_occupancy' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/y/ros2_ws/build_y/berxel_occupancy
