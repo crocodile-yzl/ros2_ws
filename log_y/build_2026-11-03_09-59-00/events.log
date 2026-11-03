@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000281] (-) JobUnselected: {'identifier': 'berxel_occupancy'}
+[0.000302] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000317] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000331] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.000345] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.000359] (-) JobUnselected: {'identifier': 'stick_detector_cpp'}
+[0.000377] (d435i_ransac) JobQueued: {'identifier': 'd435i_ransac', 'dependencies': OrderedDict()}
+[0.000396] (d435i_ransac) JobStarted: {'identifier': 'd435i_ransac'}
+[0.009126] (d435i_ransac) JobProgress: {'identifier': 'd435i_ransac', 'progress': 'cmake'}
+[0.010400] (d435i_ransac) Command: {'cmd': ['/usr/bin/cmake', '/home/y/ros2_ws/src/d435i_ransac', '-DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_ransac'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/y/Documents/Codex/2026-10-31/home-y-workbuddy-2026-10-30-4'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '3339'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/b3133e92-11e5-4b1a-825a-59c38f2389a6.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3592'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5716'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-d4d440d2-fc6f-4e04-903b-c6f2f34d83f0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:34089'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0b6Tqvr:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3565,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3565'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'e84f0a6e0a9d49a4b6ebade0d63fcbce'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[0.022833] (d435i_ransac) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099163] (-) TimerEvent: {}
+[0.163506] (d435i_ransac) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.195212] (d435i_ransac) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.197768] (d435i_ransac) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.199243] (-) TimerEvent: {}
+[0.204202] (d435i_ransac) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.214928] (d435i_ransac) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.228901] (d435i_ransac) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.264888] (d435i_ransac) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.266449] (d435i_ransac) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299356] (-) TimerEvent: {}
+[0.383220] (d435i_ransac) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.399449] (-) TimerEvent: {}
+[0.437935] (d435i_ransac) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.471761] (d435i_ransac) StdoutLine: {'line': b'-- Found shape_msgs: 4.9.1 (/opt/ros/humble/share/shape_msgs/cmake)\n'}
+[0.499560] (-) TimerEvent: {}
+[0.599747] (-) TimerEvent: {}
+[0.631050] (d435i_ransac) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.649785] (d435i_ransac) StdoutLine: {'line': b'-- Generating done\n'}
+[0.659684] (d435i_ransac) StdoutLine: {'line': b'-- Build files have been written to: /home/y/ros2_ws/build_y/d435i_ransac\n'}
+[0.667247] (d435i_ransac) CommandEnded: {'returncode': 0}
+[0.667915] (d435i_ransac) JobProgress: {'identifier': 'd435i_ransac', 'progress': 'build'}
+[0.669635] (d435i_ransac) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/d435i_ransac', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/y/Documents/Codex/2026-10-31/home-y-workbuddy-2026-10-30-4'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '3339'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/b3133e92-11e5-4b1a-825a-59c38f2389a6.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3592'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5716'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-d4d440d2-fc6f-4e04-903b-c6f2f34d83f0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:34089'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0b6Tqvr:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3565,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3565'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'e84f0a6e0a9d49a4b6ebade0d63fcbce'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[0.699924] (-) TimerEvent: {}
+[0.734581] (d435i_ransac) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ground_segment_node\n'}
+[0.737174] (d435i_ransac) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target d435i_cloud_node\n'}
+[0.753725] (d435i_ransac) StdoutLine: {'line': b'[ 25%] Building CXX object CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o\n'}
+[0.756820] (d435i_ransac) StdoutLine: {'line': b'[ 75%] Built target ground_segment_node\n'}
+[0.800037] (-) TimerEvent: {}
+[0.900265] (-) TimerEvent: {}
+[1.000491] (-) TimerEvent: {}
+[1.100695] (-) TimerEvent: {}
+[1.200905] (-) TimerEvent: {}
+[1.301130] (-) TimerEvent: {}
+[1.401345] (-) TimerEvent: {}
+[1.501553] (-) TimerEvent: {}
+[1.601765] (-) TimerEvent: {}
+[1.702045] (-) TimerEvent: {}
+[1.802242] (-) TimerEvent: {}
+[1.902514] (-) TimerEvent: {}
+[2.002791] (-) TimerEvent: {}
+[2.103076] (-) TimerEvent: {}
+[2.203359] (-) TimerEvent: {}
+[2.303567] (-) TimerEvent: {}
+[2.403844] (-) TimerEvent: {}
+[2.504132] (-) TimerEvent: {}
+[2.604314] (-) TimerEvent: {}
+[2.704506] (-) TimerEvent: {}
+[2.804702] (-) TimerEvent: {}
+[2.904992] (-) TimerEvent: {}
+[3.005191] (-) TimerEvent: {}
+[3.105395] (-) TimerEvent: {}
+[3.205601] (-) TimerEvent: {}
+[3.305808] (-) TimerEvent: {}
+[3.406085] (-) TimerEvent: {}
+[3.506267] (-) TimerEvent: {}
+[3.606453] (-) TimerEvent: {}
+[3.706663] (-) TimerEvent: {}
+[3.806930] (-) TimerEvent: {}
+[3.907230] (-) TimerEvent: {}
+[4.007518] (-) TimerEvent: {}
+[4.107789] (-) TimerEvent: {}
+[4.207980] (-) TimerEvent: {}
+[4.308234] (-) TimerEvent: {}
+[4.408427] (-) TimerEvent: {}
+[4.508638] (-) TimerEvent: {}
+[4.608922] (-) TimerEvent: {}
+[4.709222] (-) TimerEvent: {}
+[4.809512] (-) TimerEvent: {}
+[4.909697] (-) TimerEvent: {}
+[5.009964] (-) TimerEvent: {}
+[5.110217] (-) TimerEvent: {}
+[5.210405] (-) TimerEvent: {}
+[5.310616] (-) TimerEvent: {}
+[5.410810] (-) TimerEvent: {}
+[5.510985] (-) TimerEvent: {}
+[5.611145] (-) TimerEvent: {}
+[5.711323] (-) TimerEvent: {}
+[5.811498] (-) TimerEvent: {}
+[5.911772] (-) TimerEvent: {}
+[6.012034] (-) TimerEvent: {}
+[6.112345] (-) TimerEvent: {}
+[6.212552] (-) TimerEvent: {}
+[6.312730] (-) TimerEvent: {}
+[6.412988] (-) TimerEvent: {}
+[6.513223] (-) TimerEvent: {}
+[6.613432] (-) TimerEvent: {}
+[6.713622] (-) TimerEvent: {}
+[6.813818] (-) TimerEvent: {}
+[6.914015] (-) TimerEvent: {}
+[7.014396] (-) TimerEvent: {}
+[7.114665] (-) TimerEvent: {}
+[7.214952] (-) TimerEvent: {}
+[7.315142] (-) TimerEvent: {}
+[7.415345] (-) TimerEvent: {}
+[7.515555] (-) TimerEvent: {}
+[7.530191] (d435i_ransac) StdoutLine: {'line': b'Linking CXX executable d435i_cloud_node\n'}
+[7.615782] (-) TimerEvent: {}
+[7.716021] (-) TimerEvent: {}
+[7.720106] (d435i_ransac) StdoutLine: {'line': b'Built target d435i_cloud_node\n'}
+[7.735825] (d435i_ransac) CommandEnded: {'returncode': 0}
+[7.736927] (d435i_ransac) JobProgress: {'identifier': 'd435i_ransac', 'progress': 'install'}
+[7.749448] (d435i_ransac) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/d435i_ransac'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac', 'env': OrderedDict([('CODEX_TECTONIC_PATH', '/usr/lib/chatgpt/resources/tectonic/tectonic'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_SAGE_BACKFILL_TRACKER_TAB_REUSE', '1'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'y'), ('CODEX_INTERNAL_ORIGINATOR_OVERRIDE', 'Codex Desktop'), ('CODEX_SHELL', '1'), ('XDG_SESSION_TYPE', 'x11'), ('LOG_FORMAT', 'json'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('CODEX_CLI_PATH', '/usr/lib/chatgpt/resources/codex'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'chatgpt.desktop'), ('CONDA_SHLVL', '1'), ('OLDPWD', '/home/y/Documents/Codex/2026-10-31/home-y-workbuddy-2026-10-30-4'), ('DISABLE_AUTO_UPDATE', 'true'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/chatgpt.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('PAGER', 'cat'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '3339'), ('CODEX_APP_TOOLS_PIPE_PATH', '/tmp/codex-app-tools/b3133e92-11e5-4b1a-825a-59c38f2389a6.sock'), ('LC_CTYPE', 'C.UTF-8'), ('SYSTEMD_EXEC_PID', '3592'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', ''), ('_CE_M', ''), ('_CONDA_ROOT', '/home/y/miniconda3'), ('CODEX_MCP_NODE_PATH', '/usr/lib/chatgpt/resources/cua_node/bin/node'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5716'), ('NVM_DIR', '/home/y/.nvm'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-d4d440d2-fc6f-4e04-903b-c6f2f34d83f0'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('ZSH_TMUX_AUTOSTARTED', 'true'), ('LOGNAME', 'y'), ('JOURNAL_STREAM', '8:34089'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('RUST_LOG', 'warn'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg0b6Tqvr:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin:/home/y/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/usr/lib/chatgpt/resources'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3565,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3565'), ('CODEX_VERSION', '0.163.0-alpha.10.2'), ('CODEX_SESSION_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('INVOCATION_ID', 'e84f0a6e0a9d49a4b6ebade0d63fcbce'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('BROWSER_USE_ACCESS_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('CODEX_THREAD_ID', '01a191f2-a387-73b0-9b94-d0a6e2f82761'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('CODEX_TASK_WORKSPACE_VERIFYING_IDENTITY', 'MCowBQYDK2VwAyEAiU5OgjxzknwEHbcFn0XESY79KhmxY6AN6VOaEh5vUiY='), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac'), ('LOCAL_IP', '192.168.3.106'), ('LC_ALL', 'C.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('ZSH_TMUX_AUTOSTART', 'false'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CONDA_PREFIX', '/home/y/miniconda3'), ('COLCON', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble')]), 'shell': False}
+[7.762158] (d435i_ransac) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.762391] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_segment_node\n'}
+[7.762686] (d435i_ransac) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node\n'}
+[7.763843] (d435i_ransac) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node" to ""\n'}
+[7.763914] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch\n'}
+[7.763972] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/d435i_ransac.launch.py\n'}
+[7.764027] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config\n'}
+[7.764109] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config/ransac.yaml\n'}
+[7.764167] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz\n'}
+[7.764224] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz/ground_segment.rviz\n'}
+[7.764278] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/package_run_dependencies/d435i_ransac\n'}
+[7.764346] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/parent_prefix_path/d435i_ransac\n'}
+[7.764400] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.sh\n'}
+[7.764453] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.dsv\n'}
+[7.764509] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.sh\n'}
+[7.764561] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.dsv\n'}
+[7.764613] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.bash\n'}
+[7.764664] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.sh\n'}
+[7.764714] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.zsh\n'}
+[7.764763] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.dsv\n'}
+[7.764813] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.dsv\n'}
+[7.764861] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/packages/d435i_ransac\n'}
+[7.764910] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig.cmake\n'}
+[7.764960] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig-version.cmake\n'}
+[7.765103] (d435i_ransac) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.xml\n'}
+[7.766143] (d435i_ransac) CommandEnded: {'returncode': 0}
+[7.783400] (d435i_ransac) JobEnded: {'identifier': 'd435i_ransac', 'rc': 0}
+[7.783854] (-) EventReactorShutdown: {}

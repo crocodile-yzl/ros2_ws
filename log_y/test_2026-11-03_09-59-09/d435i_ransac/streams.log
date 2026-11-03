@@ -1,0 +1,32 @@
+[0.042s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.050s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.050s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.050s]    Site: y-Shadow-SH16-74
+[0.051s]    Build name: (empty)
+[0.051s]  Add coverage exclude regular expressions.
+[0.051s] Create new tag: 20261103-0159 - Experimental
+[0.051s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.051s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.051s] Test project /home/y/ros2_ws/build_y/d435i_ransac
+[0.051s] Constructing a list of tests
+[0.051s] Done constructing a list of tests
+[0.052s] Updating test list for fixtures
+[0.052s] Added 0 tests to meet fixture requirements
+[0.052s] Checking test dependency graph...
+[0.052s] Checking test dependency graph end
+[0.052s] test 1
+[0.052s]     Start 1: ground_segment_regression
+[0.052s] 
+[0.052s] 1: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+[0.053s] 1: Test timeout computed to be: 45
+[0.668s] 1: .
+[0.668s] 1: ----------------------------------------------------------------------
+[0.669s] 1: Ran 1 test in 0.348s
+[0.669s] 1: 
+[0.669s] 1: OK
+[0.804s] 1/1 Test #1: ground_segment_regression ........   Passed    0.75 sec
+[0.804s] 
+[0.804s] 100% tests passed, 0 tests failed out of 1
+[0.804s] 
+[0.805s] Total Test time (real) =   0.75 sec
+[0.811s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '0': CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

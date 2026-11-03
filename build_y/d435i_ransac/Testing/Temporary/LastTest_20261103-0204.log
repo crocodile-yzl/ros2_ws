@@ -1,0 +1,43 @@
+Start testing: Nov 03 10:04 CST
+----------------------------------------------------------
+1/2 Testing: ground_segment_regression
+1/2 Test: ground_segment_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac
+"ground_segment_regression" start time: Nov 03 10:04 CST
+Output:
+----------------------------------------------------------
+......
+----------------------------------------------------------------------
+Ran 6 tests in 1.321s
+
+OK
+<end of output>
+Test time =   1.68 sec
+----------------------------------------------------------
+Test Passed.
+"ground_segment_regression" end time: Nov 03 10:04 CST
+"ground_segment_regression" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/2 Testing: tilted_ground_regression
+2/2 Test: tilted_ground_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac
+"tilted_ground_regression" start time: Nov 03 10:04 CST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.313s
+
+OK
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"tilted_ground_regression" end time: Nov 03 10:04 CST
+"tilted_ground_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 10:04 CST

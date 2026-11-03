@@ -1,0 +1,41 @@
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+   Site: y-Shadow-SH16-74
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261103-0204 - Experimental
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+Test project /home/y/ros2_ws/build_y/d435i_ransac
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: ground_segment_regression
+
+1: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+1: Test timeout computed to be: 60
+1: ......
+1: ----------------------------------------------------------------------
+1: Ran 6 tests in 1.321s
+1: 
+1: OK
+1/2 Test #1: ground_segment_regression ........   Passed    1.68 sec
+test 2
+    Start 2: tilted_ground_regression
+
+2: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+2: Test timeout computed to be: 1500
+2: .
+2: ----------------------------------------------------------------------
+2: Ran 1 test in 0.313s
+2: 
+2: OK
+2/2 Test #2: tilted_ground_regression .........   Passed    0.67 sec
+
+100% tests passed, 0 tests failed out of 2
+
+Total Test time (real) =   2.35 sec

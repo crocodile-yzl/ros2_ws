@@ -1,0 +1,23 @@
+Start testing: Nov 03 09:59 CST
+----------------------------------------------------------
+1/1 Testing: ground_segment_regression
+1/1 Test: ground_segment_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac
+"ground_segment_regression" start time: Nov 03 09:59 CST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 0.314s
+
+OK
+<end of output>
+Test time =   0.67 sec
+----------------------------------------------------------
+Test Passed.
+"ground_segment_regression" end time: Nov 03 09:59 CST
+"ground_segment_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 03 09:59 CST

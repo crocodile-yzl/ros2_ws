@@ -1,0 +1,32 @@
+[0.030s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.040s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.040s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.040s]    Site: y-Shadow-SH16-74
+[0.040s]    Build name: (empty)
+[0.040s]  Add coverage exclude regular expressions.
+[0.041s] Create new tag: 20261103-0159 - Experimental
+[0.041s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.041s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.041s] Test project /home/y/ros2_ws/build_y/d435i_ransac
+[0.041s] Constructing a list of tests
+[0.041s] Done constructing a list of tests
+[0.041s] Updating test list for fixtures
+[0.041s] Added 0 tests to meet fixture requirements
+[0.041s] Checking test dependency graph...
+[0.041s] Checking test dependency graph end
+[0.041s] test 1
+[0.041s]     Start 1: ground_segment_regression
+[0.041s] 
+[0.041s] 1: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+[0.041s] 1: Test timeout computed to be: 45
+[0.580s] 1: .
+[0.580s] 1: ----------------------------------------------------------------------
+[0.580s] 1: Ran 1 test in 0.314s
+[0.580s] 1: 
+[0.580s] 1: OK
+[0.714s] 1/1 Test #1: ground_segment_regression ........   Passed    0.67 sec
+[0.714s] 
+[0.714s] 100% tests passed, 0 tests failed out of 1
+[0.714s] 
+[0.714s] Total Test time (real) =   0.67 sec
+[0.721s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '0': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

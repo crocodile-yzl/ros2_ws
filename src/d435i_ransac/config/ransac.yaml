@@ -1,0 +1,14 @@
+ground_segmentation:
+  ros__parameters:
+    cloud_topic: /d435i/points
+    ground_plane_mode: auto
+    camera_height: 0.9
+    camera_pitch_deg: 34.0
+    ground_thresh: 0.02
+    ground_iters: 1000
+    ground_sample: 4000
+    ground_refresh: 30
+    max_slope_deg: 15.0
+    ground_min_inlier_ratio: 0.10
+    max_range: 3.0
+    downsample_stride: 2

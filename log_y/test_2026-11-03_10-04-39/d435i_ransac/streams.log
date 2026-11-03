@@ -1,0 +1,43 @@
+[0.025s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.037s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.037s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.037s]    Site: y-Shadow-SH16-74
+[0.037s]    Build name: (empty)
+[0.037s]  Add coverage exclude regular expressions.
+[0.038s] Create new tag: 20261103-0204 - Experimental
+[0.038s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.038s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac/CTestConfiguration.ini
+[0.038s] Test project /home/y/ros2_ws/build_y/d435i_ransac
+[0.038s] Constructing a list of tests
+[0.038s] Done constructing a list of tests
+[0.038s] Updating test list for fixtures
+[0.038s] Added 0 tests to meet fixture requirements
+[0.038s] Checking test dependency graph...
+[0.038s] Checking test dependency graph end
+[0.038s] test 1
+[0.038s]     Start 1: ground_segment_regression
+[0.039s] 
+[0.039s] 1: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+[0.039s] 1: Test timeout computed to be: 60
+[1.582s] 1: ......
+[1.583s] 1: ----------------------------------------------------------------------
+[1.583s] 1: Ran 6 tests in 1.321s
+[1.583s] 1: 
+[1.583s] 1: OK
+[1.716s] 1/2 Test #1: ground_segment_regression ........   Passed    1.68 sec
+[1.716s] test 2
+[1.716s]     Start 2: tilted_ground_regression
+[1.717s] 
+[1.717s] 2: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac/ground_segment_node"
+[1.717s] 2: Test timeout computed to be: 1500
+[2.255s] 2: .
+[2.256s] 2: ----------------------------------------------------------------------
+[2.256s] 2: Ran 1 test in 0.313s
+[2.256s] 2: 
+[2.256s] 2: OK
+[2.389s] 2/2 Test #2: tilted_ground_regression .........   Passed    0.67 sec
+[2.390s] 
+[2.390s] 100% tests passed, 0 tests failed out of 2
+[2.390s] 
+[2.390s] Total Test time (real) =   2.35 sec
+[2.396s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '0': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac:${CMAKE_PREFIX_PATH} CONDA_PROMPT_MODIFIER=(base) /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

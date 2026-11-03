@@ -1,0 +1,25 @@
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+
+
+/home/y/ros2_ws/src/d435i_ransac/src/d435i_cloud_node.cpp: In constructor ‘D435iCloudNode::D435iCloudNode()’:
+/home/y/ros2_ws/src/d435i_ransac/src/d435i_cloud_node.cpp:36:43: error: cannot convert ‘rs2::stream_profile’ to ‘rs2::frame’
+   36 |     pointcloud_.map_to(profile_.get_stream(RS2_STREAM_DEPTH));
+      |                        ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+      |                                           |
+      |                                           rs2::stream_profile
+In file included from /usr/include/librealsense2/hpp/rs_sensor.hpp:9,
+                 from /usr/include/librealsense2/hpp/rs_device.hpp:8,
+                 from /usr/include/librealsense2/hpp/rs_record_playback.hpp:8,
+                 from /usr/include/librealsense2/hpp/rs_context.hpp:8,
+                 from /usr/include/librealsense2/rs.hpp:9,
+                 from /home/y/ros2_ws/src/d435i_ransac/src/d435i_cloud_node.cpp:11:
+/usr/include/librealsense2/hpp/rs_processing.hpp:469:27: note:   initializing argument 1 of ‘void rs2::pointcloud::map_to(rs2::frame)’
+  469 |         void map_to(frame mapped)
+      |                     ~~~~~~^~~~~~
+gmake[2]: *** [CMakeFiles/d435i_cloud_node.dir/build.make:76：CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/d435i_cloud_node.dir/all] 错误 2
+gmake[1]: *** 正在等待未完成的任务....
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_ransac -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_ransac
+[0.179s] -- The CXX compiler identification is GNU 11.4.0
+[0.192s] -- Detecting CXX compiler ABI info
+[0.299s] -- Detecting CXX compiler ABI info - done
+[0.308s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.309s] -- Detecting CXX compile features
+[0.310s] -- Detecting CXX compile features - done
+[0.314s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.797s] -- Found Python3: /home/y/miniconda3/bin/python3 (found version "3.14.6") found components: Interpreter 
+[0.942s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.997s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.003s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.014s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.032s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.052s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.114s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.117s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.237s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.270s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.315s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.328s] -- Looking for C++ include pthread.h
+[1.454s] -- Looking for C++ include pthread.h - found
+[1.454s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.566s] -- Found Threads: TRUE  
+[1.636s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.674s] -- Found shape_msgs: 4.9.1 (/opt/ros/humble/share/shape_msgs/cmake)
+[1.828s] Traceback (most recent call last):
+[1.828s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[1.828s]     from catkin_pkg.package import parse_package_string
+[1.828s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.835s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.835s]   execute_process(/home/y/miniconda3/bin/python3
+[1.835s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.835s]   /home/y/ros2_ws/src/d435i_ransac/package.xml
+[1.835s]   /home/y/ros2_ws/build_y/d435i_ransac/ament_cmake_core/package.cmake)
+[1.835s]   returned error code 1
+[1.835s] Call Stack (most recent call first):
+[1.835s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.835s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[1.835s]   CMakeLists.txt:35 (ament_package)
+[1.835s] 
+[1.835s] 
+[1.835s] -- Configuring incomplete, errors occurred!
+[1.835s] See also "/home/y/ros2_ws/build_y/d435i_ransac/CMakeFiles/CMakeOutput.log".
+[1.844s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_ransac -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_ransac
