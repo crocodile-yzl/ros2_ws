@@ -1,0 +1,50 @@
+[0.092s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac_imu': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac_imu:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac_imu /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.109s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+[0.109s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+[0.109s]    Site: y-Shadow-SH16-74
+[0.109s]    Build name: (empty)
+[0.109s]  Add coverage exclude regular expressions.
+[0.116s] Create new tag: 20261103-0830 - Experimental
+[0.116s] UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+[0.116s] Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+[0.116s] Test project /home/y/ros2_ws/build_y/d435i_ransac_imu
+[0.125s] Constructing a list of tests
+[0.125s] Done constructing a list of tests
+[0.125s] Updating test list for fixtures
+[0.125s] Added 0 tests to meet fixture requirements
+[0.125s] Checking test dependency graph...
+[0.125s] Checking test dependency graph end
+[0.126s] test 1
+[0.126s]     Start 1: ground_transform_regression
+[0.126s] 
+[0.126s] 1: Test command: /home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform
+[0.126s] 1: Test timeout computed to be: 10000000
+[0.131s] 1: Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed
+[0.131s] 1/3 Test #1: ground_transform_regression ......   Passed    0.01 sec
+[0.138s] test 2
+[0.138s]     Start 2: ground_segment_regression
+[0.138s] 
+[0.138s] 2: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+[0.138s] 2: Test timeout computed to be: 60
+[25.871s] 2: ......
+[25.871s] 2: ----------------------------------------------------------------------
+[25.871s] 2: Ran 6 tests in 25.407s
+[25.871s] 2: 
+[25.871s] 2: OK
+[26.006s] 2/3 Test #2: ground_segment_regression ........   Passed   25.87 sec
+[26.006s] test 3
+[26.006s]     Start 3: tilted_ground_regression
+[26.006s] 
+[26.006s] 3: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+[26.006s] 3: Test timeout computed to be: 10000000
+[32.683s] 3: .
+[32.683s] 3: ----------------------------------------------------------------------
+[32.683s] 3: Ran 1 test in 6.338s
+[32.684s] 3: 
+[32.684s] 3: OK
+[32.817s] 3/3 Test #3: tilted_ground_regression .........   Passed    6.81 sec
+[32.836s] 
+[32.836s] 100% tests passed, 0 tests failed out of 3
+[32.836s] 
+[32.836s] Total Test time (real) =  32.71 sec
+[32.879s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac_imu' returned '0': AMENT_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac_imu:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/y/ros2_ws/install_y/d435i_ransac_imu /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

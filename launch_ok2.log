@@ -1,0 +1,28 @@
+[INFO] [launch]: All log files can be found below /home/y/.ros/log/2026-11-03-11-30-34-864523-y-Shadow-SH16-74-30
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [d435i_cloud_node-1]: process started with pid [32]
+[INFO] [ground_segment_node-2]: process started with pid [34]
+[INFO] [ground_frame_node-3]: process started with pid [36]
+[ground_segment_node-2] [INFO] [1793676635.060594767] [ground_segmentation]: ground_segmentation up (mode=auto, imu_prior=on, topic=/d435i/accel/sample)
+[d435i_cloud_node-1] [INFO] [1793676635.254585736] [d435i_cloud]: D435i depth 640x480@30, scale 0.001000 m/unit, topic /d435i/points
+[d435i_cloud_node-1] [INFO] [1793676635.275457942] [d435i_cloud]: IMU: accel 200 Hz -> /d435i/accel/sample, gyro 200 Hz -> /d435i/gyro/sample
+[ground_segment_node-2] [INFO] [1793676635.279744975] [ground_segmentation]: IMU gravity prior: pitch=19.5 deg, roll=-1.0 deg, n=(-0.017 0.943 0.333)
+[ground_segment_node-2] [WARN] [1793676635.279810509] [ground_segmentation]: IMU pitch 19.5 deg vs camera_pitch_deg 34.0 deg (diff 14.5 deg); the config value is only a fallback, consider updating it
+[ground_segment_node-2] [INFO] [1793676635.472791209] [ground_segmentation]: plane fit failed, prior=imu n=(-0.017 0.942 0.335)
+[ground_segment_node-2] [WARN] [1793676635.474248097] [ground_segmentation]: No valid ground plane (37086 valid points); publishing unclassified points on ground/non_ground. Check floor visibility, camera_pitch_deg and max_slope_deg
+[ground_segment_node-2] [INFO] [1793676635.539218633] [ground_segmentation]: ground: n=(0.001 0.939 0.344) d=0.882 m, 19203 ground pts, 25550 non-ground pts
+[ground_segment_node-2] [INFO] [1793676637.568526138] [ground_segmentation]: ground: n=(-0.003 0.940 0.340) d=0.877 m, 28635 ground pts, 29509 non-ground pts
+[ground_segment_node-2] [INFO] [1793676637.603981566] [ground_segmentation]: plane fit ok, prior=imu n=(-0.017 0.942 0.336)
+[ground_segment_node-2] [INFO] [1793676639.601825964] [ground_segmentation]: ground: n=(-0.003 0.939 0.345) d=0.882 m, 28692 ground pts, 29684 non-ground pts
+[ground_segment_node-2] [INFO] [1793676640.669990908] [ground_segmentation]: plane fit ok, prior=imu n=(-0.016 0.942 0.335)
+[ground_segment_node-2] [INFO] [1793676641.603661708] [ground_segmentation]: ground: n=(0.000 0.940 0.342) d=0.879 m, 29052 ground pts, 25541 non-ground pts
+[ground_segment_node-2] [INFO] [1793676643.639214200] [ground_segmentation]: plane fit ok, prior=imu n=(-0.016 0.942 0.335)
+[ground_segment_node-2] [INFO] [1793676643.639683768] [ground_segmentation]: ground: n=(0.002 0.941 0.337) d=0.874 m, 29208 ground pts, 25484 non-ground pts
+[ground_segment_node-2] [INFO] [1793676645.671353040] [ground_segmentation]: ground: n=(0.002 0.941 0.337) d=0.874 m, 29177 ground pts, 26023 non-ground pts
+[ground_segment_node-2] [INFO] [1793676646.106516297] [ground_segmentation]: plane fit ok, prior=imu n=(-0.017 0.942 0.335)
+[ground_segment_node-2] [INFO] [1793676647.703522811] [ground_segmentation]: ground: n=(-0.004 0.938 0.348) d=0.884 m, 28879 ground pts, 24931 non-ground pts
+[ground_segment_node-2] [INFO] [1793676648.904771011] [ground_segmentation]: plane fit ok, prior=imu n=(-0.017 0.942 0.335)
+[ground_segment_node-2] [INFO] [1793676649.774428181] [ground_segmentation]: ground: n=(-0.002 0.940 0.342) d=0.879 m, 29503 ground pts, 25183 non-ground pts
+[ground_segment_node-2] [INFO] [1793676651.804574709] [ground_segmentation]: ground: n=(-0.001 0.941 0.339) d=0.876 m, 28857 ground pts, 25479 non-ground pts
+[ground_segment_node-2] [INFO] [1793676652.873439458] [ground_segmentation]: plane fit ok, prior=imu n=(-0.017 0.942 0.335)
+[ground_segment_node-2] [INFO] [1793676653.939140834] [ground_segmentation]: ground: n=(-0.001 0.940 0.340) d=0.877 m, 29050 ground pts, 25621 non-ground pts

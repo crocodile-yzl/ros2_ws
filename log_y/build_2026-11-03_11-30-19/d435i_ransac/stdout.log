@@ -1,0 +1,35 @@
+Consolidate compiler generated dependencies of target d435i_cloud_node
+[ 25%] Built target test_ground_transform
+[ 50%] Built target ground_segment_node
+[ 87%] Building CXX object CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o
+[ 87%] Built target ground_frame_node
+[100%] Linking CXX executable d435i_cloud_node
+[100%] Built target d435i_cloud_node
+-- Install configuration: ""
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_segment_node
+-- Installing: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node
+-- Set runtime path of "/home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node" to ""
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_frame_node
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/__pycache__
+-- Installing: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/__pycache__/d435i_ransac.launch.cpython-310.pyc
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/d435i_ransac.launch.py
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config/ransac.yaml
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz/ground_segment.rviz
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/package_run_dependencies/d435i_ransac
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/parent_prefix_path/d435i_ransac
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.bash
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.sh
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.zsh
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.dsv
+-- Installing: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.dsv
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/packages/d435i_ransac
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig.cmake
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig-version.cmake
+-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.xml

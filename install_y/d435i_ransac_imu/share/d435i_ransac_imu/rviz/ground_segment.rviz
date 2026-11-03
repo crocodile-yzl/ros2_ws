@@ -1,0 +1,62 @@
+Panels:
+- Class: rviz_common/Displays
+  Name: Displays
+- Class: rviz_common/Views
+  Name: Views
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Fixed Frame: d435i_ground
+  Displays:
+  - Class: rviz_default_plugins/Grid
+    Name: Ground grid (XY, metres)
+    Enabled: true
+    Reference Frame: d435i_ground
+    Plane: XY
+    Cell Size: 0.5
+    Plane Cell Count: 20
+    Color: 120; 120; 120
+    Alpha: 0.5
+    Offset: {X: 0, Y: 0, Z: 0}
+  - Class: rviz_default_plugins/Axes
+    Name: Ground axes (X forward, Y left, Z up)
+    Enabled: true
+    Reference Frame: d435i_ground
+    Length: 0.5
+    Radius: 0.015
+  - Class: rviz_default_plugins/PointCloud2
+    Name: Ground
+    Enabled: true
+    Topic:
+      Value: /ground/ground_cloud
+      Reliability Policy: Reliable
+    Color Transformer: FlatColor
+    Color: 40; 220; 80
+    Size (Pixels): 3
+    Style: Points
+  - Class: rviz_default_plugins/PointCloud2
+    Name: Obstacles / non-ground
+    Enabled: true
+    Topic:
+      Value: /ground/non_ground
+      Reliability Policy: Reliable
+    Color Transformer: FlatColor
+    Color: 255; 80; 40
+    Size (Pixels): 3
+    Style: Points
+  - Class: rviz_default_plugins/Axes
+    Name: Camera optical axes (X right, Y down, Z forward)
+    Enabled: true
+    Reference Frame: camera_depth_optical_frame
+    Length: 0.25
+    Radius: 0.01
+  Tools:
+  - Class: rviz_default_plugins/MoveCamera
+  - Class: rviz_default_plugins/Interact
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 5
+      Focal Point: {X: 1.2, Y: 0, Z: 0.3}
+      Pitch: 0.45
+      Yaw: 3.14159265359

@@ -1,0 +1,59 @@
+Start testing: Nov 03 16:30 CST
+----------------------------------------------------------
+1/3 Testing: ground_transform_regression
+1/3 Test: ground_transform_regression
+Command: "/home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"ground_transform_regression" start time: Nov 03 16:30 CST
+Output:
+----------------------------------------------------------
+Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"ground_transform_regression" end time: Nov 03 16:30 CST
+"ground_transform_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: ground_segment_regression
+2/3 Test: ground_segment_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"ground_segment_regression" start time: Nov 03 16:30 CST
+Output:
+----------------------------------------------------------
+......
+----------------------------------------------------------------------
+Ran 6 tests in 25.407s
+
+OK
+<end of output>
+Test time =  25.87 sec
+----------------------------------------------------------
+Test Passed.
+"ground_segment_regression" end time: Nov 03 16:30 CST
+"ground_segment_regression" time elapsed: 00:00:25
+----------------------------------------------------------
+
+3/3 Testing: tilted_ground_regression
+3/3 Test: tilted_ground_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"tilted_ground_regression" start time: Nov 03 16:30 CST
+Output:
+----------------------------------------------------------
+.
+----------------------------------------------------------------------
+Ran 1 test in 6.338s
+
+OK
+<end of output>
+Test time =   6.81 sec
+----------------------------------------------------------
+Test Passed.
+"tilted_ground_regression" end time: Nov 03 16:30 CST
+"tilted_ground_regression" time elapsed: 00:00:06
+----------------------------------------------------------
+
+End testing: Nov 03 16:30 CST

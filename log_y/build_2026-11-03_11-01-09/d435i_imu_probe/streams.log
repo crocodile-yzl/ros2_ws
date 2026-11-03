@@ -1,0 +1,46 @@
+[0.015s] Invoking command in '/home/y/ros2_ws/build_y/d435i_imu_probe': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/d435i_imu_probe -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_imu_probe
+[0.118s] -- The CXX compiler identification is GNU 11.4.0
+[0.132s] -- Detecting CXX compiler ABI info
+[0.276s] -- Detecting CXX compiler ABI info - done
+[0.285s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.285s] -- Detecting CXX compile features
+[0.286s] -- Detecting CXX compile features - done
+[0.290s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.634s] -- Found Python3: /home/y/.workbuddy/binaries/python/versions/3.13.12/bin/python3 (found version "3.13.12") found components: Interpreter 
+[2.161s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.209s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.214s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.224s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.312s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.315s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.459s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.502s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.571s] -- Looking for C++ include pthread.h
+[2.722s] -- Looking for C++ include pthread.h - found
+[2.722s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.893s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.894s] -- Found Threads: TRUE  
+[2.968s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.301s] Traceback (most recent call last):
+[3.317s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[3.317s]     from catkin_pkg.package import parse_package_string
+[3.318s] ModuleNotFoundError: No module named 'catkin_pkg'
+[3.327s] CMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[3.327s]   
+[3.327s]   execute_process(/home/y/.workbuddy/binaries/python/versions/3.13.12/bin/python3
+[3.327s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[3.327s]   /home/y/ros2_ws/src/d435i_imu_probe/package.xml
+[3.328s]   /home/y/ros2_ws/build_y/d435i_imu_probe/ament_cmake_core/package.cmake)
+[3.328s]   returned error code 1
+[3.328s] Call Stack (most recent call first):
+[3.328s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[3.328s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[3.328s]   CMakeLists.txt:19 (ament_package)
+[3.328s] 
+[3.328s] 
+[3.328s] -- Configuring incomplete, errors occurred!
+[3.328s] See also "/home/y/ros2_ws/build_y/d435i_imu_probe/CMakeFiles/CMakeOutput.log".
+[3.339s] Invoked command in '/home/y/ros2_ws/build_y/d435i_imu_probe' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/d435i_imu_probe -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_imu_probe

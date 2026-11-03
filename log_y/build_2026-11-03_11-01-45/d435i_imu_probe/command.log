@@ -1,0 +1,6 @@
+Invoking command in '/home/y/ros2_ws/build_y/d435i_imu_probe': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/d435i_imu_probe -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_imu_probe
+Invoked command in '/home/y/ros2_ws/build_y/d435i_imu_probe' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/d435i_imu_probe -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/d435i_imu_probe
+Invoking command in '/home/y/ros2_ws/build_y/d435i_imu_probe': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_imu_probe -- -j24 -l24
+Invoked command in '/home/y/ros2_ws/build_y/d435i_imu_probe' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_imu_probe -- -j24 -l24
+Invoking command in '/home/y/ros2_ws/build_y/d435i_imu_probe': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_imu_probe
+Invoked command in '/home/y/ros2_ws/build_y/d435i_imu_probe' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_imu_probe

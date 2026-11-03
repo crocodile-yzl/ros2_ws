@@ -1,0 +1,39 @@
+[0.046s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_ransac -- -j24 -l24
+[0.149s] Consolidate compiler generated dependencies of target d435i_cloud_node
+[0.166s] [ 25%] Built target test_ground_transform
+[0.171s] [ 50%] Built target ground_segment_node
+[0.189s] [ 87%] Building CXX object CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o
+[0.189s] [ 87%] Built target ground_frame_node
+[8.514s] [100%] Linking CXX executable d435i_cloud_node
+[8.749s] [100%] Built target d435i_cloud_node
+[8.768s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_ransac -- -j24 -l24
+[8.788s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_ransac
+[8.805s] -- Install configuration: ""
+[8.805s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_segment_node
+[8.805s] -- Installing: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node
+[8.812s] -- Set runtime path of "/home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node" to ""
+[8.812s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_frame_node
+[8.812s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch
+[8.812s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/__pycache__
+[8.812s] -- Installing: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/__pycache__/d435i_ransac.launch.cpython-310.pyc
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/d435i_ransac.launch.py
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config/ransac.yaml
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz/ground_segment.rviz
+[8.816s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/package_run_dependencies/d435i_ransac
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/parent_prefix_path/d435i_ransac
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.sh
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/ament_prefix_path.dsv
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.sh
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/environment/path.dsv
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.bash
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.sh
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.zsh
+[8.817s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/local_setup.dsv
+[8.818s] -- Installing: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.dsv
+[8.819s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/ament_index/resource_index/packages/d435i_ransac
+[8.819s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig.cmake
+[8.819s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/cmake/d435i_ransacConfig-version.cmake
+[8.819s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/package.xml
+[8.824s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_ransac

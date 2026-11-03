@@ -1,6 +1,7 @@
 /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_segment_node
 /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/d435i_cloud_node
 /home/y/ros2_ws/install_y/d435i_ransac/lib/d435i_ransac/ground_frame_node
+/home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/__pycache__/d435i_ransac.launch.cpython-310.pyc
 /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/launch/d435i_ransac.launch.py
 /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/config/ransac.yaml
 /home/y/ros2_ws/install_y/d435i_ransac/share/d435i_ransac/rviz/ground_segment.rviz
