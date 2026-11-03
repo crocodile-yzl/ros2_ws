@@ -1,0 +1,23 @@
+ground_segmentation:
+  ros__parameters:
+    cloud_topic: /d435i/points
+    ground_plane_mode: auto
+    camera_height: 0.9
+    camera_pitch_deg: 34.0
+    ground_thresh: 0.02
+    ground_iters: 1000
+    ground_sample: 4000
+    ground_refresh: 30
+    max_slope_deg: 15.0
+    ground_min_inlier_ratio: 0.10
+    max_range: 3.0
+    downsample_stride: 2
+    # IMU 重力先验：静止时加速度计指向“上”，取反即地面法向。
+    # 标定外参显示 Depth->Gyro 旋转为单位矩阵，无需坐标变换。
+    use_imu_prior: true
+    imu_topic: /d435i/accel/sample
+    gravity_tau_sec: 0.3
+    imu_timeout_sec: 0.5
+    imu_pitch_offset_deg: 0.0
+    imu_accel_min: 5.0
+    imu_accel_max: 14.0

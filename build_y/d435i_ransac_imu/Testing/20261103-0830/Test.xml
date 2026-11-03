@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20261103-0830-Experimental"
+	Name="y-Shadow-SH16-74"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="y-Shadow-SH16-74"
+	OSRelease="6.8.0-111-generic"
+	OSVersion="#111~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 14 17:13:45 UTC "
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="30720"
+	NumberOfLogicalCPU="24"
+	NumberOfPhysicalCPU="16"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15763"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="795.621"
+	>
+	<Testing>
+		<StartDateTime>Nov 03 16:30 CST</StartDateTime>
+		<StartTestTime>1793694601</StartTestTime>
+		<TestList>
+			<Test>./ground_transform_regression</Test>
+			<Test>./ground_segment_regression</Test>
+			<Test>./tilted_ground_regression</Test>
+		</TestList>
+		<Test Status="passed">
+			<Name>ground_transform_regression</Name>
+			<Path>.</Path>
+			<FullName>./ground_transform_regression</FullName>
+			<FullCommandLine>/home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00586656</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>ground_segment_regression</Name>
+			<Path>.</Path>
+			<FullName>./ground_segment_regression</FullName>
+			<FullCommandLine>/usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>25.8677</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>......
+----------------------------------------------------------------------
+Ran 6 tests in 25.407s
+
+OK
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>tilted_ground_regression</Name>
+			<Path>.</Path>
+			<FullName>./tilted_ground_regression</FullName>
+			<FullCommandLine>/usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>6.81025</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value>.
+----------------------------------------------------------------------
+Ran 1 test in 6.338s
+
+OK
+</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Nov 03 16:30 CST</EndDateTime>
+		<EndTestTime>1793694634</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

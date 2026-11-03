@@ -1,0 +1,383 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (d435i_ransac_imu) JobQueued: {'identifier': 'd435i_ransac_imu', 'dependencies': OrderedDict([('d435i_ransac_imu', '/home/y/ros2_ws/install_y/d435i_ransac_imu')])}
+[0.000309] (d435i_ransac_imu) JobStarted: {'identifier': 'd435i_ransac_imu'}
+[0.063060] (d435i_ransac_imu) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac_imu', 'env': OrderedDict([('CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION', '1080'), ('CODEBUDDY_INCLUDE_TOPIC_MESSAGE', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEBUDDY_GIT_REPO_SCAN_DISABLED', '1'), ('TENCENT_DOCS_LOCAL_MCP', 'http://127.0.0.1:39099/mcp'), ('WORKBUDDY_NODE_ENV', 'production'), ('ACC_PRODUCT_CONFIG_PATH', '/tmp/workbuddy-product-spill-Fd8hX9/acc-product-config-v3.json'), ('CLIENT_INFO_PRODUCT_VERSION', '5.5.6'), ('PYTHONIOENCODING', 'utf-8'), ('HTTPS_PROXY', 'http://127.0.0.1:34693'), ('WORKBUDDY_DAEMON_CATALOG_STDIO', '1'), ('LANGUAGE', 'zh_CN:zh'), ('NO_UPDATE_NOTIFIER', '1'), ('CLAUDE_SESSION_ID', '3e334a14-cb0a-4efe-97b7-0791a02eaf7b'), ('USER', 'y'), ('WORKBUDDY_USER_DATA_DIR', '/home/y/.workbuddy/app'), ('CODEBUDDY_POWERSHELL_USE_PTY', '1'), ('CODEBUDDY_BUILTIN_SKILLS_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills'), ('SYSTEMD_PAGER', 'cat'), ('XDG_SESSION_TYPE', 'x11'), ('WORKBUDDY_PAC_RPC_TOKEN', 'stPy11C2tLZ4Ik4iRUTwLoy_wCpBU50X'), ('WORKBUDDY_LOCALE', 'zh-CN'), ('WORKBUDDY_RESOURCES_PATH', '/opt/WorkBuddy/resources'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SERVER__HOST', '127.0.0.1'), ('CODEBUDDY_CONVERSATION_REQUEST_ID', '6f113cf370744cea9d4c7a1e9cb37fce'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'WorkBuddy.desktop'), ('OLDPWD', '/home/y'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED', '1'), ('CODEBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_SERVICE_PROXY_URL', 'http://127.0.0.1:42641/internal/hooks/services/invoke'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/workbuddy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('CODEBUDDY_CONVERSATION_MESSAGE_ID', 'd9276edfd4d44bf9a23cf9bc1193730a'), ('NODE_OPTIONS', ''), ('CODEBUDDY_MCP_CONFIG', '{"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:34079/mcp","headers":{"Authorization":"Bearer 6XPX9RYSypj7kmnLZMjhyGx6Vcw9DtJyVkG-urJKjEM","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiIzZTMzNGExNC1jYjBhLTRlZmUtOTdiNy0wNzkxYTAyZWFmN2IiLCJ3ZWxjb21lTW9kZSI6IndvcmtpbmciLCJ3b3Jrc3BhY2UiOiIvaG9tZS95IiwiYWxsb3dlZEJ1aWx0aW5Ub29scyI6WyJhZ2VudF9tYWlsX2Rvd25sb2FkX2F0dGFjaG1lbnQiLCJhZ2VudF9tYWlsX3VwbG9hZF9hdHRhY2htZW50IiwiYWdlbnRpY19zZWFyY2giLCJhdXRvbWF0aW9uX3VwZGF0ZSIsImNvbm5lY3RfY2xvdWRfc2VydmljZSIsImNvbm5lY3Rfb3Blbl9wbGF0Zm9ybSIsImNvbnZlcnNhdGlvbl9zZWFyY2giLCJwcmVzZW50X2ZpbGVzIiwicmVhZF9tZSIsInNlYXJjaF9wbHVnaW5zIiwic2hvd193aWRnZXQiLCJzdWdnZXN0X3BsdWdpbl9pbnN0YWxsIiwid29ya2J1ZGR5X2Nsb3VkX3NlcnZpY2UiLCJ3b3JrYnVkZHlfbWFya2V0cGxhY2Vfc2tpbGwiLCJ3b3JrYnVkZHlfc2l0ZXNfZGVwbG95Iiwid29ya2J1ZGR5X3NpdGVzX3VucHVibGlzaCJdfQ.oL0WO7wivwCdxLFQV-aK4hUthgc_MH_N7d4hWWaII6c"},"defer_loading":false,"tools":{"automation_update":{"bare_name":true,"defer_loading":false},"present_files":{"bare_name":true,"defer_loading":false},"connect_cloud_service":{"bare_name":true,"defer_loading":true},"connect_open_platform":{"bare_name":true,"defer_loading":true},"read_me":{"bare_name":true,"defer_loading":false},"show_widget":{"bare_name":true,"defer_loading":false},"workbuddy_sites_deploy":{"bare_name":true,"defer_loading":true},"workbuddy_sites_unpublish":{"bare_name":true,"defer_loading":true},"workbuddy_cloud_service":{"bare_name":true,"defer_loading":true},"workbuddy_marketplace_skill":{"bare_name":true,"defer_loading":true},"agentic_search":{"bare_name":true,"defer_loading":true},"conversation_search":{"bare_name":true,"defer_loading":true},"agent_mail_upload_attachment":{"bare_name":true,"defer_loading":true},"agent_mail_download_attachment":{"bare_name":true,"defer_loading":true},"search_plugins":{"bare_name":true,"defer_loading":true},"suggest_plugin_install":{"bare_name":true,"defer_loading":true}},"transparent_proxy":true,"builtin_tools":["automation_update","present_files","connect_cloud_service","connect_open_platform","read_me","show_widget","workbuddy_sites_deploy","workbuddy_sites_unpublish","workbuddy_cloud_service","workbuddy_marketplace_skill","agentic_search","conversation_search","agent_mail_upload_attachment","agent_mail_download_attachment","search_plugins","suggest_plugin_install"]},"agent-mail":{"type":"http","url":"http://127.0.0.1:34079/a9bcc7dd302f2b262507f7590d97b1b4/mcp","headers":{"Authorization":"Bearer lsuLU7J3RsC6EiHdBSjpLtl-EfLo2TqzSYpUOHTG1zA","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiIzZTMzNGExNC1jYjBhLTRlZmUtOTdiNy0wNzkxYTAyZWFmN2IiLCJ3ZWxjb21lTW9kZSI6IndvcmtpbmciLCJ3b3Jrc3BhY2UiOiIvaG9tZS95IiwiYWxsb3dlZEJ1aWx0aW5Ub29scyI6WyJhZ2VudF9tYWlsX2Rvd25sb2FkX2F0dGFjaG1lbnQiLCJhZ2VudF9tYWlsX3VwbG9hZF9hdHRhY2htZW50IiwiYWdlbnRpY19zZWFyY2giLCJhdXRvbWF0aW9uX3VwZGF0ZSIsImNvbm5lY3RfY2xvdWRfc2VydmljZSIsImNvbm5lY3Rfb3Blbl9wbGF0Zm9ybSIsImNvbnZlcnNhdGlvbl9zZWFyY2giLCJwcmVzZW50X2ZpbGVzIiwicmVhZF9tZSIsInNlYXJjaF9wbHVnaW5zIiwic2hvd193aWRnZXQiLCJzdWdnZXN0X3BsdWdpbl9pbnN0YWxsIiwid29ya2J1ZGR5X2Nsb3VkX3NlcnZpY2UiLCJ3b3JrYnVkZHlfbWFya2V0cGxhY2Vfc2tpbGwiLCJ3b3JrYnVkZHlfc2l0ZXNfZGVwbG95Iiwid29ya2J1ZGR5X3NpdGVzX3VucHVibGlzaCJdfQ.oL0WO7wivwCdxLFQV-aK4hUthgc_MH_N7d4hWWaII6c"},"defer_loading":true},"genie-baas":{"type":"http","url":"http://127.0.0.1:34079/881f8b0f3d2c03fadb7743e0aaca8a28/mcp","headers":{"Authorization":"Bearer GbbStguU6ymcad0zn4Iey0v-chvF0AFYmpcXV-Sx9Bk","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiIzZTMzNGExNC1jYjBhLTRlZmUtOTdiNy0wNzkxYTAyZWFmN2IiLCJ3ZWxjb21lTW9kZSI6IndvcmtpbmciLCJ3b3Jrc3BhY2UiOiIvaG9tZS95IiwiYWxsb3dlZEJ1aWx0aW5Ub29scyI6WyJhZ2VudF9tYWlsX2Rvd25sb2FkX2F0dGFjaG1lbnQiLCJhZ2VudF9tYWlsX3VwbG9hZF9hdHRhY2htZW50IiwiYWdlbnRpY19zZWFyY2giLCJhdXRvbWF0aW9uX3VwZGF0ZSIsImNvbm5lY3RfY2xvdWRfc2VydmljZSIsImNvbm5lY3Rfb3Blbl9wbGF0Zm9ybSIsImNvbnZlcnNhdGlvbl9zZWFyY2giLCJwcmVzZW50X2ZpbGVzIiwicmVhZF9tZSIsInNlYXJjaF9wbHVnaW5zIiwic2hvd193aWRnZXQiLCJzdWdnZXN0X3BsdWdpbl9pbnN0YWxsIiwid29ya2J1ZGR5X2Nsb3VkX3NlcnZpY2UiLCJ3b3JrYnVkZHlfbWFya2V0cGxhY2Vfc2tpbGwiLCJ3b3JrYnVkZHlfc2l0ZXNfZGVwbG95Iiwid29ya2J1ZGR5X3NpdGVzX3VucHVibGlzaCJdfQ.oL0WO7wivwCdxLFQV-aK4hUthgc_MH_N7d4hWWaII6c"},"defer_loading":true},"weixinpay":{"type":"stdio","command":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/bin/run-node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109/dist/mcp-server.mjs"],"env":{"WECHATPAY_PAYSIGN_SERVICE_ID":"agentpay","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/weixinpay/1.6.109","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/weixinpay-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y","CLAUDE_PROJECT_DIR":"/home/y"},"defer_loading":true},"sheetagent":{"type":"stdio","command":"node","args":["/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f/mcp/start.mjs"],"env":{"SHEETAGENT_MCP_TRANSPORT":"stdio","SHEET_MCP_DEBUG":"0","SHEETAGENT_LOG_LEVEL":"info","SHEET_API_MODE":"local","SHEET_REMOTE_MCP_URL":"https://docs.qq.com/api/v6/sheet/mcp","CLAUDE_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CODEBUDDY_PLUGIN_ROOT":"/home/y/.workbuddy/plugins/cache/workbuddy-builtin/sheetagent/5.5.6-wb.38337834.g5f969292.hbc6253c2f32f","CLAUDE_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PLUGIN_DATA":"/home/y/.workbuddy/plugins/data/sheetagent-workbuddy-builtin","CODEBUDDY_PROJECT_DIR":"/home/y","CLAUDE_PROJECT_DIR":"/home/y"},"defer_loading":true}}}'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLIENT_INFO_PLATFORM', 'WorkBuddy'), ('CLIENT_INFO_PLUGIN_NAME', 'workbuddy-desktop'), ('PAGER', 'cat'), ('CODEBUDDY_SKIP_GIT_BASH_CHECK', '1'), ('MANAGERPID', '3339'), ('WORKBUDDY_STARTUP_DATE', '2026-11-03'), ('SYSTEMD_EXEC_PID', '3592'), ('WORKBUDDY_EXTRA_PATHS', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin:/home/y/.workbuddy/binaries/python/envs/default/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5116'), ('CLIENT_INFO_PRODUCT_NAME', 'WorkBuddy'), ('TENCENT_DOCS_LOCAL_SERVER', 'http://127.0.0.1:39099'), ('SERVER__PORT', '42641'), ('BAGGAGE', 'codebuddy.session_id=3e334a14-cb0a-4efe-97b7-0791a02eaf7b,codebuddy.conversation_request_id=6f113cf370744cea9d4c7a1e9cb37fce,codebuddy.conversation_message_id=d9276edfd4d44bf9a23cf9bc1193730a'), ('WORKBUDDY_APP_VERSION', '5.5.6'), ('CODEBUDDY_ENABLE_SECURITY_AUDIT', '1'), ('CODEBUDDY_NODE_BIN', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin/node'), ('https_proxy', 'http://127.0.0.1:34693'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('PLAYWRIGHT_MCP_NO_SANDBOX', '1'), ('LOGNAME', 'y'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CODEBUDDY_REPLAY_SHOW_PRE_COMPACT', '1'), ('CODEBUDDY_SAFE_DELETE_BULK_STATE_DIR', '/tmp/codebuddy-safe-delete-bulk'), ('GALILEO_SDK_READY', '1'), ('http_proxy', 'http://127.0.0.1:34693'), ('CLIENT_INFO_MACHINE_ID', 'b381008b-ef8f-46c1-b67b-cc1bf66922bb'), ('JOURNAL_STREAM', '8:34089'), ('CODEBUDDY_SAFE_DELETE_BROKER_DELETE', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-broker-delete.cjs'), ('_', '/usr/bin/timeout'), ('ROS_VERSION', '2'), ('CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD', '1'), ('WORKBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_FORCE_HEADLESS_BUNDLE', '1'), ('XDG_SESSION_CLASS', 'user'), ('CODEBUDDY_DISABLE_IDE', '1'), ('USERNAME', 'y'), ('GALILEO_ENABLE', 'true'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WORKBUDDY_MENU_LOCALE', 'zh-CN'), ('WORKBUDDY_ENABLE_LINUX_SANDBOX_CLI', '1'), ('WINDOWPATH', '2'), ('CODEBUDDY_PROMPT_SUGGESTION_DISABLED', '1'), ('PATH', '/usr/bin:/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3565,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3565'), ('IN_DOCKER', '1'), ('LESSHISTFILE', '-'), ('AWS_PAGER', ''), ('INVOCATION_ID', 'e84f0a6e0a9d49a4b6ebade0d63fcbce'), ('XDG_MENU_PREFIX', 'gnome-'), ('CODEBUDDY_SAFE_DELETE_REPORT_PATH', '/tmp/codebuddy-safe-delete/report-21381-1793694600457-q0hobi95rke.jsonl'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('WORKBUDDY_FS_PROTECTION_ROLE', 'daemon'), ('GDK_BACKEND', 'x11'), ('CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY', '1'), ('WORKBUDDY_STARTUP_PID', '5116'), ('DISPLAY', ':1'), ('CLIENT_INFO_IDE_TYPE', 'WorkBuddy'), ('WORKBUDDY_PROMPT_TEMPLATES_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/templates'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('TRACEPARENT', '00-6f113cf370744cea9d4c7a1e9cb37fce-29a26d8e8faeaed0-01'), ('HGPAGER', 'cat'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MANPAGER', 'cat'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CODEBUDDY_DISABLE_AUTO_MEMORY', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/d435i_ransac_imu:/opt/ros/humble'), ('WORKBUDDY_APP_NAME', 'WorkBuddy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('CODEBUDDY_PROJECT_DIR', '/home/y'), ('CODEBUDDY_GATEWAY_AUTH', 'password'), ('WORKBUDDY_STARTUP_TIME', '094517'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('BROWSER_USE_CHROMIUM_SANDBOX', 'false'), ('CODEBUDDY_SAFE_DELETE_SANDBOX', '1'), ('CODEBUDDY_REASONING_ONLY_END_TURN', '1'), ('AGENT_BROWSER_ARGS', '--no-sandbox'), ('GDMSESSION', 'ubuntu-xorg'), ('CODEBUDDY_API_KEY_HELPER_DISABLED', '1'), ('CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP', '1'), ('CODEBUDDY_GATEWAY_DISABLE_API_DOCS', '1'), ('PYTHONUTF8', '1'), ('CODEBUDDY_TOOL_CALL_ID', 'call_00_5jsXAXEE927NBbGEod5q1157'), ('CODEBUDDY_DISABLE_FORK_SUBAGENT', '1'), ('CLIENT_INFO_PLATFORM_VERSION', '5.5.6'), ('editor_sdk_port', '39099'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CODEBUDDY_SAFE_DELETE_ENABLED', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CODEBUDDY_SKILL_TOOL_CHAR_BUDGET', '30000'), ('CODEBUDDY_CURRENT_MODEL_ID', 'deepseek-v4.1-flash'), ('CODEBUDDY_HOST_CAPABILITIES', 'elicitation.form,weixinpay.interception'), ('GIT_PAGER', 'cat'), ('BASH_ENV', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/shell-runtime-bash-env.sh'), ('QT_IM_MODULE', 'ibus'), ('CLAUDE_PROJECT_DIR', '/home/y'), ('CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS', '0'), ('CODEBUDDY_DISABLE_REQUEST_VALIDATION', '1'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac_imu'), ('GENIE_TRASH_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/genie-trash'), ('WORKBUDDY_IS_PACKAGED', '1'), ('DISABLE_AUTOUPDATER', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('WORKBUDDY_PRODUCT_NAME', 'WorkBuddy'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CODEBUDDY_SAFE_DELETE_BULK_GUARD', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-bulk-guard.cjs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim'), ('HTTP_PROXY', 'http://127.0.0.1:34693'), ('CODEBUDDY_SESSION_ID', '3e334a14-cb0a-4efe-97b7-0791a02eaf7b'), ('CLIENT_INFO_PLUGIN_VERSION', '5.5.6'), ('CODEBUDDY_GATEWAY_PASSWORD', '3mvYnUoka5PLuus9-9oyRQ0LzkRr7vRT_dq3qGxJa5c'), ('CODEBUDDY_SAFE_DELETE_BIN_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin'), ('CODEBUDDY_SKILL_DESC_MAX_OVERRIDES', '{"tencent-docs-routing":300,"tencent-pptx":300,"tencent-docx":300,"tencent-docs-sheet-generation":300,"tencent-docs-sheetagent":300}'), ('WORKBUDDY_APPLICATION_NAME', 'WorkBuddy'), ('CODEBUDDY_DISABLE_CRON', '1'), ('COLCON', '1'), ('CLIENT_INFO_USER_AGENT_EXTENSION', 'CLI/2.137.1'), ('CODEBUDDY_INTERNET_ENVIRONMENT', 'internal'), ('WORKBUDDY_PAC_RPC_SOCKET', '/tmp/workbuddy-pac-5230-9113da4de83a7c33.sock'), ('CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD', '50'), ('WORKBUDDY_DATA_FOLDER_NAME', '.workbuddy'), ('WORKBUDDY_APP_PATH', '/opt/WorkBuddy/resources/app.asar'), ('CODEBUDDY_HOST', 'workbuddy-desktop'), ('CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS', '1'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/d435i_ransac_imu')]), 'shell': False}
+[0.093334] (-) TimerEvent: {}
+[0.108864] (d435i_ransac_imu) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini\n'}
+[0.109320] (d435i_ransac_imu) StdoutLine: {'line': b'Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini\n'}
+[0.109465] (d435i_ransac_imu) StdoutLine: {'line': b'   Site: y-Shadow-SH16-74\n'}
+[0.109590] (d435i_ransac_imu) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.109724] (d435i_ransac_imu) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.115683] (d435i_ransac_imu) StdoutLine: {'line': b'Create new tag: 20261103-0830 - Experimental\n'}
+[0.116149] (d435i_ransac_imu) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini\n'}
+[0.116294] (d435i_ransac_imu) StdoutLine: {'line': b'Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini\n'}
+[0.116419] (d435i_ransac_imu) StdoutLine: {'line': b'Test project /home/y/ros2_ws/build_y/d435i_ransac_imu\n'}
+[0.124566] (d435i_ransac_imu) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.124960] (d435i_ransac_imu) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.125303] (d435i_ransac_imu) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.125467] (d435i_ransac_imu) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.125600] (d435i_ransac_imu) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.125723] (d435i_ransac_imu) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.125843] (d435i_ransac_imu) StdoutLine: {'line': b'test 1\n'}
+[0.125949] (d435i_ransac_imu) StdoutLine: {'line': b'    Start 1: ground_transform_regression\n'}
+[0.126054] (d435i_ransac_imu) StdoutLine: {'line': b'\n'}
+[0.126158] (d435i_ransac_imu) StdoutLine: {'line': b'1: Test command: /home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform\n'}
+[0.126264] (d435i_ransac_imu) StdoutLine: {'line': b'1: Test timeout computed to be: 10000000\n'}
+[0.131187] (d435i_ransac_imu) StdoutLine: {'line': b'1: Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed\n'}
+[0.131382] (d435i_ransac_imu) StdoutLine: {'line': b'1/3 Test #1: ground_transform_regression ......   Passed    0.01 sec\n'}
+[0.137921] (d435i_ransac_imu) StdoutLine: {'line': b'test 2\n'}
+[0.138122] (d435i_ransac_imu) StdoutLine: {'line': b'    Start 2: ground_segment_regression\n'}
+[0.138248] (d435i_ransac_imu) StdoutLine: {'line': b'\n'}
+[0.138372] (d435i_ransac_imu) StdoutLine: {'line': b'2: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"\n'}
+[0.138488] (d435i_ransac_imu) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.193531] (-) TimerEvent: {}
+[0.293818] (-) TimerEvent: {}
+[0.394771] (-) TimerEvent: {}
+[0.494999] (-) TimerEvent: {}
+[0.595233] (-) TimerEvent: {}
+[0.695473] (-) TimerEvent: {}
+[0.795723] (-) TimerEvent: {}
+[0.895959] (-) TimerEvent: {}
+[0.996196] (-) TimerEvent: {}
+[1.096426] (-) TimerEvent: {}
+[1.196764] (-) TimerEvent: {}
+[1.297011] (-) TimerEvent: {}
+[1.397267] (-) TimerEvent: {}
+[1.497519] (-) TimerEvent: {}
+[1.597763] (-) TimerEvent: {}
+[1.697991] (-) TimerEvent: {}
+[1.798225] (-) TimerEvent: {}
+[1.898470] (-) TimerEvent: {}
+[1.998791] (-) TimerEvent: {}
+[2.099029] (-) TimerEvent: {}
+[2.199263] (-) TimerEvent: {}
+[2.299498] (-) TimerEvent: {}
+[2.399837] (-) TimerEvent: {}
+[2.500071] (-) TimerEvent: {}
+[2.600354] (-) TimerEvent: {}
+[2.700575] (-) TimerEvent: {}
+[2.800816] (-) TimerEvent: {}
+[2.901043] (-) TimerEvent: {}
+[3.001269] (-) TimerEvent: {}
+[3.101575] (-) TimerEvent: {}
+[3.201813] (-) TimerEvent: {}
+[3.302047] (-) TimerEvent: {}
+[3.402288] (-) TimerEvent: {}
+[3.502622] (-) TimerEvent: {}
+[3.602950] (-) TimerEvent: {}
+[3.703194] (-) TimerEvent: {}
+[3.803432] (-) TimerEvent: {}
+[3.903738] (-) TimerEvent: {}
+[4.003978] (-) TimerEvent: {}
+[4.104236] (-) TimerEvent: {}
+[4.204542] (-) TimerEvent: {}
+[4.304759] (-) TimerEvent: {}
+[4.404997] (-) TimerEvent: {}
+[4.505233] (-) TimerEvent: {}
+[4.605506] (-) TimerEvent: {}
+[4.705810] (-) TimerEvent: {}
+[4.806039] (-) TimerEvent: {}
+[4.906339] (-) TimerEvent: {}
+[5.006625] (-) TimerEvent: {}
+[5.106818] (-) TimerEvent: {}
+[5.207041] (-) TimerEvent: {}
+[5.307265] (-) TimerEvent: {}
+[5.407468] (-) TimerEvent: {}
+[5.507639] (-) TimerEvent: {}
+[5.607816] (-) TimerEvent: {}
+[5.707983] (-) TimerEvent: {}
+[5.808186] (-) TimerEvent: {}
+[5.908369] (-) TimerEvent: {}
+[6.008617] (-) TimerEvent: {}
+[6.108810] (-) TimerEvent: {}
+[6.209033] (-) TimerEvent: {}
+[6.309266] (-) TimerEvent: {}
+[6.409502] (-) TimerEvent: {}
+[6.509772] (-) TimerEvent: {}
+[6.610044] (-) TimerEvent: {}
+[6.710354] (-) TimerEvent: {}
+[6.810598] (-) TimerEvent: {}
+[6.910868] (-) TimerEvent: {}
+[7.011116] (-) TimerEvent: {}
+[7.111437] (-) TimerEvent: {}
+[7.211685] (-) TimerEvent: {}
+[7.311869] (-) TimerEvent: {}
+[7.412145] (-) TimerEvent: {}
+[7.512360] (-) TimerEvent: {}
+[7.612610] (-) TimerEvent: {}
+[7.712837] (-) TimerEvent: {}
+[7.813114] (-) TimerEvent: {}
+[7.913311] (-) TimerEvent: {}
+[8.013524] (-) TimerEvent: {}
+[8.113754] (-) TimerEvent: {}
+[8.213949] (-) TimerEvent: {}
+[8.314140] (-) TimerEvent: {}
+[8.414328] (-) TimerEvent: {}
+[8.514513] (-) TimerEvent: {}
+[8.614722] (-) TimerEvent: {}
+[8.714926] (-) TimerEvent: {}
+[8.815168] (-) TimerEvent: {}
+[8.915420] (-) TimerEvent: {}
+[9.015607] (-) TimerEvent: {}
+[9.115797] (-) TimerEvent: {}
+[9.215985] (-) TimerEvent: {}
+[9.316191] (-) TimerEvent: {}
+[9.416416] (-) TimerEvent: {}
+[9.516629] (-) TimerEvent: {}
+[9.616912] (-) TimerEvent: {}
+[9.717153] (-) TimerEvent: {}
+[9.817407] (-) TimerEvent: {}
+[9.917663] (-) TimerEvent: {}
+[10.017931] (-) TimerEvent: {}
+[10.118203] (-) TimerEvent: {}
+[10.218474] (-) TimerEvent: {}
+[10.318744] (-) TimerEvent: {}
+[10.418932] (-) TimerEvent: {}
+[10.519149] (-) TimerEvent: {}
+[10.619395] (-) TimerEvent: {}
+[10.719634] (-) TimerEvent: {}
+[10.819887] (-) TimerEvent: {}
+[10.920147] (-) TimerEvent: {}
+[11.020449] (-) TimerEvent: {}
+[11.120718] (-) TimerEvent: {}
+[11.220962] (-) TimerEvent: {}
+[11.321210] (-) TimerEvent: {}
+[11.421517] (-) TimerEvent: {}
+[11.521829] (-) TimerEvent: {}
+[11.622067] (-) TimerEvent: {}
+[11.722315] (-) TimerEvent: {}
+[11.822612] (-) TimerEvent: {}
+[11.922889] (-) TimerEvent: {}
+[12.023122] (-) TimerEvent: {}
+[12.123358] (-) TimerEvent: {}
+[12.223618] (-) TimerEvent: {}
+[12.323870] (-) TimerEvent: {}
+[12.424118] (-) TimerEvent: {}
+[12.524409] (-) TimerEvent: {}
+[12.624654] (-) TimerEvent: {}
+[12.724913] (-) TimerEvent: {}
+[12.825157] (-) TimerEvent: {}
+[12.925401] (-) TimerEvent: {}
+[13.025650] (-) TimerEvent: {}
+[13.125931] (-) TimerEvent: {}
+[13.226166] (-) TimerEvent: {}
+[13.326421] (-) TimerEvent: {}
+[13.426686] (-) TimerEvent: {}
+[13.526929] (-) TimerEvent: {}
+[13.627218] (-) TimerEvent: {}
+[13.727492] (-) TimerEvent: {}
+[13.827705] (-) TimerEvent: {}
+[13.927897] (-) TimerEvent: {}
+[14.028117] (-) TimerEvent: {}
+[14.128289] (-) TimerEvent: {}
+[14.228481] (-) TimerEvent: {}
+[14.328750] (-) TimerEvent: {}
+[14.428942] (-) TimerEvent: {}
+[14.529140] (-) TimerEvent: {}
+[14.629345] (-) TimerEvent: {}
+[14.729545] (-) TimerEvent: {}
+[14.829769] (-) TimerEvent: {}
+[14.929947] (-) TimerEvent: {}
+[15.030136] (-) TimerEvent: {}
+[15.130327] (-) TimerEvent: {}
+[15.230537] (-) TimerEvent: {}
+[15.330830] (-) TimerEvent: {}
+[15.431039] (-) TimerEvent: {}
+[15.531254] (-) TimerEvent: {}
+[15.631453] (-) TimerEvent: {}
+[15.731647] (-) TimerEvent: {}
+[15.831826] (-) TimerEvent: {}
+[15.932010] (-) TimerEvent: {}
+[16.032202] (-) TimerEvent: {}
+[16.132478] (-) TimerEvent: {}
+[16.232667] (-) TimerEvent: {}
+[16.332854] (-) TimerEvent: {}
+[16.433043] (-) TimerEvent: {}
+[16.533242] (-) TimerEvent: {}
+[16.633435] (-) TimerEvent: {}
+[16.733629] (-) TimerEvent: {}
+[16.833813] (-) TimerEvent: {}
+[16.933985] (-) TimerEvent: {}
+[17.034161] (-) TimerEvent: {}
+[17.134353] (-) TimerEvent: {}
+[17.234534] (-) TimerEvent: {}
+[17.334747] (-) TimerEvent: {}
+[17.434944] (-) TimerEvent: {}
+[17.535150] (-) TimerEvent: {}
+[17.635343] (-) TimerEvent: {}
+[17.735520] (-) TimerEvent: {}
+[17.835718] (-) TimerEvent: {}
+[17.935920] (-) TimerEvent: {}
+[18.036166] (-) TimerEvent: {}
+[18.136442] (-) TimerEvent: {}
+[18.236741] (-) TimerEvent: {}
+[18.336981] (-) TimerEvent: {}
+[18.437238] (-) TimerEvent: {}
+[18.537493] (-) TimerEvent: {}
+[18.637756] (-) TimerEvent: {}
+[18.737998] (-) TimerEvent: {}
+[18.838249] (-) TimerEvent: {}
+[18.938511] (-) TimerEvent: {}
+[19.038765] (-) TimerEvent: {}
+[19.139010] (-) TimerEvent: {}
+[19.239239] (-) TimerEvent: {}
+[19.339481] (-) TimerEvent: {}
+[19.439748] (-) TimerEvent: {}
+[19.539986] (-) TimerEvent: {}
+[19.640232] (-) TimerEvent: {}
+[19.740477] (-) TimerEvent: {}
+[19.840761] (-) TimerEvent: {}
+[19.940991] (-) TimerEvent: {}
+[20.041235] (-) TimerEvent: {}
+[20.141488] (-) TimerEvent: {}
+[20.241709] (-) TimerEvent: {}
+[20.341936] (-) TimerEvent: {}
+[20.442179] (-) TimerEvent: {}
+[20.542523] (-) TimerEvent: {}
+[20.642854] (-) TimerEvent: {}
+[20.743081] (-) TimerEvent: {}
+[20.843382] (-) TimerEvent: {}
+[20.943685] (-) TimerEvent: {}
+[21.043924] (-) TimerEvent: {}
+[21.144165] (-) TimerEvent: {}
+[21.244499] (-) TimerEvent: {}
+[21.344807] (-) TimerEvent: {}
+[21.445043] (-) TimerEvent: {}
+[21.545284] (-) TimerEvent: {}
+[21.645525] (-) TimerEvent: {}
+[21.745770] (-) TimerEvent: {}
+[21.845957] (-) TimerEvent: {}
+[21.946166] (-) TimerEvent: {}
+[22.046391] (-) TimerEvent: {}
+[22.146623] (-) TimerEvent: {}
+[22.246873] (-) TimerEvent: {}
+[22.347126] (-) TimerEvent: {}
+[22.447357] (-) TimerEvent: {}
+[22.547595] (-) TimerEvent: {}
+[22.647845] (-) TimerEvent: {}
+[22.748063] (-) TimerEvent: {}
+[22.848299] (-) TimerEvent: {}
+[22.948569] (-) TimerEvent: {}
+[23.048769] (-) TimerEvent: {}
+[23.149013] (-) TimerEvent: {}
+[23.249249] (-) TimerEvent: {}
+[23.349478] (-) TimerEvent: {}
+[23.449767] (-) TimerEvent: {}
+[23.550006] (-) TimerEvent: {}
+[23.650246] (-) TimerEvent: {}
+[23.750496] (-) TimerEvent: {}
+[23.850750] (-) TimerEvent: {}
+[23.951051] (-) TimerEvent: {}
+[24.051296] (-) TimerEvent: {}
+[24.151547] (-) TimerEvent: {}
+[24.251787] (-) TimerEvent: {}
+[24.352115] (-) TimerEvent: {}
+[24.452429] (-) TimerEvent: {}
+[24.552796] (-) TimerEvent: {}
+[24.653082] (-) TimerEvent: {}
+[24.753398] (-) TimerEvent: {}
+[24.853698] (-) TimerEvent: {}
+[24.953942] (-) TimerEvent: {}
+[25.054188] (-) TimerEvent: {}
+[25.154442] (-) TimerEvent: {}
+[25.254706] (-) TimerEvent: {}
+[25.354963] (-) TimerEvent: {}
+[25.455216] (-) TimerEvent: {}
+[25.555466] (-) TimerEvent: {}
+[25.655759] (-) TimerEvent: {}
+[25.755959] (-) TimerEvent: {}
+[25.856200] (-) TimerEvent: {}
+[25.871117] (d435i_ransac_imu) StdoutLine: {'line': b'2: ......\n'}
+[25.871291] (d435i_ransac_imu) StdoutLine: {'line': b'2: ----------------------------------------------------------------------\n'}
+[25.871349] (d435i_ransac_imu) StdoutLine: {'line': b'2: Ran 6 tests in 25.407s\n'}
+[25.871399] (d435i_ransac_imu) StdoutLine: {'line': b'2: \n'}
+[25.871446] (d435i_ransac_imu) StdoutLine: {'line': b'2: OK\n'}
+[25.956302] (-) TimerEvent: {}
+[26.005967] (d435i_ransac_imu) StdoutLine: {'line': b'2/3 Test #2: ground_segment_regression ........   Passed   25.87 sec\n'}
+[26.006319] (d435i_ransac_imu) StdoutLine: {'line': b'test 3\n'}
+[26.006377] (d435i_ransac_imu) StdoutLine: {'line': b'    Start 3: tilted_ground_regression\n'}
+[26.006426] (d435i_ransac_imu) StdoutLine: {'line': b'\n'}
+[26.006473] (d435i_ransac_imu) StdoutLine: {'line': b'3: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"\n'}
+[26.006522] (d435i_ransac_imu) StdoutLine: {'line': b'3: Test timeout computed to be: 10000000\n'}
+[26.056422] (-) TimerEvent: {}
+[26.156612] (-) TimerEvent: {}
+[26.259728] (-) TimerEvent: {}
+[26.359916] (-) TimerEvent: {}
+[26.460106] (-) TimerEvent: {}
+[26.560322] (-) TimerEvent: {}
+[26.660484] (-) TimerEvent: {}
+[26.760686] (-) TimerEvent: {}
+[26.860870] (-) TimerEvent: {}
+[26.961051] (-) TimerEvent: {}
+[27.061233] (-) TimerEvent: {}
+[27.161418] (-) TimerEvent: {}
+[27.261607] (-) TimerEvent: {}
+[27.361882] (-) TimerEvent: {}
+[27.462085] (-) TimerEvent: {}
+[27.562271] (-) TimerEvent: {}
+[27.662470] (-) TimerEvent: {}
+[27.762684] (-) TimerEvent: {}
+[27.862830] (-) TimerEvent: {}
+[27.963012] (-) TimerEvent: {}
+[28.063199] (-) TimerEvent: {}
+[28.163401] (-) TimerEvent: {}
+[28.263605] (-) TimerEvent: {}
+[28.363814] (-) TimerEvent: {}
+[28.464003] (-) TimerEvent: {}
+[28.564197] (-) TimerEvent: {}
+[28.664408] (-) TimerEvent: {}
+[28.764587] (-) TimerEvent: {}
+[28.864757] (-) TimerEvent: {}
+[28.964935] (-) TimerEvent: {}
+[29.065129] (-) TimerEvent: {}
+[29.165292] (-) TimerEvent: {}
+[29.265470] (-) TimerEvent: {}
+[29.365668] (-) TimerEvent: {}
+[29.465852] (-) TimerEvent: {}
+[29.566047] (-) TimerEvent: {}
+[29.666258] (-) TimerEvent: {}
+[29.766444] (-) TimerEvent: {}
+[29.866640] (-) TimerEvent: {}
+[29.966827] (-) TimerEvent: {}
+[30.067022] (-) TimerEvent: {}
+[30.167231] (-) TimerEvent: {}
+[30.267410] (-) TimerEvent: {}
+[30.367637] (-) TimerEvent: {}
+[30.467895] (-) TimerEvent: {}
+[30.568136] (-) TimerEvent: {}
+[30.668336] (-) TimerEvent: {}
+[30.768537] (-) TimerEvent: {}
+[30.868727] (-) TimerEvent: {}
+[30.968917] (-) TimerEvent: {}
+[31.069098] (-) TimerEvent: {}
+[31.169298] (-) TimerEvent: {}
+[31.269610] (-) TimerEvent: {}
+[31.369849] (-) TimerEvent: {}
+[31.470067] (-) TimerEvent: {}
+[31.570375] (-) TimerEvent: {}
+[31.670646] (-) TimerEvent: {}
+[31.770894] (-) TimerEvent: {}
+[31.871129] (-) TimerEvent: {}
+[31.971450] (-) TimerEvent: {}
+[32.071751] (-) TimerEvent: {}
+[32.171979] (-) TimerEvent: {}
+[32.272264] (-) TimerEvent: {}
+[32.372511] (-) TimerEvent: {}
+[32.472778] (-) TimerEvent: {}
+[32.573020] (-) TimerEvent: {}
+[32.673260] (-) TimerEvent: {}
+[32.683242] (d435i_ransac_imu) StdoutLine: {'line': b'3: .\n'}
+[32.683481] (d435i_ransac_imu) StdoutLine: {'line': b'3: ----------------------------------------------------------------------\n'}
+[32.683611] (d435i_ransac_imu) StdoutLine: {'line': b'3: Ran 1 test in 6.338s\n'}
+[32.683748] (d435i_ransac_imu) StdoutLine: {'line': b'3: \n'}
+[32.683867] (d435i_ransac_imu) StdoutLine: {'line': b'3: OK\n'}
+[32.773501] (-) TimerEvent: {}
+[32.816612] (d435i_ransac_imu) StdoutLine: {'line': b'3/3 Test #3: tilted_ground_regression .........   Passed    6.81 sec\n'}
+[32.835923] (d435i_ransac_imu) StdoutLine: {'line': b'\n'}
+[32.836198] (d435i_ransac_imu) StdoutLine: {'line': b'100% tests passed, 0 tests failed out of 3\n'}
+[32.836328] (d435i_ransac_imu) StdoutLine: {'line': b'\n'}
+[32.836447] (d435i_ransac_imu) StdoutLine: {'line': b'Total Test time (real) =  32.71 sec\n'}
+[32.873712] (-) TimerEvent: {}
+[32.878408] (d435i_ransac_imu) CommandEnded: {'returncode': 0}
+[32.879423] (d435i_ransac_imu) JobEnded: {'identifier': 'd435i_ransac_imu', 'rc': 0}
+[32.888991] (-) EventReactorShutdown: {}

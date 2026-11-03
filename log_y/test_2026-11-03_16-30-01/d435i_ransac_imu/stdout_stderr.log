@@ -1,0 +1,48 @@
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+   Site: y-Shadow-SH16-74
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261103-0830 - Experimental
+UpdateCTestConfiguration  from :/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+Parse Config file:/home/y/ros2_ws/build_y/d435i_ransac_imu/CTestConfiguration.ini
+Test project /home/y/ros2_ws/build_y/d435i_ransac_imu
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: ground_transform_regression
+
+1: Test command: /home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform
+1: Test timeout computed to be: 10000000
+1: Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed
+1/3 Test #1: ground_transform_regression ......   Passed    0.01 sec
+test 2
+    Start 2: ground_segment_regression
+
+2: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+2: Test timeout computed to be: 60
+2: ......
+2: ----------------------------------------------------------------------
+2: Ran 6 tests in 25.407s
+2: 
+2: OK
+2/3 Test #2: ground_segment_regression ........   Passed   25.87 sec
+test 3
+    Start 3: tilted_ground_regression
+
+3: Test command: /usr/bin/python3 "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+3: Test timeout computed to be: 10000000
+3: .
+3: ----------------------------------------------------------------------
+3: Ran 1 test in 6.338s
+3: 
+3: OK
+3/3 Test #3: tilted_ground_regression .........   Passed    6.81 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Total Test time (real) =  32.71 sec
