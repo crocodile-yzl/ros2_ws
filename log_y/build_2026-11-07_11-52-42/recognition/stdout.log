@@ -1,0 +1,6 @@
+Consolidate compiler generated dependencies of target sim_image_publisher
+[ 25%] Built target recognition_node
+[ 50%] Built target recognition_component
+[ 62%] Building CXX object CMakeFiles/sim_image_publisher.dir/src/sim_image_publisher.cpp.o
+Consolidate compiler generated dependencies of target recognition_main
+[ 87%] Built target recognition_main

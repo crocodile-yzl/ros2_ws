@@ -34,7 +34,7 @@ class D435iCloudNode final : public rclcpp::Node {
   D435iCloudNode() : Node("d435i_cloud") {
     width_ = declare_parameter<int>("width", 640);
     height_ = declare_parameter<int>("height", 480);
-    fps_ = declare_parameter<int>("fps", 30);
+    fps_ = declare_parameter<int>("fps", 60);
     max_range_ = declare_parameter<double>("max_range", 3.0);
     serial_ = declare_parameter<std::string>("serial_no", "");
     frame_id_ = declare_parameter<std::string>("frame_id", "camera_depth_optical_frame");

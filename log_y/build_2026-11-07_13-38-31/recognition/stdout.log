@@ -1,0 +1,3 @@
+[ 25%] Built target sim_image_publisher
+[ 37%] Building CXX object CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o
+[ 62%] Built target recognition_node

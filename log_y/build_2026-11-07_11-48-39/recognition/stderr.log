@@ -1,0 +1,7 @@
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:15:10: fatal error: cv_bridge/cv_bridge.hpp: 没有那个文件或目录
+   15 | #include <cv_bridge/cv_bridge.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/recognition_component.dir/build.make:76：CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:141：CMakeFiles/recognition_component.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

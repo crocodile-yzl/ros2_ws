@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000229] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000282] (-) JobUnselected: {'identifier': 'berxel_occupancy'}
+[0.000319] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.000379] (-) JobUnselected: {'identifier': 'd435i_occupancy'}
+[0.000503] (-) JobUnselected: {'identifier': 'd435i_ransac'}
+[0.000537] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.000568] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.000599] (-) JobUnselected: {'identifier': 'recognition'}
+[0.000633] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.000675] (-) JobUnselected: {'identifier': 'stick_detector_cpp'}
+[0.000730] (d435i_ransac_imu) JobQueued: {'identifier': 'd435i_ransac_imu', 'dependencies': OrderedDict()}
+[0.000773] (d435i_ransac_imu) JobStarted: {'identifier': 'd435i_ransac_imu'}
+[0.014622] (d435i_ransac_imu) JobProgress: {'identifier': 'd435i_ransac_imu', 'progress': 'cmake'}
+[0.016512] (d435i_ransac_imu) JobProgress: {'identifier': 'd435i_ransac_imu', 'progress': 'build'}
+[0.017935] (d435i_ransac_imu) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/d435i_ransac_imu', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac_imu', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'y'), ('SNAP_COMMON', '/var/snap/clion/common'), ('npm_config_user_agent', 'npm/11.19.1 node/v24.22.1 linux x64 workspaces/false'), ('XDG_SESSION_TYPE', 'x11'), ('npm_node_execpath', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin/node'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/recognition/lib:/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('npm_config_noproxy', ''), ('HOME', '/home/y'), ('CONDA_SHLVL', '1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_APP_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('SNAP_USER_DATA', '/home/y/snap/clion/531'), ('npm_package_json', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/package.json'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NPM_CONFIG_GLOBAL', 'false'), ('PAGER', 'cat'), ('npm_config_userconfig', '/home/y/.npmrc'), ('NPM_CONFIG_MIN_RELEASE_AGE', '0'), ('npm_config_local_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '2948'), ('LC_CTYPE', 'C.UTF-8'), ('npm_config_yes', ''), ('SYSTEMD_EXEC_PID', '3209'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '531'), ('COLORTERM', ''), ('_CE_M', ''), ('COLOR', '0'), ('_CONDA_ROOT', '/home/y/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43626'), ('NVM_DIR', '/home/y/.nvm'), ('IJ_RESTARTER_LOG', '/home/y/.cache/JetBrains/CLion2026.3/log/restarter.log'), ('NPM_CONFIG_INCLUDE', 'optional'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-4772fdeb-8def-466d-abf2-ec73572bb019'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'y'), ('SNAP_CONTEXT', 'JnxyQzr6WRQOyN0VqZnf5m51xqhA1eI8dJLYi7f7nkmSL2HZ0qGO'), ('npm_config_npm_version', '11.19.1'), ('npm_config_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1'), ('JOURNAL_STREAM', '8:33032'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.3'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('npm_config_registry', 'https://registry.npmmirror.com'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('NPM_CONFIG_STRICT_PEER_DEPS', 'false'), ('npm_config_node_gyp', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js'), ('PATH', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg01pIBJY:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/node_modules/.bin:/home/y/.cache/JetBrains/node_modules/.bin:/home/y/.cache/node_modules/.bin:/home/y/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3185,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3185'), ('NODE', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin/node'), ('CODEX_VERSION', '0.165.0'), ('CODEX_SESSION_ID', '01a1b614-bd0a-71a0-8573-71a1c82f9df3'), ('INVOCATION_ID', 'a77cceb73839453c8e2aa4602cbd0e87'), ('npm_package_name', 'acp-agent'), ('XDG_MENU_PREFIX', 'gnome-'), ('SNAP_DATA', '/var/snap/clion/531'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME20188753'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('npm_lifecycle_script', "'codex-acp'"), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/y/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/recognition:/home/y/ros2_ws/install_y/d435i_ransac_imu:/home/y/ros2_ws/install_y/d435i_ransac:/home/y/ros2_ws/install_y/d435i_occupancy:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('SNAP_COOKIE', 'JnxyQzr6WRQOyN0VqZnf5m51xqhA1eI8dJLYi7f7nkmSL2HZ0qGO'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('npm_package_version', '0.0.0'), ('npm_lifecycle_event', 'npx'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('NODE_USE_SYSTEM_CA', '1'), ('SNAP_NAME', 'clion'), ('CODEX_THREAD_ID', '01a1b614-bd0a-71a0-8573-71a1c82f9df3'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('npm_config_globalconfig', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/etc/npmrc'), ('npm_config_init_module', '/home/y/.npm-init.js'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('NPM_CONFIG_CACHE', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/npm-cache'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac_imu'), ('LOCAL_IP', '192.168.3.106'), ('npm_execpath', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/bin/npm-cli.js'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('SNAP_REAL_HOME', '/home/y'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('npm_config_global_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1'), ('npm_command', 'exec'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/531'), ('npm_config_allow_scripts', ''), ('CONDA_PREFIX', '/home/y/miniconda3'), ('NPM_CONFIG_ENGINE_STRICT', 'false'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('SNAP_APP_NAME', 'clion'), ('NPM_CONFIG_DRY_RUN', 'false'), ('EDITOR', 'vi'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/recognition:/home/y/ros2_ws/install_y/d435i_ransac_imu:/home/y/ros2_ws/install_y/d435i_ransac:/home/y/ros2_ws/install_y/d435i_occupancy:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble'), ('INIT_CWD', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0')]), 'shell': False}
+[0.099135] (-) TimerEvent: {}
+[0.138062] (d435i_ransac_imu) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target test_ground_transform\n'}
+[0.141147] (d435i_ransac_imu) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ground_segment_node\n'}
+[0.148520] (d435i_ransac_imu) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ground_frame_node\n'}
+[0.148674] (d435i_ransac_imu) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target d435i_cloud_node\n'}
+[0.162819] (d435i_ransac_imu) StdoutLine: {'line': b'[ 25%] Built target test_ground_transform\n'}
+[0.174742] (d435i_ransac_imu) StdoutLine: {'line': b'[ 50%] Built target ground_segment_node\n'}
+[0.177684] (d435i_ransac_imu) StdoutLine: {'line': b'[ 75%] Building CXX object CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o\n'}
+[0.177947] (d435i_ransac_imu) StdoutLine: {'line': b'[ 87%] Built target ground_frame_node\n'}
+[0.199281] (-) TimerEvent: {}
+[0.299532] (-) TimerEvent: {}
+[0.399842] (-) TimerEvent: {}
+[0.500098] (-) TimerEvent: {}
+[0.600347] (-) TimerEvent: {}
+[0.700584] (-) TimerEvent: {}
+[0.800902] (-) TimerEvent: {}
+[0.901148] (-) TimerEvent: {}
+[1.001395] (-) TimerEvent: {}
+[1.101697] (-) TimerEvent: {}
+[1.201953] (-) TimerEvent: {}
+[1.302182] (-) TimerEvent: {}
+[1.402437] (-) TimerEvent: {}
+[1.502708] (-) TimerEvent: {}
+[1.602996] (-) TimerEvent: {}
+[1.703243] (-) TimerEvent: {}
+[1.803502] (-) TimerEvent: {}
+[1.903827] (-) TimerEvent: {}
+[2.004160] (-) TimerEvent: {}
+[2.104490] (-) TimerEvent: {}
+[2.204677] (-) TimerEvent: {}
+[2.304880] (-) TimerEvent: {}
+[2.405126] (-) TimerEvent: {}
+[2.505325] (-) TimerEvent: {}
+[2.605544] (-) TimerEvent: {}
+[2.705824] (-) TimerEvent: {}
+[2.806124] (-) TimerEvent: {}
+[2.906343] (-) TimerEvent: {}
+[3.006542] (-) TimerEvent: {}
+[3.106741] (-) TimerEvent: {}
+[3.206937] (-) TimerEvent: {}
+[3.307117] (-) TimerEvent: {}
+[3.407339] (-) TimerEvent: {}
+[3.507545] (-) TimerEvent: {}
+[3.607771] (-) TimerEvent: {}
+[3.708006] (-) TimerEvent: {}
+[3.808242] (-) TimerEvent: {}
+[3.908490] (-) TimerEvent: {}
+[4.008749] (-) TimerEvent: {}
+[4.108971] (-) TimerEvent: {}
+[4.209217] (-) TimerEvent: {}
+[4.309488] (-) TimerEvent: {}
+[4.409757] (-) TimerEvent: {}
+[4.510043] (-) TimerEvent: {}
+[4.610289] (-) TimerEvent: {}
+[4.710550] (-) TimerEvent: {}
+[4.810800] (-) TimerEvent: {}
+[4.911065] (-) TimerEvent: {}
+[5.011313] (-) TimerEvent: {}
+[5.111612] (-) TimerEvent: {}
+[5.211862] (-) TimerEvent: {}
+[5.312137] (-) TimerEvent: {}
+[5.412371] (-) TimerEvent: {}
+[5.512585] (-) TimerEvent: {}
+[5.612816] (-) TimerEvent: {}
+[5.713084] (-) TimerEvent: {}
+[5.813324] (-) TimerEvent: {}
+[5.913523] (-) TimerEvent: {}
+[6.013708] (-) TimerEvent: {}
+[6.113901] (-) TimerEvent: {}
+[6.214136] (-) TimerEvent: {}
+[6.314391] (-) TimerEvent: {}
+[6.414661] (-) TimerEvent: {}
+[6.514963] (-) TimerEvent: {}
+[6.615162] (-) TimerEvent: {}
+[6.715369] (-) TimerEvent: {}
+[6.815553] (-) TimerEvent: {}
+[6.915756] (-) TimerEvent: {}
+[7.015942] (-) TimerEvent: {}
+[7.116137] (-) TimerEvent: {}
+[7.216386] (-) TimerEvent: {}
+[7.316703] (-) TimerEvent: {}
+[7.416925] (-) TimerEvent: {}
+[7.517135] (-) TimerEvent: {}
+[7.617358] (-) TimerEvent: {}
+[7.717576] (-) TimerEvent: {}
+[7.817794] (-) TimerEvent: {}
+[7.918010] (-) TimerEvent: {}
+[8.018213] (-) TimerEvent: {}
+[8.118405] (-) TimerEvent: {}
+[8.218604] (-) TimerEvent: {}
+[8.318818] (-) TimerEvent: {}
+[8.419060] (-) TimerEvent: {}
+[8.519314] (-) TimerEvent: {}
+[8.619503] (-) TimerEvent: {}
+[8.719694] (-) TimerEvent: {}
+[8.761202] (d435i_ransac_imu) StdoutLine: {'line': b'[100%] Linking CXX executable d435i_cloud_node\n'}
+[8.819814] (-) TimerEvent: {}
+[8.920008] (-) TimerEvent: {}
+[9.020207] (-) TimerEvent: {}
+[9.025466] (d435i_ransac_imu) StdoutLine: {'line': b'[100%] Built target d435i_cloud_node\n'}
+[9.043160] (d435i_ransac_imu) CommandEnded: {'returncode': 0}
+[9.045358] (d435i_ransac_imu) JobProgress: {'identifier': 'd435i_ransac_imu', 'progress': 'install'}
+[9.060259] (d435i_ransac_imu) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/d435i_ransac_imu'], 'cwd': '/home/y/ros2_ws/build_y/d435i_ransac_imu', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('CONDA_PROMPT_MODIFIER', '(base)'), ('CODEX_CI', '1'), ('LANGUAGE', 'zh_CN:zh'), ('SNAP_INSTANCE_KEY', ''), ('USER', 'y'), ('SNAP_COMMON', '/var/snap/clion/common'), ('npm_config_user_agent', 'npm/11.19.1 node/v24.22.1 linux x64 workspaces/false'), ('XDG_SESSION_TYPE', 'x11'), ('npm_node_execpath', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin/node'), ('SNAP_UID', '1000'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/y/ros2_ws/install_y/recognition/lib:/home/y/ros2_ws/install_y/berxel_camera_ros2/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/y/berxel-sdk/libs'), ('npm_config_noproxy', ''), ('HOME', '/home/y'), ('CONDA_SHLVL', '1'), ('SNAP_LIBRARY_PATH', '/var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32'), ('SNAP_APP_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('SNAP_USER_DATA', '/home/y/snap/clion/531'), ('npm_package_json', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/package.json'), ('NVM_BIN', '/home/y/.nvm/versions/node/v20.20.2/bin'), ('NVM_INC', '/home/y/.nvm/versions/node/v20.20.2/include/node'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/clion_clion.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('NPM_CONFIG_GLOBAL', 'false'), ('PAGER', 'cat'), ('npm_config_userconfig', '/home/y/.npmrc'), ('NPM_CONFIG_MIN_RELEASE_AGE', '0'), ('npm_config_local_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0'), ('ROS_IP', '192.168.3.106'), ('MANAGERPID', '2948'), ('LC_CTYPE', 'C.UTF-8'), ('npm_config_yes', ''), ('SYSTEMD_EXEC_PID', '3209'), ('NO_COLOR', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('SNAP_REVISION', '531'), ('COLORTERM', ''), ('_CE_M', ''), ('COLOR', '0'), ('_CONDA_ROOT', '/home/y/miniconda3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '43626'), ('NVM_DIR', '/home/y/.nvm'), ('IJ_RESTARTER_LOG', '/home/y/.cache/JetBrains/CLion2026.3/log/restarter.log'), ('NPM_CONFIG_INCLUDE', 'optional'), ('COLCON_PREFIX_PATH', '/home/y/ros2_ws/install_y'), ('CODEX_TOOL_CALL_ID', 'exec-4772fdeb-8def-466d-abf2-ec73572bb019'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'y'), ('SNAP_CONTEXT', 'JnxyQzr6WRQOyN0VqZnf5m51xqhA1eI8dJLYi7f7nkmSL2HZ0qGO'), ('npm_config_npm_version', '11.19.1'), ('npm_config_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1'), ('JOURNAL_STREAM', '8:33032'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('SNAP_VERSION', '2026.3'), ('CODEX_APPLY_PATCH_PRESERVE_LINE_ENDINGS', '1'), ('npm_config_registry', 'https://registry.npmmirror.com'), ('USERNAME', 'y'), ('TERM', 'dumb'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('SNAP_INSTANCE_NAME', 'clion'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('NPM_CONFIG_STRICT_PEER_DEPS', 'false'), ('npm_config_node_gyp', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js'), ('PATH', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/y/.local/bin:/home/y/.codex/tmp/arg0-linux/codex-arg01pIBJY:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex-linux-x64/vendor/x86_64-unknown-linux-musl/codex-path:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/node_modules/.bin:/home/y/.cache/JetBrains/node_modules/.bin:/home/y/.cache/node_modules/.bin:/home/y/node_modules/.bin:/home/node_modules/.bin:/node_modules/.bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin:/home/y/.local/bin:/opt/ros/humble/bin:/home/y/miniconda3/bin:/home/y/miniconda3/condabin:/home/y/.nvm/versions/node/v20.20.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/y/.fishros/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/3185,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/3185'), ('NODE', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/bin/node'), ('CODEX_VERSION', '0.165.0'), ('CODEX_SESSION_ID', '01a1b614-bd0a-71a0-8573-71a1c82f9df3'), ('INVOCATION_ID', 'a77cceb73839453c8e2aa4602cbd0e87'), ('npm_package_name', 'acp-agent'), ('XDG_MENU_PREFIX', 'gnome-'), ('SNAP_DATA', '/var/snap/clion/531'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('CODEX_SANDBOX_NETWORK_DISABLED', '1'), ('DESKTOP_STARTUP_ID', 'CLion-restart_TIME20188753'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('GH_PAGER', 'cat'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', ''), ('npm_lifecycle_script', "'codex-acp'"), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SNAP_USER_COMMON', '/home/y/snap/clion/common'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('SNAP_ARCH', 'amd64'), ('AMENT_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/stick_detector:/home/y/ros2_ws/install_y/recognition:/home/y/ros2_ws/install_y/d435i_ransac_imu:/home/y/ros2_ws/install_y/d435i_ransac:/home/y/ros2_ws/install_y/d435i_occupancy:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/opt/ros/humble'), ('SNAP_COOKIE', 'JnxyQzr6WRQOyN0VqZnf5m51xqhA1eI8dJLYi7f7nkmSL2HZ0qGO'), ('CONDA_PYTHON_EXE', '/home/y/miniconda3/bin/python'), ('SHELL', '/bin/bash'), ('npm_package_version', '0.0.0'), ('npm_lifecycle_event', 'npx'), ('QT_ACCESSIBILITY', '1'), ('SNAP_REEXEC', ''), ('ROS_MASTER_URI', 'http://192.168.1.103:11311'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('CONDA_DEFAULT_ENV', 'base'), ('NODE_USE_SYSTEM_CA', '1'), ('SNAP_NAME', 'clion'), ('CODEX_THREAD_ID', '01a1b614-bd0a-71a0-8573-71a1c82f9df3'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('_CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('npm_config_globalconfig', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/etc/npmrc'), ('npm_config_init_module', '/home/y/.npm-init.js'), ('GIT_PAGER', 'cat'), ('QT_IM_MODULE', 'ibus'), ('NPM_CONFIG_CACHE', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/npm-cache'), ('PWD', '/home/y/ros2_ws/build_y/d435i_ransac_imu'), ('LOCAL_IP', '192.168.3.106'), ('npm_execpath', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1/lib/node_modules/npm/bin/npm-cli.js'), ('LC_ALL', 'C.UTF-8'), ('CODEX_MANAGED_PACKAGE_ROOT', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0/node_modules/@openai/codex'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('CONDA_EXE', '/home/y/miniconda3/bin/conda'), ('SNAP_REAL_HOME', '/home/y'), ('NVM_CD_FLAGS', ''), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('npm_config_global_prefix', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/.runtimes/node/24.22.1'), ('npm_command', 'exec'), ('SNAP_EUID', '1000'), ('PYTHONPATH', '/home/y/ros2_ws/install_y/stick_detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SNAP', '/snap/clion/531'), ('npm_config_allow_scripts', ''), ('CONDA_PREFIX', '/home/y/miniconda3'), ('NPM_CONFIG_ENGINE_STRICT', 'false'), ('COLCON', '1'), ('CODEX_MANAGED_BY_NPM', '1'), ('BERXEL_SDK_LIBRARY', '/home/y/berxel-sdk'), ('SNAP_APP_NAME', 'clion'), ('NPM_CONFIG_DRY_RUN', 'false'), ('EDITOR', 'vi'), ('CMAKE_PREFIX_PATH', '/home/y/ros2_ws/install_y/stick_detector_cpp:/home/y/ros2_ws/install_y/recognition:/home/y/ros2_ws/install_y/d435i_ransac_imu:/home/y/ros2_ws/install_y/d435i_ransac:/home/y/ros2_ws/install_y/d435i_occupancy:/home/y/ros2_ws/install_y/berxel_occupancy:/home/y/ros2_ws/install_y/berxel_camera_ros2:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble'), ('INIT_CWD', '/home/y/.cache/JetBrains/CLion2026.3/acp-agents/codex-acp/2.5.0')]), 'shell': False}
+[9.073162] (d435i_ransac_imu) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.074412] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/ground_segment_node\n'}
+[9.075086] (d435i_ransac_imu) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/d435i_cloud_node\n'}
+[9.075981] (d435i_ransac_imu) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/d435i_cloud_node" to ""\n'}
+[9.076624] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/ground_frame_node\n'}
+[9.076844] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/launch\n'}
+[9.077136] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/launch/d435i_ransac_imu.launch.py\n'}
+[9.077270] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/config\n'}
+[9.077481] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/config/ransac.yaml\n'}
+[9.077658] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/rviz\n'}
+[9.077719] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/rviz/ground_segment.rviz\n'}
+[9.077843] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/package_run_dependencies/d435i_ransac_imu\n'}
+[9.078136] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/parent_prefix_path/d435i_ransac_imu\n'}
+[9.079451] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/ament_prefix_path.sh\n'}
+[9.079803] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/ament_prefix_path.dsv\n'}
+[9.079875] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/path.sh\n'}
+[9.079937] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/path.dsv\n'}
+[9.079984] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.bash\n'}
+[9.080029] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.sh\n'}
+[9.080074] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.zsh\n'}
+[9.080165] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.dsv\n'}
+[9.080210] (d435i_ransac_imu) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/package.dsv\n'}
+[9.080256] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/packages/d435i_ransac_imu\n'}
+[9.080355] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/cmake/d435i_ransac_imuConfig.cmake\n'}
+[9.080689] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/cmake/d435i_ransac_imuConfig-version.cmake\n'}
+[9.080738] (d435i_ransac_imu) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/package.xml\n'}
+[9.082384] (d435i_ransac_imu) CommandEnded: {'returncode': 0}
+[9.120339] (-) TimerEvent: {}
+[9.121659] (d435i_ransac_imu) JobEnded: {'identifier': 'd435i_ransac_imu', 'rc': 0}
+[9.122650] (-) EventReactorShutdown: {}

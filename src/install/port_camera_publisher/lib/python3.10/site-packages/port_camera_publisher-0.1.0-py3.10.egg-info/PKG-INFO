@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: port-camera-publisher
+Version: 0.1.0
+Summary: 从视频传输端口采集图像并发布到 /video 话题
+Home-page: UNKNOWN
+Maintainer: dev
+Maintainer-email: dev@example.com
+License: Apache-2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

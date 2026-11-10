@@ -1,0 +1,2 @@
+Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/recognition -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/recognition
+Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/recognition -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/recognition

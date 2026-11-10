@@ -1,0 +1,4 @@
+[console_scripts]
+cloud_sim_node = stick_detector.cloud_sim_node:main
+stick_detector_node = stick_detector.stick_detector_node:main
+

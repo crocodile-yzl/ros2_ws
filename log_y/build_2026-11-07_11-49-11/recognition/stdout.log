@@ -1,0 +1,6 @@
+Consolidate compiler generated dependencies of target recognition_component
+[ 33%] Built target recognition_node
+[ 50%] Building CXX object CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o
+[ 66%] Linking CXX shared library librecognition_component.so
+[ 66%] Built target recognition_component
+[ 83%] Building CXX object CMakeFiles/recognition_main.dir/src/main.cpp.o
