@@ -1,0 +1,25 @@
+video_publisher:
+  ros__parameters:
+    # USB 相机：0 = /dev/video0，1 = /dev/video1 …（容器内先确认 ls /dev/video*）
+    source: "0"
+    topic: "/video"
+    frame_id: "camera_link"
+    publish_rate: 30.0
+    # 期望分辨率；相机不支持时驱动会回落到最近的支持值，启动日志打印实际值
+    width: 1280
+    height: 720
+    # 相机采集帧率（0 = 不改驱动设置）
+    camera_fps: 30.0
+    # 像素格式：MJPG 是 720p/1080p 跑满 30fps 的前提；YUYV 延迟更低但带宽占用大
+    fourcc: "MJPG"
+    encoding: "bgr8"
+    # false -> BEST_EFFORT（默认，适合实时视频，不堆积旧帧）
+    reliable: false
+    queue_size: 1
+    publish_compressed: true
+    jpeg_quality: 80
+    # 以下仅 RTSP 源使用
+    rtsp_transport: "tcp"
+    reconnect_delay: 2.0
+    max_read_failures: 30
+    log_every_n: 150

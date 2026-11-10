@@ -1,0 +1,150 @@
+[0.013s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[0.086s] Consolidate compiler generated dependencies of target recognition_component
+[0.101s] [ 25%] Built target recognition_node
+[0.101s] [ 50%] Built target sim_image_publisher
+[0.103s] [ 62%] Building CXX object CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o
+[2.823s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.823s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.824s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.824s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.824s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.824s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.824s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.824s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.824s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp: In constructor ‘recognition::RecognitionNode::RecognitionNode(const rclcpp::NodeOptions&)’:
+[2.824s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.824s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.824s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.824s]    62 |       image_topic_.c_str(), target_name_.c_str(),
+[2.824s]    63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+[2.824s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.824s]       |                                    |
+[2.824s]       |                                    int64_t {aka long int}
+[2.824s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:55: note: format string is defined here
+[2.824s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.824s]       |                                                      ~^
+[2.824s]       |                                                       |
+[2.824s]       |                                                       int
+[2.824s]       |                                                      %ld
+[2.824s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.824s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.825s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.825s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.825s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.825s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.825s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.825s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.825s]    62 |       image_topic_.c_str(), target_name_.c_str(),
+[2.825s]    63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+[2.825s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.825s]       |                                                                      |
+[2.825s]       |                                                                      int64_t {aka long int}
+[2.825s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:58: note: format string is defined here
+[2.825s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.826s]       |                                                         ~^
+[2.826s]       |                                                          |
+[2.826s]       |                                                          int
+[2.826s]       |                                                         %ld
+[2.826s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.826s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.826s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.826s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.826s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.826s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.826s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.826s] ......
+[2.826s]    64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+[2.827s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.827s]       |                                    |
+[2.827s]       |                                    int64_t {aka long int}
+[2.827s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:65: note: format string is defined here
+[2.827s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.827s]       |                                                                ~^
+[2.827s]       |                                                                 |
+[2.827s]       |                                                                 int
+[2.827s]       |                                                                %ld
+[2.827s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.827s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.827s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.827s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.827s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.828s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.828s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.828s] ......
+[2.828s]    64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+[2.828s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.828s]       |                                                                     |
+[2.828s]       |                                                                     int64_t {aka long int}
+[2.828s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:71: note: format string is defined here
+[2.828s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.828s]       |                                                                      ~^
+[2.828s]       |                                                                       |
+[2.828s]       |                                                                       int
+[2.828s]       |                                                                      %ld
+[9.692s] [ 75%] Linking CXX shared library librecognition_component.so
+[10.284s] [ 75%] Built target recognition_component
+[10.319s] [ 87%] Linking CXX executable recognition_main
+[10.836s] [100%] Built target recognition_main
+[10.850s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[10.868s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/recognition
+[10.880s] -- Install configuration: ""
+[10.880s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_node
+[10.881s] -- Installing: /home/y/ros2_ws/install_y/recognition/lib/librecognition_component.so
+[10.888s] -- Set runtime path of "/home/y/ros2_ws/install_y/recognition/lib/librecognition_component.so" to ""
+[10.889s] -- Installing: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_main
+[10.890s] -- Set runtime path of "/home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_main" to ""
+[10.890s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/sim_image_publisher
+[10.890s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/config
+[10.890s] -- Installing: /home/y/ros2_ws/install_y/recognition/share/recognition/config/recognition.yaml
+[10.890s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch/recognition.launch.py
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/rviz
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/rviz/recognition.rviz
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/package_run_dependencies/recognition
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/parent_prefix_path/recognition
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.sh
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.dsv
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.sh
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.dsv
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.bash
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.sh
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.zsh
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.dsv
+[10.891s] -- Installing: /home/y/ros2_ws/install_y/recognition/share/recognition/package.dsv
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/packages/recognition
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/rclcpp_components/recognition
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig.cmake
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig-version.cmake
+[10.891s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/package.xml
+[10.893s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/recognition

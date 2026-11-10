@@ -1,0 +1,32 @@
+[0.046s] Invoking command in '/home/y/ros2_ws/src/build/d435i_occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_occupancy -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_occupancy
+[0.853s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.853s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.853s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.853s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.854s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.854s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.854s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.854s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.854s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.854s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.854s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.854s] -- Found visualization_msgs: 4.9.1 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.900s] Traceback (most recent call last):
+[0.902s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 22, in <module>
+[0.902s]     from catkin_pkg.package import parse_package_string
+[0.902s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.908s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.908s]   execute_process(/home/y/miniconda3/bin/python3
+[0.908s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.909s]   /home/y/ros2_ws/src/d435i_occupancy/package.xml
+[0.909s]   /home/y/ros2_ws/src/build/d435i_occupancy/ament_cmake_core/package.cmake)
+[0.909s]   returned error code 1
+[0.909s] Call Stack (most recent call first):
+[0.909s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.909s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package.cmake:63 (ament_package_xml)
+[0.909s]   CMakeLists.txt:38 (ament_package)
+[0.909s] 
+[0.910s] [0m
+[0.910s] -- Configuring incomplete, errors occurred!
+[0.910s] See also "/home/y/ros2_ws/src/build/d435i_occupancy/CMakeFiles/CMakeOutput.log".

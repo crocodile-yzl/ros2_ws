@@ -1,0 +1,90 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+  - Class: rviz_common/Views
+    Name: Views
+Visualization Manager:
+  Class: ""
+  Global Options:
+    Background Color: 35; 35; 40
+    Fixed Frame: occupancy_map
+    Frame Rate: 15
+  Enabled: true
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/FocusCamera
+  Displays:
+    - Class: rviz_default_plugins/MarkerArray
+      Name: Camera - cyan / Look direction - green
+      Enabled: true
+      Topic:
+        Value: /occupancy/camera_reference
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Namespaces:
+        camera_reference: true
+    - Class: rviz_default_plugins/Axes
+      Name: Map axes - X red / Y green / Z blue
+      Enabled: true
+      Reference Frame: occupancy_map
+      Length: 0.7
+      Radius: 0.015
+    - Class: rviz_default_plugins/Grid
+      Name: Ground z=0 - grid spacing 0.5m
+      Enabled: true
+      Cell Size: 0.5
+      Plane Cell Count: 20
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Orange - occupied including floor
+      Enabled: true
+      Topic:
+        Value: /occupancy/occupied
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Style: Boxes
+      Size (m): 0.09
+      Color Transformer: FlatColor
+      Color: 255; 180; 60
+      Alpha: 0.5
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Red - obstacles 0.15 to 1.8m
+      Enabled: true
+      Topic:
+        Value: /occupancy/obstacles
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Style: Boxes
+      Size (m): 0.10
+      Color Transformer: FlatColor
+      Color: 255; 50; 50
+    - Class: rviz_default_plugins/PointCloud2
+      Name: Blue - observed free space
+      Enabled: false
+      Topic:
+        Value: /occupancy/free
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Style: Points
+      Size (Pixels): 2
+      Color Transformer: FlatColor
+      Color: 60; 180; 255
+    - Class: rviz_default_plugins/Map
+      Name: Height band projection
+      Enabled: false
+      Topic:
+        Value: /occupancy/projection
+        Reliability Policy: Reliable
+        Durability Policy: Transient Local
+      Alpha: 0.5
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 5
+      Focal Point: {X: 1.5, Y: 0, Z: 0.3}
+      Pitch: 0.6
+      Yaw: 0.8
+Window Geometry:
+  Width: 1280
+  Height: 800

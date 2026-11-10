@@ -1,0 +1,1 @@
+Invoking command in '/home/y/ros2_ws/src/build/stick_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/stick_detector_cpp

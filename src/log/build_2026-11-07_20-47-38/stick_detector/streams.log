@@ -1,0 +1,52 @@
+[1.366s] Invoking command in '/home/y/ros2_ws/src/stick_detector': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stick_detector build --build-base /home/y/ros2_ws/src/build/stick_detector/build install --record /home/y/ros2_ws/src/build/stick_detector/install.log --single-version-externally-managed install_data
+[1.643s] running egg_info
+[1.644s] creating ../build/stick_detector/stick_detector.egg-info
+[1.644s] writing ../build/stick_detector/stick_detector.egg-info/PKG-INFO
+[1.644s] writing dependency_links to ../build/stick_detector/stick_detector.egg-info/dependency_links.txt
+[1.644s] writing entry points to ../build/stick_detector/stick_detector.egg-info/entry_points.txt
+[1.644s] writing requirements to ../build/stick_detector/stick_detector.egg-info/requires.txt
+[1.644s] writing top-level names to ../build/stick_detector/stick_detector.egg-info/top_level.txt
+[1.645s] writing manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+[1.647s] reading manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+[1.648s] writing manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+[1.648s] running build
+[1.648s] running build_py
+[1.648s] creating /home/y/ros2_ws/src/build/stick_detector/build
+[1.648s] creating /home/y/ros2_ws/src/build/stick_detector/build/lib
+[1.648s] creating /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+[1.648s] copying stick_detector/geometry_core.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+[1.649s] copying stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+[1.649s] copying stick_detector/stick_detector_node.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+[1.649s] copying stick_detector/__init__.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+[1.650s] running install
+[1.650s] running install_lib
+[1.651s] creating /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+[1.651s] copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/geometry_core.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+[1.651s] copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+[1.651s] copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/stick_detector_node.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+[1.651s] copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/__init__.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+[1.652s] byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/geometry_core.py to geometry_core.cpython-310.pyc
+[1.654s] byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/cloud_sim_node.py to cloud_sim_node.cpython-310.pyc
+[1.656s] byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/stick_detector_node.py to stick_detector_node.cpython-310.pyc
+[1.661s] byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/__init__.py to __init__.cpython-310.pyc
+[1.662s] running install_data
+[1.662s] creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index
+[1.662s] creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index
+[1.662s] creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index/packages
+[1.662s] copying resource/stick_detector -> /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index/packages
+[1.662s] copying package.xml -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector
+[1.662s] creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+[1.662s] copying launch/stick_detect.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+[1.663s] copying launch/sim_test.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+[1.663s] copying launch/camera_with_detector.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+[1.663s] creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/config
+[1.663s] copying config/stick_detector.yaml -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/config
+[1.664s] creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/rviz
+[1.664s] copying rviz/stick_detector.rviz -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/rviz
+[1.664s] running install_egg_info
+[1.666s] Copying ../build/stick_detector/stick_detector.egg-info to /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info
+[1.667s] running install_scripts
+[1.690s] Installing cloud_sim_node script to /home/y/ros2_ws/src/install/stick_detector/lib/stick_detector
+[1.690s] Installing stick_detector_node script to /home/y/ros2_ws/src/install/stick_detector/lib/stick_detector
+[1.691s] writing list of installed files to '/home/y/ros2_ws/src/build/stick_detector/install.log'
+[1.715s] Invoked command in '/home/y/ros2_ws/src/stick_detector' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stick_detector build --build-base /home/y/ros2_ws/src/build/stick_detector/build install --record /home/y/ros2_ws/src/build/stick_detector/install.log --single-version-externally-managed install_data

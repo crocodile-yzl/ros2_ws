@@ -1,0 +1,32 @@
+# recognition 参数（多目标·中值标定版，可直接修改后重启节点生效）
+# 标定方法：从实拍图（stickers_awb.png，OpenCV 流水线+AWB 收敛）读出图标像素
+# 的 HSV 中值，以中值为中心给兼容范围（H±10 / S±30~45 / V±40~60）：
+#   medicine 药品-红十字包: 中值 H176 S131 V139
+#   food     食品-绿烤鸡:   中值 H50  S56  V147
+#   instrument 仪器-蓝烧瓶: 中值 H107 S121 V119
+#   tools    工具-灰锤扳手: 灰色与货架同色域，颜色法不可分 -> use_blackhat
+#             （blackhat 提白底暗结构 + 核心修剪 + 宽高比/中性灰/白环验证）
+# 误检压制不用绝对面积阈值（透视下面积变化大），改用：
+#   relative_min_ratio: 同帧同类相对过滤（候选 < 同类最大框 20% 丢弃，尺度不变量）
+recognition_node:
+  ros__parameters:
+    image_topic: "/video"
+    target_names: [medicine, food, instrument, tools]
+    # ---- 每目标 HSV 兼容范围（H 支持环形：h_low > h_high 即跨 0）----
+    h_low:    [166, 40, 97, 0]
+    h_high:   [6,   60, 117, 179]
+    s_low:    [86,  26, 81, 0]
+    s_high:   [176, 86, 161, 50]
+    v_low:    [99,  87, 59, 90]
+    v_high:   [179, 207, 179, 195]
+    # ---- tools 走白底灰图标流水线；形状验证：仪器=倒8(腐蚀分两瓣) 工具=X型 ----
+    use_blackhat: [false, false, false, true]
+    shape: [none, none, eight, cross]
+    # ---- 每目标填充率下限（缺省 0.30）：
+    #      仪器双烧瓶+反光合并后 fill≈0.26，把关交给倒8形状验证 ----
+    min_fills: [0.30, 0.30, 0.20, 0.30]
+    # ---- 共享参数 ----
+    min_fill_ratio: 0.30
+    merge_gap: 12
+    relative_min_ratio: 0.20
+    publish_annotated: true

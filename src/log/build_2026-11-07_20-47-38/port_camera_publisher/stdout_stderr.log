@@ -1,0 +1,53 @@
+running egg_info
+creating ../build/port_camera_publisher/port_camera_publisher.egg-info
+writing ../build/port_camera_publisher/port_camera_publisher.egg-info/PKG-INFO
+writing dependency_links to ../build/port_camera_publisher/port_camera_publisher.egg-info/dependency_links.txt
+writing entry points to ../build/port_camera_publisher/port_camera_publisher.egg-info/entry_points.txt
+writing requirements to ../build/port_camera_publisher/port_camera_publisher.egg-info/requires.txt
+writing top-level names to ../build/port_camera_publisher/port_camera_publisher.egg-info/top_level.txt
+writing manifest file '../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+reading manifest file '../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+writing manifest file '../build/port_camera_publisher/port_camera_publisher.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/y/ros2_ws/src/build/port_camera_publisher/build
+creating /home/y/ros2_ws/src/build/port_camera_publisher/build/lib
+creating /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+copying port_camera_publisher/__init__.py -> /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+copying port_camera_publisher/tcp_jpeg_receiver_node.py -> /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+copying port_camera_publisher/utils.py -> /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+copying port_camera_publisher/check_topic.py -> /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+copying port_camera_publisher/video_publisher_node.py -> /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher
+running install
+running install_lib
+creating /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+copying /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher/__init__.py -> /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+copying /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher/tcp_jpeg_receiver_node.py -> /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+copying /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher/utils.py -> /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+copying /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher/check_topic.py -> /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+copying /home/y/ros2_ws/src/build/port_camera_publisher/build/lib/port_camera_publisher/video_publisher_node.py -> /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher
+byte-compiling /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher/tcp_jpeg_receiver_node.py to tcp_jpeg_receiver_node.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher/utils.py to utils.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher/check_topic.py to check_topic.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher/video_publisher_node.py to video_publisher_node.cpython-310.pyc
+running install_data
+creating /home/y/ros2_ws/src/install/port_camera_publisher/share/ament_index
+creating /home/y/ros2_ws/src/install/port_camera_publisher/share/ament_index/resource_index
+creating /home/y/ros2_ws/src/install/port_camera_publisher/share/ament_index/resource_index/packages
+copying resource/port_camera_publisher -> /home/y/ros2_ws/src/install/port_camera_publisher/share/ament_index/resource_index/packages
+copying package.xml -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher
+creating /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/launch
+copying launch/video_publisher.launch.py -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/launch
+copying launch/d435i_video.launch.py -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/launch
+copying launch/tcp_jpeg_receiver.launch.py -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/launch
+creating /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/config
+copying config/video_publisher.yaml -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/config
+copying config/tcp_jpeg_receiver.yaml -> /home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/config
+running install_egg_info
+Copying ../build/port_camera_publisher/port_camera_publisher.egg-info to /home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages/port_camera_publisher-0.1.0-py3.10.egg-info
+running install_scripts
+Installing check_video script to /home/y/ros2_ws/src/install/port_camera_publisher/lib/port_camera_publisher
+Installing tcp_jpeg_receiver script to /home/y/ros2_ws/src/install/port_camera_publisher/lib/port_camera_publisher
+Installing video_publisher script to /home/y/ros2_ws/src/install/port_camera_publisher/lib/port_camera_publisher
+writing list of installed files to '/home/y/ros2_ws/src/build/port_camera_publisher/install.log'

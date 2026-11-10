@@ -1,0 +1,116 @@
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp: In constructor ‘recognition::RecognitionNode::RecognitionNode(const rclcpp::NodeOptions&)’:
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   61 |       image_topic_.c_str(), target_name_.c_str(),
+   62 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    int64_t {aka long int}
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:55: note: format string is defined here
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |                                                      ~^
+      |                                                       |
+      |                                                       int
+      |                                                      %ld
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   61 |       image_topic_.c_str(), target_name_.c_str(),
+   62 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                      |
+      |                                                                      int64_t {aka long int}
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:58: note: format string is defined here
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |                                                         ~^
+      |                                                          |
+      |                                                          int
+      |                                                         %ld
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+......
+   63 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                    |
+      |                                    int64_t {aka long int}
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:65: note: format string is defined here
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |                                                                ~^
+      |                                                                 |
+      |                                                                 int
+      |                                                                %ld
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+......
+   63 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                                                     |
+      |                                                                     int64_t {aka long int}
+/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:60:71: note: format string is defined here
+   60 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+      |                                                                      ~^
+      |                                                                       |
+      |                                                                       int
+      |                                                                      %ld
+/home/y/ros2_ws/src/recognition/src/main.cpp:3:10: fatal error: recognition/recognition_node.hpp: 没有那个文件或目录
+    3 | #include <recognition/recognition_node.hpp>
+      |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[2]: *** [CMakeFiles/recognition_main.dir/build.make:76：CMakeFiles/recognition_main.dir/src/main.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/recognition_main.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

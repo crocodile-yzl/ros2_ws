@@ -1,3 +1,155 @@
-Start testing: Nov 03 16:30 CST
+Start testing: Nov 07 20:58 CST
 ----------------------------------------------------------
-End testing: Nov 03 16:30 CST
+1/3 Testing: ground_transform_regression
+1/3 Test: ground_transform_regression
+Command: "/home/y/ros2_ws/build_y/d435i_ransac_imu/test_ground_transform"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"ground_transform_regression" start time: Nov 07 20:58 CST
+Output:
+----------------------------------------------------------
+Ground transform pitch, roll, handedness, obstacle height and invalid plane checks passed
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ground_transform_regression" end time: Nov 07 20:58 CST
+"ground_transform_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: ground_segment_regression
+2/3 Test: ground_segment_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"ground_segment_regression" start time: Nov 07 20:58 CST
+Output:
+----------------------------------------------------------
+EEEEEE
+======================================================================
+ERROR: test_ground_beside_dominant_wall (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 105, in test_ground_beside_dominant_wall
+    self.check_cloud(wall=True)
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 79, in init
+    _rclpy.rclpy_logging_configure(self.__context)
+RuntimeError: Failed opening file /home/y/.ros/log/python3_31_1794056308285.log for writing: Read-only file system
+
+======================================================================
+ERROR: test_ground_is_below_camera (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 111, in test_ground_is_below_camera
+    self.check_cloud(ceiling=True)
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 70, in init
+    raise RuntimeError('Context.init() must only be called once')
+RuntimeError: Context.init() must only be called once
+
+======================================================================
+ERROR: test_horizontal_camera_normal_direction (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 108, in test_horizontal_camera_normal_direction
+    self.check_cloud()
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 70, in init
+    raise RuntimeError('Context.init() must only be called once')
+RuntimeError: Context.init() must only be called once
+
+======================================================================
+ERROR: test_noisy_wall_is_not_a_floor (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 120, in test_noisy_wall_is_not_a_floor
+    self.check_cloud(wall_only=True, noisy_wall=True)
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 70, in init
+    raise RuntimeError('Context.init() must only be called once')
+RuntimeError: Context.init() must only be called once
+
+======================================================================
+ERROR: test_padded_organized_cloud_manual_mode (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 114, in test_padded_organized_cloud_manual_mode
+    self.check_cloud(organized=True, manual=True)
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 70, in init
+    raise RuntimeError('Context.init() must only be called once')
+RuntimeError: Context.init() must only be called once
+
+======================================================================
+ERROR: test_visible_cloud_without_floor (__main__.GroundSegmentTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 117, in test_visible_cloud_without_floor
+    self.check_cloud(wall_only=True)
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_ground_segment.py", line 23, in check_cloud
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 70, in init
+    raise RuntimeError('Context.init() must only be called once')
+RuntimeError: Context.init() must only be called once
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.068s
+
+FAILED (errors=6)
+<end of output>
+Test time =   0.41 sec
+----------------------------------------------------------
+Test Failed.
+"ground_segment_regression" end time: Nov 07 20:58 CST
+"ground_segment_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: tilted_ground_regression
+3/3 Test: tilted_ground_regression
+Command: "/usr/bin/python3" "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py" "/home/y/ros2_ws/build_y/d435i_ransac_imu/ground_segment_node"
+Directory: /home/y/ros2_ws/build_y/d435i_ransac_imu
+"tilted_ground_regression" start time: Nov 07 20:58 CST
+Output:
+----------------------------------------------------------
+E
+======================================================================
+ERROR: test_tilted_floor_and_obstacle (__main__.GroundSegmentRegression)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/y/ros2_ws/src/d435i_ransac_imu/test/test_tilted_ground.py", line 19, in test_tilted_floor_and_obstacle
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 79, in init
+    _rclpy.rclpy_logging_configure(self.__context)
+RuntimeError: Failed opening file /home/y/.ros/log/python3_55_1794056308607.log for writing: Read-only file system
+
+----------------------------------------------------------------------
+Ran 1 test in 0.056s
+
+FAILED (errors=1)
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Failed.
+"tilted_ground_regression" end time: Nov 07 20:58 CST
+"tilted_ground_regression" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Nov 07 20:58 CST

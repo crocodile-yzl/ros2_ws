@@ -1,0 +1,1 @@
+Invoking command in '/home/y/ros2_ws/src/build/berxel_camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/berxel_camera_ros2

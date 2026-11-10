@@ -1,0 +1,6 @@
+source;share/stick_detector/hook/pythonpath.ps1
+source;share/stick_detector/hook/pythonpath.dsv
+source;share/stick_detector/hook/pythonpath.sh
+source;share/stick_detector/hook/ament_prefix_path.ps1
+source;share/stick_detector/hook/ament_prefix_path.dsv
+source;share/stick_detector/hook/ament_prefix_path.sh

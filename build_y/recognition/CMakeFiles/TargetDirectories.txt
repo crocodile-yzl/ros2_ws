@@ -1,0 +1,13 @@
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/uninstall.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/recognition_uninstall.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/recognition_component.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/recognition_node.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/recognition_main.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/sim_image_publisher.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/test.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/edit_cache.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/rebuild_cache.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/list_install_components.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/install.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/install/local.dir
+/home/y/ros2_ws/build_y/recognition/CMakeFiles/install/strip.dir

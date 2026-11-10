@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[0.101s] [ 12%] Building CXX object CMakeFiles/sim_image_publisher.dir/src/sim_image_publisher.cpp.o
+[0.102s] [ 37%] Built target recognition_node
+[0.102s] [ 62%] Built target recognition_component
+[0.140s] [ 87%] Built target recognition_main
+[5.074s] [100%] Linking CXX executable sim_image_publisher
+[5.646s] [100%] Built target sim_image_publisher
+[5.659s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[5.674s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/recognition
+[5.682s] -- Install configuration: ""
+[5.682s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_node
+[5.682s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/librecognition_component.so
+[5.683s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_main
+[5.683s] -- Installing: /home/y/ros2_ws/install_y/recognition/lib/recognition/sim_image_publisher
+[5.685s] -- Set runtime path of "/home/y/ros2_ws/install_y/recognition/lib/recognition/sim_image_publisher" to ""
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/config
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/config/recognition.yaml
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch/recognition.launch.py
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/package_run_dependencies/recognition
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/parent_prefix_path/recognition
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.sh
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.dsv
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.sh
+[5.685s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.dsv
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.bash
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.sh
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.zsh
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.dsv
+[5.686s] -- Installing: /home/y/ros2_ws/install_y/recognition/share/recognition/package.dsv
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/packages/recognition
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/rclcpp_components/recognition
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig.cmake
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig-version.cmake
+[5.686s] -- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/package.xml
+[5.687s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/y/ros2_ws/build_y/recognition

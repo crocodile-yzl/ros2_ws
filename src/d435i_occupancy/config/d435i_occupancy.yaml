@@ -1,0 +1,38 @@
+d435i_occupancy:
+  ros__parameters:
+    # 相机安装：固定离地 0.90m、向下俯视 34°（同 berxel 实验，按实际安装改）
+    camera_height: 0.90
+    camera_pitch_deg: 34.0
+    resolution: 0.10
+    update_rate: 20.0
+    pixel_stride: 4
+    minimum_depth: 0.20
+    maximum_depth: 3.0
+    minimum_x: -0.5
+    maximum_x: 4.0
+    minimum_y: -1.5
+    maximum_y: 1.5
+    minimum_z: -0.2
+    maximum_z: 2.0
+    obstacle_minimum_height: 0.15
+    obstacle_maximum_height: 1.8
+    map_frame: occupancy_map
+    depth_topic: /camera/depth/image_rect_raw
+    camera_info_topic: /camera/depth/camera_info
+
+rs_camera_publisher:
+  ros__parameters:
+    serial_number: ""
+    # 深度 480x270@60：比 720p 小 8 倍带宽，480p 档 60fps 稳定（本机实测支持 90，可调）
+    depth_width: 480
+    depth_height: 270
+    depth_fps: 60
+    enable_color: true
+    color_width: 848
+    color_height: 480
+    color_fps: 60
+    enable_ir: false
+    # 深度滤波默认全关：低延迟省 CPU，需要去噪再打开
+    temporal_filter: false
+    spatial_filter: false
+    hole_filling_filter: false

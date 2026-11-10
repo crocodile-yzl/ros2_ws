@@ -1,0 +1,1 @@
+Invoking command in '/home/y/ros2_ws/src/build/d435i_ransac_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_ransac_imu -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_ransac_imu

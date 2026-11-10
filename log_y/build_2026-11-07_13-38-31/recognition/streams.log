@@ -1,0 +1,169 @@
+[0.013s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[0.080s] [ 25%] Built target sim_image_publisher
+[0.084s] [ 37%] Building CXX object CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o
+[0.085s] [ 62%] Built target recognition_node
+[2.921s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.921s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.921s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.921s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.921s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.922s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.922s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.922s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.923s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp: In constructor ‘recognition::RecognitionNode::RecognitionNode(const rclcpp::NodeOptions&)’:
+[2.923s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 7 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.923s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.923s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.923s]    62 |       image_topic_.c_str(), target_name_.c_str(),
+[2.923s]    63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+[2.923s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.923s]       |                                    |
+[2.923s]       |                                    int64_t {aka long int}
+[2.924s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:55: note: format string is defined here
+[2.924s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.924s]       |                                                      ~^
+[2.924s]       |                                                       |
+[2.924s]       |                                                       int
+[2.924s]       |                                                      %ld
+[2.924s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.924s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.925s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.926s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.926s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.926s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 8 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.926s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.926s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.926s]    62 |       image_topic_.c_str(), target_name_.c_str(),
+[2.926s]    63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),
+[2.926s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.927s]       |                                                                      |
+[2.927s]       |                                                                      int64_t {aka long int}
+[2.927s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:58: note: format string is defined here
+[2.927s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.927s]       |                                                         ~^
+[2.927s]       |                                                          |
+[2.927s]       |                                                          int
+[2.927s]       |                                                         %ld
+[2.928s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.928s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.929s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.929s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.929s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.929s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.929s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 9 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.929s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.929s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.929s] ......
+[2.930s]    64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+[2.930s]       |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.930s]       |                                    |
+[2.930s]       |                                    int64_t {aka long int}
+[2.930s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:65: note: format string is defined here
+[2.930s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.930s]       |                                                                ~^
+[2.930s]       |                                                                 |
+[2.930s]       |                                                                 int
+[2.931s]       |                                                                %ld
+[2.931s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.931s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.932s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.932s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.932s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.932s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.932s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.932s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format ‘%d’ expects argument of type ‘int’, but argument 10 has type ‘int64_t’ {aka ‘long int’} [-Wformat=]
+[2.932s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.932s]       |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.933s] ......
+[2.933s]    64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());
+[2.933s]       |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.933s]       |                                                                     |
+[2.933s]       |                                                                     int64_t {aka long int}
+[2.933s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:71: note: format string is defined here
+[2.933s]    61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",
+[2.933s]       |                                                                      ~^
+[2.934s]       |                                                                       |
+[2.934s]       |                                                                       int
+[2.934s]       |                                                                      %ld
+[2.934s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp: In member function ‘void recognition::RecognitionNode::onImage(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr)’:
+[2.934s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:105:28: error: no matching function for call to ‘max(int, int64_t)’
+[2.934s]   105 |     const int mk = std::max(3, get_parameter("morph_kernel").as_int());
+[2.934s]       |                    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.934s] In file included from /usr/include/c++/11/memory:63,
+[2.934s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:5,
+[2.934s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.934s] /usr/include/c++/11/bits/stl_algobase.h:254:5: note: candidate: ‘template<class _Tp> constexpr const _Tp& std::max(const _Tp&, const _Tp&)’
+[2.934s]   254 |     max(const _Tp& __a, const _Tp& __b)
+[2.934s]       |     ^~~
+[2.934s] /usr/include/c++/11/bits/stl_algobase.h:254:5: note:   template argument deduction/substitution failed:
+[2.934s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:105:28: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘int64_t’ {aka ‘long int’})
+[2.934s]   105 |     const int mk = std::max(3, get_parameter("morph_kernel").as_int());
+[2.935s]       |                    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.935s] In file included from /usr/include/c++/11/memory:63,
+[2.935s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:5,
+[2.935s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.935s] /usr/include/c++/11/bits/stl_algobase.h:300:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr const _Tp& std::max(const _Tp&, const _Tp&, _Compare)’
+[2.935s]   300 |     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+[2.935s]       |     ^~~
+[2.935s] /usr/include/c++/11/bits/stl_algobase.h:300:5: note:   template argument deduction/substitution failed:
+[2.935s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:105:28: note:   deduced conflicting types for parameter ‘const _Tp’ (‘int’ and ‘int64_t’ {aka ‘long int’})
+[2.935s]   105 |     const int mk = std::max(3, get_parameter("morph_kernel").as_int());
+[2.935s]       |                    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.935s] In file included from /usr/include/c++/11/algorithm:62,
+[2.935s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,
+[2.935s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.935s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.935s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.935s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.935s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.935s] /usr/include/c++/11/bits/stl_algo.h:3461:5: note: candidate: ‘template<class _Tp> constexpr _Tp std::max(std::initializer_list<_Tp>)’
+[2.935s]  3461 |     max(initializer_list<_Tp> __l)
+[2.936s]       |     ^~~
+[2.936s] /usr/include/c++/11/bits/stl_algo.h:3461:5: note:   template argument deduction/substitution failed:
+[2.936s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:105:28: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+[2.936s]   105 |     const int mk = std::max(3, get_parameter("morph_kernel").as_int());
+[2.936s]       |                    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.936s] In file included from /usr/include/c++/11/algorithm:62,
+[2.936s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18,
+[2.936s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.936s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.936s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.936s]                  from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,
+[2.936s]                  from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:
+[2.936s] /usr/include/c++/11/bits/stl_algo.h:3467:5: note: candidate: ‘template<class _Tp, class _Compare> constexpr _Tp std::max(std::initializer_list<_Tp>, _Compare)’
+[2.936s]  3467 |     max(initializer_list<_Tp> __l, _Compare __comp)
+[2.936s]       |     ^~~
+[2.936s] /usr/include/c++/11/bits/stl_algo.h:3467:5: note:   template argument deduction/substitution failed:
+[2.936s] /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:105:28: note:   mismatched types ‘std::initializer_list<_Tp>’ and ‘int’
+[2.936s]   105 |     const int mk = std::max(3, get_parameter("morph_kernel").as_int());
+[2.936s]       |                    ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[5.639s] gmake[2]: *** [CMakeFiles/recognition_component.dir/build.make:76：CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o] 错误 1
+[5.639s] gmake[1]: *** [CMakeFiles/Makefile2:143：CMakeFiles/recognition_component.dir/all] 错误 2
+[5.640s] gmake: *** [Makefile:146：all] 错误 2
+[5.642s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24

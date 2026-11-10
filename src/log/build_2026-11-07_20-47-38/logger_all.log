@@ -1,0 +1,392 @@
+[0.295s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.295s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ea884a39f00>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ea884a399f0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ea884a399f0>>)
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.559s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.559s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/y/ros2_ws/src'
+[0.559s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.560s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extension 'colcon_pkg'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extensions ['colcon_meta']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extension 'colcon_meta'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extensions ['ros']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_camera_ros2) by extension 'ros'
+[0.581s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel_camera_ros2' with type 'ros.ament_cmake' and name 'berxel_camera_ros2'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extensions ['ignore', 'ignore_ament_install']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extension 'ignore'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_occupancy) by extension 'ros'
+[0.584s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel_occupancy' with type 'ros.ament_cmake' and name 'berxel_occupancy'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extensions ['colcon_pkg']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extension 'colcon_pkg'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extensions ['colcon_meta']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(berxel_video) by extension 'ros'
+[0.586s] DEBUG:colcon.colcon_core.package_identification:Package 'berxel_video' with type 'ros.ament_cmake' and name 'berxel_video'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_occupancy) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'd435i_occupancy' with type 'ros.ament_cmake' and name 'd435i_occupancy'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'd435i_ransac' with type 'ros.ament_cmake' and name 'd435i_ransac'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extension 'ignore_ament_install'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extensions ['colcon_pkg']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extension 'colcon_pkg'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extensions ['colcon_meta']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extension 'colcon_meta'
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extensions ['ros']
+[0.593s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_ransac_imu) by extension 'ros'
+[0.596s] DEBUG:colcon.colcon_core.package_identification:Package 'd435i_ransac_imu' with type 'ros.ament_cmake' and name 'd435i_ransac_imu'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extensions ['ignore', 'ignore_ament_install']
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extension 'ignore'
+[0.596s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extension 'ignore_ament_install'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extensions ['colcon_pkg']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extension 'colcon_pkg'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extensions ['colcon_meta']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extension 'colcon_meta'
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extensions ['ros']
+[0.597s] Level 1:colcon.colcon_core.package_identification:_identify(d435i_video_c) by extension 'ros'
+[0.599s] DEBUG:colcon.colcon_core.package_identification:Package 'd435i_video_c' with type 'ros.ament_cmake' and name 'd435i_video_c'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extension 'ignore'
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extension 'ignore_ament_install'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extensions ['colcon_pkg']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extension 'colcon_pkg'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extensions ['colcon_meta']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extension 'colcon_meta'
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extensions ['ros']
+[0.601s] Level 1:colcon.colcon_core.package_identification:_identify(port_camera_publisher) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package 'port_camera_publisher' with type 'ros.ament_python' and name 'port_camera_publisher'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extensions ['ros']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(recognition) by extension 'ros'
+[0.616s] DEBUG:colcon.colcon_core.package_identification:Package 'recognition' with type 'ros.ament_cmake' and name 'recognition'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector) by extension 'ros'
+[0.618s] DEBUG:colcon.colcon_core.package_identification:Package 'stick_detector' with type 'ros.ament_python' and name 'stick_detector'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extension 'ignore'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extension 'ignore_ament_install'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extensions ['colcon_pkg']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extension 'colcon_pkg'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extensions ['colcon_meta']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extension 'colcon_meta'
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extensions ['ros']
+[0.618s] Level 1:colcon.colcon_core.package_identification:_identify(stick_detector_cpp) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'stick_detector_cpp' with type 'ros.ament_cmake' and name 'stick_detector_cpp'
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.658s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.673s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/y/ros2_ws/install_y
+[0.676s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.677s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_args' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_target' from command line to 'None'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.764s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'berxel_camera_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.765s] DEBUG:colcon.colcon_core.verb:Building package 'berxel_camera_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/berxel_camera_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/berxel_camera_ros2', 'merge_install': False, 'path': '/home/y/ros2_ws/src/berxel_camera_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_target' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_clean_first' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'cmake_force_configure' from command line to 'False'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'ament_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.765s] Level 5:colcon.colcon_core.verb:set package 'd435i_occupancy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.765s] DEBUG:colcon.colcon_core.verb:Building package 'd435i_occupancy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/d435i_occupancy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/d435i_occupancy', 'merge_install': False, 'path': '/home/y/ros2_ws/src/d435i_occupancy', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'd435i_ransac' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/d435i_ransac', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/d435i_ransac', 'merge_install': False, 'path': '/home/y/ros2_ws/src/d435i_ransac', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'd435i_ransac_imu' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'd435i_ransac_imu' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/d435i_ransac_imu', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/d435i_ransac_imu', 'merge_install': False, 'path': '/home/y/ros2_ws/src/d435i_ransac_imu', 'symlink_install': False, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'cmake_force_configure' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'ament_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'catkin_cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'd435i_video_c' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.767s] DEBUG:colcon.colcon_core.verb:Building package 'd435i_video_c' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/d435i_video_c', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/d435i_video_c', 'merge_install': False, 'path': '/home/y/ros2_ws/src/d435i_video_c', 'symlink_install': False, 'test_result_base': None}
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_args' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_target' from command line to 'None'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.767s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'port_camera_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'port_camera_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/port_camera_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/port_camera_publisher', 'merge_install': False, 'path': '/home/y/ros2_ws/src/port_camera_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_target' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.768s] DEBUG:colcon.colcon_core.verb:Building package 'recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/recognition', 'merge_install': False, 'path': '/home/y/ros2_ws/src/recognition', 'symlink_install': False, 'test_result_base': None}
+[0.768s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_target' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.769s] DEBUG:colcon.colcon_core.verb:Building package 'stick_detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/stick_detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/stick_detector', 'merge_install': False, 'path': '/home/y/ros2_ws/src/stick_detector', 'symlink_install': False, 'test_result_base': None}
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_target' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.769s] Level 5:colcon.colcon_core.verb:set package 'stick_detector_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.769s] DEBUG:colcon.colcon_core.verb:Building package 'stick_detector_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/stick_detector_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/stick_detector_cpp', 'merge_install': False, 'path': '/home/y/ros2_ws/src/stick_detector_cpp', 'symlink_install': False, 'test_result_base': None}
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_target' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_clean_first' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'cmake_force_configure' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'ament_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_occupancy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.770s] DEBUG:colcon.colcon_core.verb:Building package 'berxel_occupancy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/berxel_occupancy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/berxel_occupancy', 'merge_install': False, 'path': '/home/y/ros2_ws/src/berxel_occupancy', 'symlink_install': False, 'test_result_base': None}
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_target' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_clean_cache' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_clean_first' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'cmake_force_configure' from command line to 'False'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'ament_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'catkin_cmake_args' from command line to 'None'
+[0.770s] Level 5:colcon.colcon_core.verb:set package 'berxel_video' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.770s] DEBUG:colcon.colcon_core.verb:Building package 'berxel_video' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/y/ros2_ws/src/build/berxel_video', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/y/ros2_ws/src/install/berxel_video', 'merge_install': False, 'path': '/home/y/ros2_ws/src/berxel_video', 'symlink_install': False, 'test_result_base': None}
+[0.771s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.772s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.772s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/berxel_camera_ros2' with build type 'ament_cmake'
+[0.772s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/berxel_camera_ros2'
+[0.776s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.776s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.781s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/d435i_occupancy' with build type 'ament_cmake'
+[0.781s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/d435i_occupancy'
+[0.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.784s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/d435i_ransac' with build type 'ament_cmake'
+[0.785s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/d435i_ransac'
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.788s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/d435i_ransac_imu' with build type 'ament_cmake'
+[0.788s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/d435i_ransac_imu'
+[0.789s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.792s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/d435i_video_c' with build type 'ament_cmake'
+[0.792s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/d435i_video_c'
+[0.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.796s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/ros2_ws/src/port_camera_publisher' with build type 'ament_python'
+[0.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('port_camera_publisher', 'ament_prefix_path')
+[0.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/ament_prefix_path.ps1'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/ament_prefix_path.dsv'
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/ament_prefix_path.sh'
+[0.799s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.799s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/recognition' with build type 'ament_cmake'
+[0.802s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/recognition'
+[0.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.803s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.806s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/y/ros2_ws/src/stick_detector' with build type 'ament_python'
+[0.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('stick_detector', 'ament_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/ament_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/ament_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/ament_prefix_path.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.811s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/y/ros2_ws/src/stick_detector_cpp' with build type 'ament_cmake'
+[0.811s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/y/ros2_ws/src/stick_detector_cpp'
+[0.811s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.819s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/berxel_camera_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/berxel_camera_ros2 -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/berxel_camera_ros2
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/d435i_occupancy': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_occupancy -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_occupancy
+[0.827s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/d435i_ransac': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_ransac -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_ransac
+[0.830s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/d435i_ransac_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_ransac_imu -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_ransac_imu
+[0.833s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/d435i_video_c': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_video_c -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_video_c
+[1.231s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/ros2_ws/src/port_camera_publisher'
+[1.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/recognition -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/recognition
+[1.658s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/y/ros2_ws/src/stick_detector'
+[1.658s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.658s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/build/stick_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/stick_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/stick_detector_cpp
+[2.174s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/stick_detector': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stick_detector build --build-base /home/y/ros2_ws/src/build/stick_detector/build install --record /home/y/ros2_ws/src/build/stick_detector/install.log --single-version-externally-managed install_data
+[2.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/y/ros2_ws/src/port_camera_publisher': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/port_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/port_camera_publisher build --build-base /home/y/ros2_ws/src/build/port_camera_publisher/build install --record /home/y/ros2_ws/src/build/port_camera_publisher/install.log --single-version-externally-managed install_data
+[2.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/ros2_ws/src/stick_detector' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/stick_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stick_detector build --build-base /home/y/ros2_ws/src/build/stick_detector/build install --record /home/y/ros2_ws/src/build/stick_detector/install.log --single-version-externally-managed install_data
+[2.527s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector' for CMake module files
+[2.528s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector' for CMake config files
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector/lib'
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector/bin'
+[2.529s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector/lib/pkgconfig/stick_detector.pc'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages'
+[2.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('stick_detector', 'pythonpath')
+[2.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/pythonpath.ps1'
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/pythonpath.dsv'
+[2.531s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/hook/pythonpath.sh'
+[2.532s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/stick_detector/bin'
+[2.532s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stick_detector)
+[2.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/package.ps1'
+[2.534s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/package.dsv'
+[2.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/package.sh'
+[2.536s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/package.bash'
+[2.537s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/stick_detector/share/stick_detector/package.zsh'
+[2.538s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/ros2_ws/src/install/stick_detector/share/colcon-core/packages/stick_detector)
+[2.784s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher' for CMake module files
+[2.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/ros2_ws/src/port_camera_publisher' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/y/ros2_ws/src/build/port_camera_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/port_camera_publisher build --build-base /home/y/ros2_ws/src/build/port_camera_publisher/build install --record /home/y/ros2_ws/src/build/port_camera_publisher/install.log --single-version-externally-managed install_data
+[2.786s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher' for CMake config files
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher/lib'
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher/bin'
+[2.789s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher/lib/pkgconfig/port_camera_publisher.pc'
+[2.790s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher/lib/python3.10/site-packages'
+[2.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('port_camera_publisher', 'pythonpath')
+[2.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/pythonpath.ps1'
+[2.790s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/pythonpath.dsv'
+[2.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/hook/pythonpath.sh'
+[2.791s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/port_camera_publisher/bin'
+[2.791s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(port_camera_publisher)
+[2.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/package.ps1'
+[2.792s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/package.dsv'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/package.sh'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/package.bash'
+[2.793s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/port_camera_publisher/share/port_camera_publisher/package.zsh'
+[2.794s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/ros2_ws/src/install/port_camera_publisher/share/colcon-core/packages/port_camera_publisher)
+[2.803s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/y/ros2_ws/src/build/d435i_video_c' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/y/ros2_ws/src/d435i_video_c -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/src/install/d435i_video_c
+[2.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(d435i_video_c)
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c' for CMake module files
+[2.821s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c' for CMake config files
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c/bin'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c/lib/pkgconfig/d435i_video_c.pc'
+[2.822s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c/lib/python3.10/site-packages'
+[2.823s] Level 1:colcon.colcon_core.environment:checking '/home/y/ros2_ws/src/install/d435i_video_c/bin'
+[2.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/d435i_video_c/share/d435i_video_c/package.ps1'
+[2.825s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/y/ros2_ws/src/install/d435i_video_c/share/d435i_video_c/package.dsv'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/d435i_video_c/share/d435i_video_c/package.sh'
+[2.826s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/d435i_video_c/share/d435i_video_c/package.bash'
+[2.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/y/ros2_ws/src/install/d435i_video_c/share/d435i_video_c/package.zsh'
+[2.827s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/y/ros2_ws/src/install/d435i_video_c/share/colcon-core/packages/d435i_video_c)
+[3.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.430s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[3.431s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.444s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.444s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.462s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.462s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/ros2_ws/src/install/local_setup.ps1'
+[3.464s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.467s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/ros2_ws/src/install/setup.ps1'
+[3.469s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/ros2_ws/src/install/local_setup.sh'
+[3.470s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/y/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.471s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/ros2_ws/src/install/setup.sh'
+[3.472s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/ros2_ws/src/install/local_setup.bash'
+[3.472s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/ros2_ws/src/install/setup.bash'
+[3.474s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/y/ros2_ws/src/install/local_setup.zsh'
+[3.474s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/y/ros2_ws/src/install/setup.zsh'

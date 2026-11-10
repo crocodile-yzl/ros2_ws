@@ -1,0 +1,275 @@
+[0.000000] (-) TimerEvent: {}
+[0.000565] (-) JobUnselected: {'identifier': 'berxel_camera_ros2'}
+[0.000951] (-) JobUnselected: {'identifier': 'berxel_occupancy'}
+[0.001259] (-) JobUnselected: {'identifier': 'berxel_video'}
+[0.001312] (-) JobUnselected: {'identifier': 'd435i_ransac'}
+[0.001331] (-) JobUnselected: {'identifier': 'd435i_ransac_imu'}
+[0.001347] (-) JobUnselected: {'identifier': 'd435i_video_c'}
+[0.001361] (-) JobUnselected: {'identifier': 'port_camera_publisher'}
+[0.001374] (-) JobUnselected: {'identifier': 'stick_detector'}
+[0.001388] (-) JobUnselected: {'identifier': 'stick_detector_cpp'}
+[0.001406] (recognition) JobQueued: {'identifier': 'recognition', 'dependencies': OrderedDict()}
+[0.001425] (recognition) JobStarted: {'identifier': 'recognition'}
+[0.010088] (recognition) JobProgress: {'identifier': 'recognition', 'progress': 'cmake'}
+[0.011406] (recognition) JobProgress: {'identifier': 'recognition', 'progress': 'build'}
+[0.012633] (recognition) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/y/ros2_ws/build_y/recognition', '--', '-j24', '-l24'], 'cwd': '/home/y/ros2_ws/build_y/recognition', 'env': OrderedDict([('CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION', '1080'), ('CODEBUDDY_INCLUDE_TOPIC_MESSAGE', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEBUDDY_GIT_REPO_SCAN_DISABLED', '1'), ('TENCENT_DOCS_LOCAL_MCP', 'http://127.0.0.1:39099/mcp'), ('WORKBUDDY_NODE_ENV', 'production'), ('ACC_PRODUCT_CONFIG_PATH', '/tmp/workbuddy-product-spill-kIQHBi/acc-product-config-v3.json'), ('CLIENT_INFO_PRODUCT_VERSION', '5.5.6'), ('WORKBUDDY_DAEMON_CATALOG_STDIO', '1'), ('LANGUAGE', 'zh_CN:zh'), ('CLAUDE_SESSION_ID', 'e0b335c6-042d-4e6a-852f-43c2580b5be2'), ('USER', 'y'), ('WORKBUDDY_USER_DATA_DIR', '/home/y/.workbuddy/app'), ('CODEBUDDY_POWERSHELL_USE_PTY', '1'), ('CODEBUDDY_BUILTIN_SKILLS_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills'), ('SYSTEMD_PAGER', 'cat'), ('XDG_SESSION_TYPE', 'x11'), ('WORKBUDDY_PAC_RPC_TOKEN', 'hDaKHC_JkerCjwSuDWwtSDTLsIGP09-A'), ('WORKBUDDY_LOCALE', 'zh-CN'), ('WORKBUDDY_RESOURCES_PATH', '/opt/WorkBuddy/resources'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SERVER__HOST', '127.0.0.1'), ('CODEBUDDY_CONVERSATION_REQUEST_ID', '2e841ef0cd3e46d294bff4115709d73d'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'WorkBuddy.desktop'), ('OLDPWD', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED', '1'), ('CODEBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_SERVICE_PROXY_URL', 'http://127.0.0.1:39351/internal/hooks/services/invoke'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/workbuddy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('CODEBUDDY_CONVERSATION_MESSAGE_ID', 'c1f299f9172142728ca0b92fe4bff4d9'), ('NODE_OPTIONS', '--require="/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/node-language-shim.cjs"'), ('CODEBUDDY_MCP_CONFIG', '{"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:38217/mcp","headers":{"Authorization":"Bearer nmFaGFnUXI5HDZlEG3cw7mvt4fiK51QAAd7ldngUVus","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":false,"tools":{"automation_update":{"bare_name":true,"defer_loading":false},"present_files":{"bare_name":true,"defer_loading":false},"connect_cloud_service":{"bare_name":true,"defer_loading":true},"connect_open_platform":{"bare_name":true,"defer_loading":true},"read_me":{"bare_name":true,"defer_loading":false},"show_widget":{"bare_name":true,"defer_loading":false},"workbuddy_sites_deploy":{"bare_name":true,"defer_loading":true},"workbuddy_sites_unpublish":{"bare_name":true,"defer_loading":true},"workbuddy_cloud_service":{"bare_name":true,"defer_loading":true},"workbuddy_marketplace_skill":{"bare_name":true,"defer_loading":true},"agentic_search":{"bare_name":true,"defer_loading":true},"conversation_search":{"bare_name":true,"defer_loading":true},"agent_mail_upload_attachment":{"bare_name":true,"defer_loading":true},"agent_mail_download_attachment":{"bare_name":true,"defer_loading":true},"search_plugins":{"bare_name":true,"defer_loading":true},"suggest_plugin_install":{"bare_name":true,"defer_loading":true}},"transparent_proxy":true,"builtin_tools":["automation_update","present_files","connect_cloud_service","connect_open_platform","read_me","show_widget","workbuddy_sites_deploy","workbuddy_sites_unpublish","workbuddy_cloud_service","workbuddy_marketplace_skill","agentic_search","conversation_search","agent_mail_upload_attachment","agent_mail_download_attachment","search_plugins","suggest_plugin_install"]},"agent-mail":{"type":"http","url":"http://127.0.0.1:38217/a9bcc7dd302f2b262507f7590d97b1b4/mcp","headers":{"Authorization":"Bearer ilhn2llUHRNB5AiV2SqMQO6tu9HJL0yXClAf8fA0XXk","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":true},"genie-baas":{"type":"http","url":"http://127.0.0.1:38217/881f8b0f3d2c03fadb7743e0aaca8a28/mcp","headers":{"Authorization":"Bearer FPYvTBkPiR4vqF4gua38csmEnQuHVlLB_3Mo7ZnkP5w","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":true}}}'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLIENT_INFO_PLATFORM', 'WorkBuddy'), ('CLIENT_INFO_PLUGIN_NAME', 'workbuddy-desktop'), ('PAGER', 'cat'), ('CODEBUDDY_SKIP_GIT_BASH_CHECK', '1'), ('MANAGERPID', '2596'), ('WORKBUDDY_STARTUP_DATE', '2026-11-07'), ('SYSTEMD_EXEC_PID', '2853'), ('WORKBUDDY_EXTRA_PATHS', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '60483'), ('CLIENT_INFO_PRODUCT_NAME', 'WorkBuddy'), ('TENCENT_DOCS_LOCAL_SERVER', 'http://127.0.0.1:39099'), ('SERVER__PORT', '39351'), ('BAGGAGE', 'codebuddy.session_id=e0b335c6-042d-4e6a-852f-43c2580b5be2,codebuddy.conversation_request_id=2e841ef0cd3e46d294bff4115709d73d,codebuddy.conversation_message_id=c1f299f9172142728ca0b92fe4bff4d9'), ('WORKBUDDY_APP_VERSION', '5.5.6'), ('CODEBUDDY_ENABLE_SECURITY_AUDIT', '1'), ('CODEBUDDY_NODE_BIN', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin/node'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'y'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CODEBUDDY_REPLAY_SHOW_PRE_COMPACT', '1'), ('CODEBUDDY_SAFE_DELETE_BULK_STATE_DIR', '/tmp/codebuddy-safe-delete-bulk'), ('GALILEO_SDK_READY', '1'), ('CLIENT_INFO_MACHINE_ID', 'b381008b-ef8f-46c1-b67b-cc1bf66922bb'), ('JOURNAL_STREAM', '8:13117'), ('CODEBUDDY_SAFE_DELETE_BROKER_DELETE', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-broker-delete.cjs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD', '1'), ('WORKBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_FORCE_HEADLESS_BUNDLE', '1'), ('XDG_SESSION_CLASS', 'user'), ('CODEBUDDY_DISABLE_IDE', '1'), ('USERNAME', 'y'), ('GALILEO_ENABLE', 'true'), ('TERM', 'xterm'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WORKBUDDY_MENU_LOCALE', 'zh-CN'), ('WORKBUDDY_ENABLE_LINUX_SANDBOX_CLI', '1'), ('WINDOWPATH', '2'), ('CODEBUDDY_PROMPT_SUGGESTION_DISABLED', '1'), ('PATH', '/usr/bin:/opt/ros/humble/bin:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin:/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin:/home/y/.local/bin:/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2825,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2825'), ('LESSHISTFILE', '-'), ('AWS_PAGER', ''), ('INVOCATION_ID', '0f10957835d84183b68e61c0a6ea4a6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('CODEBUDDY_SAFE_DELETE_REPORT_PATH', '/tmp/codebuddy-safe-delete/report-72857-1794030010858-89h2bhhglz7.jsonl'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('WORKBUDDY_FS_PROTECTION_ROLE', 'daemon'), ('GDK_BACKEND', 'x11'), ('CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY', '1'), ('WORKBUDDY_STARTUP_PID', '60483'), ('DISPLAY', ':1'), ('CLIENT_INFO_IDE_TYPE', 'WorkBuddy'), ('WORKBUDDY_PROMPT_TEMPLATES_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/templates'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('TRACEPARENT', '00-2e841ef0cd3e46d294bff4115709d73d-2cca84ab60dd0085-01'), ('HGPAGER', 'cat'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MANPAGER', 'cat'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CODEBUDDY_DISABLE_AUTO_MEMORY', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('WORKBUDDY_APP_NAME', 'WorkBuddy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('CODEBUDDY_PROJECT_DIR', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('CODEBUDDY_GATEWAY_AUTH', 'password'), ('WORKBUDDY_STARTUP_TIME', '105946'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CODEBUDDY_REASONING_ONLY_END_TURN', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CODEBUDDY_API_KEY_HELPER_DISABLED', '1'), ('CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP', '1'), ('CODEBUDDY_GATEWAY_DISABLE_API_DOCS', '1'), ('CODEBUDDY_TOOL_CALL_ID', 'call_e1c53313b80545e3a97fd6ce'), ('CODEBUDDY_DISABLE_FORK_SUBAGENT', '1'), ('ACC_PRODUCT_CONFIG_V2', ''), ('CLIENT_INFO_PLATFORM_VERSION', '5.5.6'), ('editor_sdk_port', '39099'), ('ACC_PRODUCT_CONFIG_V3', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CODEBUDDY_SAFE_DELETE_ENABLED', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CODEBUDDY_SKILL_TOOL_CHAR_BUDGET', '30000'), ('CODEBUDDY_CURRENT_MODEL_ID', 'glm-5.3-flash'), ('CODEBUDDY_HOST_CAPABILITIES', 'elicitation.form,weixinpay.interception'), ('GIT_PAGER', 'cat'), ('BASH_ENV', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/shell-runtime-bash-env.sh'), ('QT_IM_MODULE', 'ibus'), ('CLAUDE_PROJECT_DIR', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS', '1'), ('CODEBUDDY_DISABLE_REQUEST_VALIDATION', '1'), ('ACC_PRODUCT_CONFIG', ''), ('PWD', '/home/y/ros2_ws/build_y/recognition'), ('GENIE_TRASH_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/genie-trash'), ('WORKBUDDY_IS_PACKAGED', '1'), ('DISABLE_AUTOUPDATER', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('WORKBUDDY_PRODUCT_NAME', 'WorkBuddy'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CODEBUDDY_SAFE_DELETE_BULK_GUARD', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-bulk-guard.cjs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim'), ('CODEBUDDY_SESSION_ID', 'e0b335c6-042d-4e6a-852f-43c2580b5be2'), ('CLIENT_INFO_PLUGIN_VERSION', '5.5.6'), ('CODEBUDDY_GATEWAY_PASSWORD', 'b1ylJHSkOkESHf6GRzYDCxIuHycTvDko8UTLSTTjo74'), ('CODEBUDDY_SAFE_DELETE_BIN_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin'), ('CODEBUDDY_SKILL_DESC_MAX_OVERRIDES', '{"tencent-docs-routing":300,"tencent-pptx":300,"tencent-docx":300,"tencent-docs-sheet-generation":300,"tencent-docs-sheetagent":300}'), ('WORKBUDDY_APPLICATION_NAME', 'WorkBuddy'), ('CODEBUDDY_DISABLE_CRON', '1'), ('COLCON', '1'), ('CLIENT_INFO_USER_AGENT_EXTENSION', 'CLI/2.137.1'), ('CODEBUDDY_INTERNET_ENVIRONMENT', 'internal'), ('WORKBUDDY_PAC_RPC_SOCKET', '/tmp/workbuddy-pac-60568-0eaf3d357bc9c21d.sock'), ('CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD', '50'), ('WORKBUDDY_DATA_FOLDER_NAME', '.workbuddy'), ('WORKBUDDY_APP_PATH', '/opt/WorkBuddy/resources/app.asar'), ('CODEBUDDY_HOST', 'workbuddy-desktop'), ('CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.086919] (recognition) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target recognition_component\n'}
+[0.099886] (-) TimerEvent: {}
+[0.102483] (recognition) StdoutLine: {'line': b'[ 25%] Built target recognition_node\n'}
+[0.102661] (recognition) StdoutLine: {'line': b'[ 50%] Built target sim_image_publisher\n'}
+[0.104297] (recognition) StdoutLine: {'line': b'[ 62%] Building CXX object CMakeFiles/recognition_component.dir/src/recognition_node.cpp.o\n'}
+[0.200075] (-) TimerEvent: {}
+[0.300296] (-) TimerEvent: {}
+[0.400511] (-) TimerEvent: {}
+[0.500766] (-) TimerEvent: {}
+[0.601025] (-) TimerEvent: {}
+[0.701317] (-) TimerEvent: {}
+[0.801640] (-) TimerEvent: {}
+[0.901897] (-) TimerEvent: {}
+[1.002094] (-) TimerEvent: {}
+[1.102377] (-) TimerEvent: {}
+[1.202650] (-) TimerEvent: {}
+[1.302914] (-) TimerEvent: {}
+[1.403127] (-) TimerEvent: {}
+[1.503448] (-) TimerEvent: {}
+[1.603755] (-) TimerEvent: {}
+[1.703986] (-) TimerEvent: {}
+[1.804211] (-) TimerEvent: {}
+[1.904511] (-) TimerEvent: {}
+[2.004831] (-) TimerEvent: {}
+[2.105119] (-) TimerEvent: {}
+[2.205326] (-) TimerEvent: {}
+[2.305542] (-) TimerEvent: {}
+[2.405756] (-) TimerEvent: {}
+[2.505998] (-) TimerEvent: {}
+[2.606210] (-) TimerEvent: {}
+[2.706489] (-) TimerEvent: {}
+[2.806706] (-) TimerEvent: {}
+[2.824363] (recognition) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.824564] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.824645] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.824698] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.824745] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.824804] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.824855] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.824900] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.824944] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.824989] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.825032] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.825076] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,\n'}
+[2.825120] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:\n'}
+[2.825163] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp: In constructor \xe2\x80\x98recognition::RecognitionNode::RecognitionNode(const rclcpp::NodeOptions&)\xe2\x80\x99:\n'}
+[2.825207] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format \xe2\x80\x98%d\xe2\x80\x99 expects argument of type \xe2\x80\x98int\xe2\x80\x99, but argument 7 has type \xe2\x80\x98int64_t\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99} [-Wformat=]\n'}
+[2.825253] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.825300] (recognition) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.825344] (recognition) StderrLine: {'line': b'   62 |       image_topic_.c_str(), target_name_.c_str(),\n'}
+[2.825387] (recognition) StderrLine: {'line': b'   63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),\n'}
+[2.825433] (recognition) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.825480] (recognition) StderrLine: {'line': b'      |                                    |\n'}
+[2.825524] (recognition) StderrLine: {'line': b'      |                                    int64_t {aka long int}\n'}
+[2.825568] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:55: note: format string is defined here\n'}
+[2.825619] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.825663] (recognition) StderrLine: {'line': b'      |                                                      ~^\n'}
+[2.825707] (recognition) StderrLine: {'line': b'      |                                                       |\n'}
+[2.825750] (recognition) StderrLine: {'line': b'      |                                                       int\n'}
+[2.825793] (recognition) StderrLine: {'line': b'      |                                                      %ld\n'}
+[2.825837] (recognition) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.825881] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.825924] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.825967] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.826010] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.826052] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.826095] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.826142] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.826184] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.826227] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.826269] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.826312] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,\n'}
+[2.826360] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:\n'}
+[2.826413] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format \xe2\x80\x98%d\xe2\x80\x99 expects argument of type \xe2\x80\x98int\xe2\x80\x99, but argument 8 has type \xe2\x80\x98int64_t\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99} [-Wformat=]\n'}
+[2.826474] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.826539] (recognition) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.826598] (recognition) StderrLine: {'line': b'   62 |       image_topic_.c_str(), target_name_.c_str(),\n'}
+[2.826645] (recognition) StderrLine: {'line': b'   63 |       get_parameter("h_low").as_int(), get_parameter("h_high").as_int(),\n'}
+[2.826694] (recognition) StderrLine: {'line': b'      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.826736] (recognition) StderrLine: {'line': b'      |                                                                      |\n'}
+[2.826778] (recognition) StderrLine: {'line': b'      |                                                                      int64_t {aka long int}\n'}
+[2.826826] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:58: note: format string is defined here\n'}
+[2.826868] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.826910] (recognition) StderrLine: {'line': b'      |                                                         ~^\n'}
+[2.826953] (recognition) StderrLine: {'line': b'      |                                                          |\n'}
+[2.826995] (recognition) StderrLine: {'line': b'      |                                                          int\n'}
+[2.827037] (recognition) StderrLine: {'line': b'      |                                                         %ld\n'}
+[2.827078] (recognition) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.827122] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.827166] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.827208] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.827250] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.827291] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.827334] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.827376] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.827419] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.827461] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.827507] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.827550] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,\n'}
+[2.827649] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:\n'}
+[2.827713] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format \xe2\x80\x98%d\xe2\x80\x99 expects argument of type \xe2\x80\x98int\xe2\x80\x99, but argument 9 has type \xe2\x80\x98int64_t\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99} [-Wformat=]\n'}
+[2.827763] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.827808] (recognition) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.827852] (recognition) StderrLine: {'line': b'......\n'}
+[2.827897] (recognition) StderrLine: {'line': b'   64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());\n'}
+[2.827942] (recognition) StderrLine: {'line': b'      |       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.827985] (recognition) StderrLine: {'line': b'      |                                    |\n'}
+[2.828028] (recognition) StderrLine: {'line': b'      |                                    int64_t {aka long int}\n'}
+[2.828071] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:65: note: format string is defined here\n'}
+[2.828113] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.828154] (recognition) StderrLine: {'line': b'      |                                                                ~^\n'}
+[2.828198] (recognition) StderrLine: {'line': b'      |                                                                 |\n'}
+[2.828240] (recognition) StderrLine: {'line': b'      |                                                                 int\n'}
+[2.828283] (recognition) StderrLine: {'line': b'      |                                                                %ld\n'}
+[2.828323] (recognition) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24,\n'}
+[2.828367] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40,\n'}
+[2.828408] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,\n'}
+[2.828456] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,\n'}
+[2.828499] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.828540] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.828587] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.828631] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.828672] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[2.828715] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[2.828755] (recognition) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[2.828797] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/include/recognition/recognition_node.hpp:8,\n'}
+[2.828839] (recognition) StderrLine: {'line': b'                 from /home/y/ros2_ws/src/recognition/src/recognition_node.cpp:5:\n'}
+[2.828885] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:7: warning: format \xe2\x80\x98%d\xe2\x80\x99 expects argument of type \xe2\x80\x98int\xe2\x80\x99, but argument 10 has type \xe2\x80\x98int64_t\xe2\x80\x99 {aka \xe2\x80\x98long int\xe2\x80\x99} [-Wformat=]\n'}
+[2.828937] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.828981] (recognition) StderrLine: {'line': b'      |       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.829031] (recognition) StderrLine: {'line': b'......\n'}
+[2.829074] (recognition) StderrLine: {'line': b'   64 |       get_parameter("s_low").as_int(), get_parameter("v_low").as_int());\n'}
+[2.829116] (recognition) StderrLine: {'line': b'      |                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[2.829157] (recognition) StderrLine: {'line': b'      |                                                                     |\n'}
+[2.829199] (recognition) StderrLine: {'line': b'      |                                                                     int64_t {aka long int}\n'}
+[2.829240] (recognition) StderrLine: {'line': b'/home/y/ros2_ws/src/recognition/src/recognition_node.cpp:61:71: note: format string is defined here\n'}
+[2.829282] (recognition) StderrLine: {'line': b'   61 |       "recognition_node ready: topic=%s target=%s h=[%d,%d] s>=%d v>=%d",\n'}
+[2.829324] (recognition) StderrLine: {'line': b'      |                                                                      ~^\n'}
+[2.829366] (recognition) StderrLine: {'line': b'      |                                                                       |\n'}
+[2.829407] (recognition) StderrLine: {'line': b'      |                                                                       int\n'}
+[2.829447] (recognition) StderrLine: {'line': b'      |                                                                      %ld\n'}
+[2.906807] (-) TimerEvent: {}
+[3.007015] (-) TimerEvent: {}
+[3.107229] (-) TimerEvent: {}
+[3.207511] (-) TimerEvent: {}
+[3.307759] (-) TimerEvent: {}
+[3.407971] (-) TimerEvent: {}
+[3.508183] (-) TimerEvent: {}
+[3.608387] (-) TimerEvent: {}
+[3.708599] (-) TimerEvent: {}
+[3.808791] (-) TimerEvent: {}
+[3.908998] (-) TimerEvent: {}
+[4.009266] (-) TimerEvent: {}
+[4.109473] (-) TimerEvent: {}
+[4.209647] (-) TimerEvent: {}
+[4.309848] (-) TimerEvent: {}
+[4.410051] (-) TimerEvent: {}
+[4.510264] (-) TimerEvent: {}
+[4.610471] (-) TimerEvent: {}
+[4.710640] (-) TimerEvent: {}
+[4.810857] (-) TimerEvent: {}
+[4.911066] (-) TimerEvent: {}
+[5.011302] (-) TimerEvent: {}
+[5.111521] (-) TimerEvent: {}
+[5.211727] (-) TimerEvent: {}
+[5.311911] (-) TimerEvent: {}
+[5.412180] (-) TimerEvent: {}
+[5.512464] (-) TimerEvent: {}
+[5.612638] (-) TimerEvent: {}
+[5.712835] (-) TimerEvent: {}
+[5.813012] (-) TimerEvent: {}
+[5.913208] (-) TimerEvent: {}
+[6.013405] (-) TimerEvent: {}
+[6.113545] (-) TimerEvent: {}
+[6.213763] (-) TimerEvent: {}
+[6.313953] (-) TimerEvent: {}
+[6.414141] (-) TimerEvent: {}
+[6.514324] (-) TimerEvent: {}
+[6.614521] (-) TimerEvent: {}
+[6.714707] (-) TimerEvent: {}
+[6.814893] (-) TimerEvent: {}
+[6.915086] (-) TimerEvent: {}
+[7.015275] (-) TimerEvent: {}
+[7.115472] (-) TimerEvent: {}
+[7.215657] (-) TimerEvent: {}
+[7.315835] (-) TimerEvent: {}
+[7.416037] (-) TimerEvent: {}
+[7.516232] (-) TimerEvent: {}
+[7.616421] (-) TimerEvent: {}
+[7.716700] (-) TimerEvent: {}
+[7.816897] (-) TimerEvent: {}
+[7.917121] (-) TimerEvent: {}
+[8.017329] (-) TimerEvent: {}
+[8.117510] (-) TimerEvent: {}
+[8.217708] (-) TimerEvent: {}
+[8.317895] (-) TimerEvent: {}
+[8.418100] (-) TimerEvent: {}
+[8.518283] (-) TimerEvent: {}
+[8.618471] (-) TimerEvent: {}
+[8.718637] (-) TimerEvent: {}
+[8.818822] (-) TimerEvent: {}
+[8.919005] (-) TimerEvent: {}
+[9.019201] (-) TimerEvent: {}
+[9.119396] (-) TimerEvent: {}
+[9.219584] (-) TimerEvent: {}
+[9.319768] (-) TimerEvent: {}
+[9.420033] (-) TimerEvent: {}
+[9.520274] (-) TimerEvent: {}
+[9.620469] (-) TimerEvent: {}
+[9.693547] (recognition) StdoutLine: {'line': b'[ 75%] Linking CXX shared library librecognition_component.so\n'}
+[9.720623] (-) TimerEvent: {}
+[9.820819] (-) TimerEvent: {}
+[9.921026] (-) TimerEvent: {}
+[10.021258] (-) TimerEvent: {}
+[10.121558] (-) TimerEvent: {}
+[10.221776] (-) TimerEvent: {}
+[10.285625] (recognition) StdoutLine: {'line': b'[ 75%] Built target recognition_component\n'}
+[10.320338] (recognition) StdoutLine: {'line': b'[ 87%] Linking CXX executable recognition_main\n'}
+[10.321868] (-) TimerEvent: {}
+[10.422070] (-) TimerEvent: {}
+[10.522325] (-) TimerEvent: {}
+[10.622573] (-) TimerEvent: {}
+[10.722847] (-) TimerEvent: {}
+[10.823158] (-) TimerEvent: {}
+[10.837338] (recognition) StdoutLine: {'line': b'[100%] Built target recognition_main\n'}
+[10.851050] (recognition) CommandEnded: {'returncode': 0}
+[10.853523] (recognition) JobProgress: {'identifier': 'recognition', 'progress': 'install'}
+[10.869262] (recognition) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/y/ros2_ws/build_y/recognition'], 'cwd': '/home/y/ros2_ws/build_y/recognition', 'env': OrderedDict([('CODEBUDDY_CODE_IMAGE_COMPRESSION_MAX_DIMENSION', '1080'), ('CODEBUDDY_INCLUDE_TOPIC_MESSAGE', '1'), ('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('CODEBUDDY_GIT_REPO_SCAN_DISABLED', '1'), ('TENCENT_DOCS_LOCAL_MCP', 'http://127.0.0.1:39099/mcp'), ('WORKBUDDY_NODE_ENV', 'production'), ('ACC_PRODUCT_CONFIG_PATH', '/tmp/workbuddy-product-spill-kIQHBi/acc-product-config-v3.json'), ('CLIENT_INFO_PRODUCT_VERSION', '5.5.6'), ('WORKBUDDY_DAEMON_CATALOG_STDIO', '1'), ('LANGUAGE', 'zh_CN:zh'), ('CLAUDE_SESSION_ID', 'e0b335c6-042d-4e6a-852f-43c2580b5be2'), ('USER', 'y'), ('WORKBUDDY_USER_DATA_DIR', '/home/y/.workbuddy/app'), ('CODEBUDDY_POWERSHELL_USE_PTY', '1'), ('CODEBUDDY_BUILTIN_SKILLS_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/plugins/workbuddy-builtin/skills'), ('SYSTEMD_PAGER', 'cat'), ('XDG_SESSION_TYPE', 'x11'), ('WORKBUDDY_PAC_RPC_TOKEN', 'hDaKHC_JkerCjwSuDWwtSDTLsIGP09-A'), ('WORKBUDDY_LOCALE', 'zh-CN'), ('WORKBUDDY_RESOURCES_PATH', '/opt/WorkBuddy/resources'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('SERVER__HOST', '127.0.0.1'), ('CODEBUDDY_CONVERSATION_REQUEST_ID', '2e841ef0cd3e46d294bff4115709d73d'), ('HOME', '/home/y'), ('CHROME_DESKTOP', 'WorkBuddy.desktop'), ('OLDPWD', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('CODEBUDDY_HIGH_CREDIT_APPROVAL_ENABLED', '1'), ('CODEBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_SERVICE_PROXY_URL', 'http://127.0.0.1:39351/internal/hooks/services/invoke'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/workbuddy.desktop'), ('ROS_PYTHON_VERSION', '3'), ('CODEBUDDY_CONVERSATION_MESSAGE_ID', 'c1f299f9172142728ca0b92fe4bff4d9'), ('NODE_OPTIONS', '--require="/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/node-language-shim.cjs"'), ('CODEBUDDY_MCP_CONFIG', '{"mcpServers":{"connector-proxy":{"type":"http","url":"http://127.0.0.1:38217/mcp","headers":{"Authorization":"Bearer nmFaGFnUXI5HDZlEG3cw7mvt4fiK51QAAd7ldngUVus","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":false,"tools":{"automation_update":{"bare_name":true,"defer_loading":false},"present_files":{"bare_name":true,"defer_loading":false},"connect_cloud_service":{"bare_name":true,"defer_loading":true},"connect_open_platform":{"bare_name":true,"defer_loading":true},"read_me":{"bare_name":true,"defer_loading":false},"show_widget":{"bare_name":true,"defer_loading":false},"workbuddy_sites_deploy":{"bare_name":true,"defer_loading":true},"workbuddy_sites_unpublish":{"bare_name":true,"defer_loading":true},"workbuddy_cloud_service":{"bare_name":true,"defer_loading":true},"workbuddy_marketplace_skill":{"bare_name":true,"defer_loading":true},"agentic_search":{"bare_name":true,"defer_loading":true},"conversation_search":{"bare_name":true,"defer_loading":true},"agent_mail_upload_attachment":{"bare_name":true,"defer_loading":true},"agent_mail_download_attachment":{"bare_name":true,"defer_loading":true},"search_plugins":{"bare_name":true,"defer_loading":true},"suggest_plugin_install":{"bare_name":true,"defer_loading":true}},"transparent_proxy":true,"builtin_tools":["automation_update","present_files","connect_cloud_service","connect_open_platform","read_me","show_widget","workbuddy_sites_deploy","workbuddy_sites_unpublish","workbuddy_cloud_service","workbuddy_marketplace_skill","agentic_search","conversation_search","agent_mail_upload_attachment","agent_mail_download_attachment","search_plugins","suggest_plugin_install"]},"agent-mail":{"type":"http","url":"http://127.0.0.1:38217/a9bcc7dd302f2b262507f7590d97b1b4/mcp","headers":{"Authorization":"Bearer ilhn2llUHRNB5AiV2SqMQO6tu9HJL0yXClAf8fA0XXk","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":true},"genie-baas":{"type":"http","url":"http://127.0.0.1:38217/881f8b0f3d2c03fadb7743e0aaca8a28/mcp","headers":{"Authorization":"Bearer FPYvTBkPiR4vqF4gua38csmEnQuHVlLB_3Mo7ZnkP5w","X-WorkBuddy-MCP-Context":"eyJzZXNzaW9uSWQiOiJlMGIzMzVjNi0wNDJkLTRlNmEtODUyZi00M2MyNTgwYjViZTIiLCJ3ZWxjb21lTW9kZSI6ImNvZGluZyIsIndvcmtzcGFjZSI6Ii9ob21lL3kvV29ya0J1ZGR5LzIwMjYtMTEtMDctMTEtMTktNTEiLCJhbGxvd2VkQnVpbHRpblRvb2xzIjpbImFnZW50X21haWxfZG93bmxvYWRfYXR0YWNobWVudCIsImFnZW50X21haWxfdXBsb2FkX2F0dGFjaG1lbnQiLCJhZ2VudGljX3NlYXJjaCIsImF1dG9tYXRpb25fdXBkYXRlIiwiY29ubmVjdF9jbG91ZF9zZXJ2aWNlIiwiY29ubmVjdF9vcGVuX3BsYXRmb3JtIiwiY29udmVyc2F0aW9uX3NlYXJjaCIsInByZXNlbnRfZmlsZXMiLCJyZWFkX21lIiwic2VhcmNoX3BsdWdpbnMiLCJzaG93X3dpZGdldCIsInN1Z2dlc3RfcGx1Z2luX2luc3RhbGwiLCJ3b3JrYnVkZHlfY2xvdWRfc2VydmljZSIsIndvcmtidWRkeV9tYXJrZXRwbGFjZV9za2lsbCIsIndvcmtidWRkeV9zaXRlc19kZXBsb3kiLCJ3b3JrYnVkZHlfc2l0ZXNfdW5wdWJsaXNoIl19.yRn-l-_PyUs1YA6BlwbtCpw_v_owKu4v70HLjBkwoJI"},"defer_loading":true}}}'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('CLIENT_INFO_PLATFORM', 'WorkBuddy'), ('CLIENT_INFO_PLUGIN_NAME', 'workbuddy-desktop'), ('PAGER', 'cat'), ('CODEBUDDY_SKIP_GIT_BASH_CHECK', '1'), ('MANAGERPID', '2596'), ('WORKBUDDY_STARTUP_DATE', '2026-11-07'), ('SYSTEMD_EXEC_PID', '2853'), ('WORKBUDDY_EXTRA_PATHS', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '60483'), ('CLIENT_INFO_PRODUCT_NAME', 'WorkBuddy'), ('TENCENT_DOCS_LOCAL_SERVER', 'http://127.0.0.1:39099'), ('SERVER__PORT', '39351'), ('BAGGAGE', 'codebuddy.session_id=e0b335c6-042d-4e6a-852f-43c2580b5be2,codebuddy.conversation_request_id=2e841ef0cd3e46d294bff4115709d73d,codebuddy.conversation_message_id=c1f299f9172142728ca0b92fe4bff4d9'), ('WORKBUDDY_APP_VERSION', '5.5.6'), ('CODEBUDDY_ENABLE_SECURITY_AUDIT', '1'), ('CODEBUDDY_NODE_BIN', '/home/y/.workbuddy/binaries/node/versions/22.22.2/bin/node'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'y'), ('PYTHONDONTWRITEBYTECODE', '1'), ('CODEBUDDY_REPLAY_SHOW_PRE_COMPACT', '1'), ('CODEBUDDY_SAFE_DELETE_BULK_STATE_DIR', '/tmp/codebuddy-safe-delete-bulk'), ('GALILEO_SDK_READY', '1'), ('CLIENT_INFO_MACHINE_ID', 'b381008b-ef8f-46c1-b67b-cc1bf66922bb'), ('JOURNAL_STREAM', '8:13117'), ('CODEBUDDY_SAFE_DELETE_BROKER_DELETE', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-broker-delete.cjs'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('CODEBUDDY_DISABLE_SYSTEM_REMINDER_MD', '1'), ('WORKBUDDY_CONFIG_DIR', '/home/y/.workbuddy'), ('CODEBUDDY_FORCE_HEADLESS_BUNDLE', '1'), ('XDG_SESSION_CLASS', 'user'), ('CODEBUDDY_DISABLE_IDE', '1'), ('USERNAME', 'y'), ('GALILEO_ENABLE', 'true'), ('TERM', 'xterm'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WORKBUDDY_MENU_LOCALE', 'zh-CN'), ('WORKBUDDY_ENABLE_LINUX_SANDBOX_CLI', '1'), ('WINDOWPATH', '2'), ('CODEBUDDY_PROMPT_SUGGESTION_DISABLED', '1'), ('PATH', '/usr/bin:/opt/ros/humble/bin:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin:/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.workbuddy/binaries/python/versions/3.13.12/bin:/home/y/.workbuddy/binaries/node/cli-connector-packages/bin:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin:/home/y/.local/bin:/home/y/.workbuddy/binaries/node/versions/22.22.2/bin:/home/y/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/y-Shadow-SH16-74:@/tmp/.ICE-unix/2825,unix/y-Shadow-SH16-74:/tmp/.ICE-unix/2825'), ('LESSHISTFILE', '-'), ('AWS_PAGER', ''), ('INVOCATION_ID', '0f10957835d84183b68e61c0a6ea4a6a'), ('XDG_MENU_PREFIX', 'gnome-'), ('CODEBUDDY_SAFE_DELETE_REPORT_PATH', '/tmp/codebuddy-safe-delete/report-72857-1794030010858-89h2bhhglz7.jsonl'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('WORKBUDDY_FS_PROTECTION_ROLE', 'daemon'), ('GDK_BACKEND', 'x11'), ('CODEBUDDY_CODE_DISABLE_SESSION_SUMMARY', '1'), ('WORKBUDDY_STARTUP_PID', '60483'), ('DISPLAY', ':1'), ('CLIENT_INFO_IDE_TYPE', 'WorkBuddy'), ('WORKBUDDY_PROMPT_TEMPLATES_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/resources/templates'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('TRACEPARENT', '00-2e841ef0cd3e46d294bff4115709d73d-2cca84ab60dd0085-01'), ('HGPAGER', 'cat'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('MANPAGER', 'cat'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('CODEBUDDY_DISABLE_AUTO_MEMORY', '1'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('WORKBUDDY_APP_NAME', 'WorkBuddy'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('CODEBUDDY_PROJECT_DIR', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('CODEBUDDY_GATEWAY_AUTH', 'password'), ('WORKBUDDY_STARTUP_TIME', '105946'), ('QT_ACCESSIBILITY', '1'), ('ELECTRON_RUN_AS_NODE', '1'), ('CODEBUDDY_REASONING_ONLY_END_TURN', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('CODEBUDDY_API_KEY_HELPER_DISABLED', '1'), ('CODEBUDDY_DISABLE_SESSION_HISTORY_CLEANUP', '1'), ('CODEBUDDY_GATEWAY_DISABLE_API_DOCS', '1'), ('CODEBUDDY_TOOL_CALL_ID', 'call_e1c53313b80545e3a97fd6ce'), ('CODEBUDDY_DISABLE_FORK_SUBAGENT', '1'), ('ACC_PRODUCT_CONFIG_V2', ''), ('CLIENT_INFO_PLATFORM_VERSION', '5.5.6'), ('editor_sdk_port', '39099'), ('ACC_PRODUCT_CONFIG_V3', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('CODEBUDDY_SAFE_DELETE_ENABLED', '1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('CODEBUDDY_SKILL_TOOL_CHAR_BUDGET', '30000'), ('CODEBUDDY_CURRENT_MODEL_ID', 'glm-5.3-flash'), ('CODEBUDDY_HOST_CAPABILITIES', 'elicitation.form,weixinpay.interception'), ('GIT_PAGER', 'cat'), ('BASH_ENV', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/shell-runtime-bash-env.sh'), ('QT_IM_MODULE', 'ibus'), ('CLAUDE_PROJECT_DIR', '/home/y/WorkBuddy/2026-11-07-11-19-51'), ('CODEBUDDY_CODE_EXPERIMENTAL_AGENT_TEAMS', '1'), ('CODEBUDDY_DISABLE_REQUEST_VALIDATION', '1'), ('ACC_PRODUCT_CONFIG', ''), ('PWD', '/home/y/ros2_ws/build_y/recognition'), ('GENIE_TRASH_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/genie-trash'), ('WORKBUDDY_IS_PACKAGED', '1'), ('DISABLE_AUTOUPDATER', '1'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg'), ('WORKBUDDY_PRODUCT_NAME', 'WorkBuddy'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('CODEBUDDY_SAFE_DELETE_BULK_GUARD', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-delete-bulk-guard.cjs'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim'), ('CODEBUDDY_SESSION_ID', 'e0b335c6-042d-4e6a-852f-43c2580b5be2'), ('CLIENT_INFO_PLUGIN_VERSION', '5.5.6'), ('CODEBUDDY_GATEWAY_PASSWORD', 'b1ylJHSkOkESHf6GRzYDCxIuHycTvDko8UTLSTTjo74'), ('CODEBUDDY_SAFE_DELETE_BIN_DIR', '/opt/WorkBuddy/resources/app.asar.unpacked/cli/vendor/shim/safe-bin'), ('CODEBUDDY_SKILL_DESC_MAX_OVERRIDES', '{"tencent-docs-routing":300,"tencent-pptx":300,"tencent-docx":300,"tencent-docs-sheet-generation":300,"tencent-docs-sheetagent":300}'), ('WORKBUDDY_APPLICATION_NAME', 'WorkBuddy'), ('CODEBUDDY_DISABLE_CRON', '1'), ('COLCON', '1'), ('CLIENT_INFO_USER_AGENT_EXTENSION', 'CLI/2.137.1'), ('CODEBUDDY_INTERNET_ENVIRONMENT', 'internal'), ('WORKBUDDY_PAC_RPC_SOCKET', '/tmp/workbuddy-pac-60568-0eaf3d357bc9c21d.sock'), ('CODEBUDDY_SAFE_DELETE_BULK_THRESHOLD', '50'), ('WORKBUDDY_DATA_FOLDER_NAME', '.workbuddy'), ('WORKBUDDY_APP_PATH', '/opt/WorkBuddy/resources/app.asar'), ('CODEBUDDY_HOST', 'workbuddy-desktop'), ('CODEBUDDY_DISABLE_EXTENDED_PLUGIN_HOOKS', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[10.880955] (recognition) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.881153] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_node\n'}
+[10.882089] (recognition) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/recognition/lib/librecognition_component.so\n'}
+[10.889773] (recognition) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/recognition/lib/librecognition_component.so" to ""\n'}
+[10.890621] (recognition) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_main\n'}
+[10.891063] (recognition) StdoutLine: {'line': b'-- Set runtime path of "/home/y/ros2_ws/install_y/recognition/lib/recognition/recognition_main" to ""\n'}
+[10.891199] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/lib/recognition/sim_image_publisher\n'}
+[10.891437] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/config\n'}
+[10.891495] (recognition) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/recognition/share/recognition/config/recognition.yaml\n'}
+[10.891867] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch\n'}
+[10.891919] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/launch/recognition.launch.py\n'}
+[10.891966] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/rviz\n'}
+[10.892012] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/rviz/recognition.rviz\n'}
+[10.892163] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/package_run_dependencies/recognition\n'}
+[10.892212] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/parent_prefix_path/recognition\n'}
+[10.892261] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.sh\n'}
+[10.892305] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/ament_prefix_path.dsv\n'}
+[10.892348] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.sh\n'}
+[10.892392] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/environment/path.dsv\n'}
+[10.892434] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.bash\n'}
+[10.892477] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.sh\n'}
+[10.892520] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.zsh\n'}
+[10.892562] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/local_setup.dsv\n'}
+[10.892608] (recognition) StdoutLine: {'line': b'-- Installing: /home/y/ros2_ws/install_y/recognition/share/recognition/package.dsv\n'}
+[10.892651] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/packages/recognition\n'}
+[10.892698] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/ament_index/resource_index/rclcpp_components/recognition\n'}
+[10.892741] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig.cmake\n'}
+[10.892784] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/cmake/recognitionConfig-version.cmake\n'}
+[10.892826] (recognition) StdoutLine: {'line': b'-- Up-to-date: /home/y/ros2_ws/install_y/recognition/share/recognition/package.xml\n'}
+[10.894032] (recognition) CommandEnded: {'returncode': 0}
+[10.915901] (recognition) JobEnded: {'identifier': 'recognition', 'rc': 0}
+[10.916294] (-) EventReactorShutdown: {}

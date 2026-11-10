@@ -1,0 +1,50 @@
+running egg_info
+creating ../build/stick_detector/stick_detector.egg-info
+writing ../build/stick_detector/stick_detector.egg-info/PKG-INFO
+writing dependency_links to ../build/stick_detector/stick_detector.egg-info/dependency_links.txt
+writing entry points to ../build/stick_detector/stick_detector.egg-info/entry_points.txt
+writing requirements to ../build/stick_detector/stick_detector.egg-info/requires.txt
+writing top-level names to ../build/stick_detector/stick_detector.egg-info/top_level.txt
+writing manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+reading manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+writing manifest file '../build/stick_detector/stick_detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/y/ros2_ws/src/build/stick_detector/build
+creating /home/y/ros2_ws/src/build/stick_detector/build/lib
+creating /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+copying stick_detector/geometry_core.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+copying stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+copying stick_detector/stick_detector_node.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+copying stick_detector/__init__.py -> /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector
+running install
+running install_lib
+creating /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/geometry_core.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/cloud_sim_node.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/stick_detector_node.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+copying /home/y/ros2_ws/src/build/stick_detector/build/lib/stick_detector/__init__.py -> /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector
+byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/geometry_core.py to geometry_core.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/cloud_sim_node.py to cloud_sim_node.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/stick_detector_node.py to stick_detector_node.cpython-310.pyc
+byte-compiling /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index
+creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index
+creating /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index/packages
+copying resource/stick_detector -> /home/y/ros2_ws/src/install/stick_detector/share/ament_index/resource_index/packages
+copying package.xml -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector
+creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+copying launch/stick_detect.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+copying launch/sim_test.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+copying launch/camera_with_detector.launch.py -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/launch
+creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/config
+copying config/stick_detector.yaml -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/config
+creating /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/rviz
+copying rviz/stick_detector.rviz -> /home/y/ros2_ws/src/install/stick_detector/share/stick_detector/rviz
+running install_egg_info
+Copying ../build/stick_detector/stick_detector.egg-info to /home/y/ros2_ws/src/install/stick_detector/lib/python3.10/site-packages/stick_detector-0.1.0-py3.10.egg-info
+running install_scripts
+Installing cloud_sim_node script to /home/y/ros2_ws/src/install/stick_detector/lib/stick_detector
+Installing stick_detector_node script to /home/y/ros2_ws/src/install/stick_detector/lib/stick_detector
+writing list of installed files to '/home/y/ros2_ws/src/build/stick_detector/install.log'

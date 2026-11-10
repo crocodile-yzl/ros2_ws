@@ -1,0 +1,40 @@
+[0.020s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_ransac_imu -- -j24 -l24
+[0.137s] Consolidate compiler generated dependencies of target test_ground_transform
+[0.140s] Consolidate compiler generated dependencies of target ground_segment_node
+[0.148s] Consolidate compiler generated dependencies of target ground_frame_node
+[0.148s] Consolidate compiler generated dependencies of target d435i_cloud_node
+[0.162s] [ 25%] Built target test_ground_transform
+[0.174s] [ 50%] Built target ground_segment_node
+[0.177s] [ 75%] Building CXX object CMakeFiles/d435i_cloud_node.dir/src/d435i_cloud_node.cpp.o
+[0.177s] [ 87%] Built target ground_frame_node
+[8.761s] [100%] Linking CXX executable d435i_cloud_node
+[9.025s] [100%] Built target d435i_cloud_node
+[9.043s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/y/ros2_ws/build_y/d435i_ransac_imu -- -j24 -l24
+[9.061s] Invoking command in '/home/y/ros2_ws/build_y/d435i_ransac_imu': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_ransac_imu
+[9.073s] -- Install configuration: ""
+[9.074s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/ground_segment_node
+[9.074s] -- Installing: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/d435i_cloud_node
+[9.075s] -- Set runtime path of "/home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/d435i_cloud_node" to ""
+[9.076s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/lib/d435i_ransac_imu/ground_frame_node
+[9.076s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/launch
+[9.076s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/launch/d435i_ransac_imu.launch.py
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/config
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/config/ransac.yaml
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/rviz
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/rviz/ground_segment.rviz
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/package_run_dependencies/d435i_ransac_imu
+[9.077s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/parent_prefix_path/d435i_ransac_imu
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/ament_prefix_path.sh
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/ament_prefix_path.dsv
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/path.sh
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/environment/path.dsv
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.bash
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.sh
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.zsh
+[9.079s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/local_setup.dsv
+[9.079s] -- Installing: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/package.dsv
+[9.080s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/ament_index/resource_index/packages/d435i_ransac_imu
+[9.080s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/cmake/d435i_ransac_imuConfig.cmake
+[9.080s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/cmake/d435i_ransac_imuConfig-version.cmake
+[9.080s] -- Up-to-date: /home/y/ros2_ws/install_y/d435i_ransac_imu/share/d435i_ransac_imu/package.xml
+[9.083s] Invoked command in '/home/y/ros2_ws/build_y/d435i_ransac_imu' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/y/ros2_ws/install_y/stick_detector:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/y/ros2_ws/build_y/d435i_ransac_imu

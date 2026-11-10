@@ -1,0 +1,53 @@
+[0.018s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/recognition -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/recognition
+[0.175s] -- The C compiler identification is GNU 11.4.0
+[0.282s] -- The CXX compiler identification is GNU 11.4.0
+[0.294s] -- Detecting C compiler ABI info
+[0.393s] -- Detecting C compiler ABI info - done
+[0.402s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.404s] -- Detecting C compile features - done
+[0.408s] -- Detecting CXX compiler ABI info
+[0.514s] -- Detecting CXX compiler ABI info - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.524s] -- Detecting CXX compile features
+[0.525s] -- Detecting CXX compile features - done
+[0.530s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.768s] -- Found Python3: /home/y/.workbuddy/binaries/python/versions/3.13.12/bin/python3 (found version "3.13.12") found components: Interpreter 
+[2.265s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.331s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.339s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.351s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.368s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.388s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.443s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.446s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.571s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.605s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.653s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.665s] -- Looking for pthread.h
+[2.760s] -- Looking for pthread.h - found
+[2.760s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.860s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.861s] -- Found Threads: TRUE  
+[2.929s] -- Found rclcpp_components: 16.0.19 (/opt/ros/humble/share/rclcpp_components/cmake)
+[2.966s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.016s] CMake Error at CMakeLists.txt:12 (find_package):
+[3.016s]   By not providing "Findvision_msgs.cmake" in CMAKE_MODULE_PATH this project
+[3.016s]   has asked CMake to find a package configuration file provided by
+[3.016s]   "vision_msgs", but CMake did not find one.
+[3.016s] 
+[3.016s]   Could not find a package configuration file provided by "vision_msgs" with
+[3.016s]   any of the following names:
+[3.016s] 
+[3.016s]     vision_msgsConfig.cmake
+[3.016s]     vision_msgs-config.cmake
+[3.016s] 
+[3.017s]   Add the installation prefix of "vision_msgs" to CMAKE_PREFIX_PATH or set
+[3.017s]   "vision_msgs_DIR" to a directory containing one of the above files.  If
+[3.017s]   "vision_msgs" provides a separate development package or SDK, be sure it
+[3.017s]   has been installed.
+[3.017s] 
+[3.017s] 
+[3.017s] -- Configuring incomplete, errors occurred!
+[3.017s] See also "/home/y/ros2_ws/build_y/recognition/CMakeFiles/CMakeOutput.log".
+[3.025s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/y/ros2_ws/src/recognition -DCMAKE_INSTALL_PREFIX=/home/y/ros2_ws/install_y/recognition

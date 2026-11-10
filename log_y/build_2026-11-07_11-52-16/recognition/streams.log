@@ -1,0 +1,36 @@
+[0.012s] Invoking command in '/home/y/ros2_ws/build_y/recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24
+[0.069s] Consolidate compiler generated dependencies of target sim_image_publisher
+[0.079s] Consolidate compiler generated dependencies of target recognition_component
+[0.088s] [ 12%] Building CXX object CMakeFiles/sim_image_publisher.dir/src/sim_image_publisher.cpp.o
+[0.092s] [ 37%] Built target recognition_node
+[0.098s] [ 62%] Built target recognition_component
+[0.120s] Consolidate compiler generated dependencies of target recognition_main
+[0.141s] [ 75%] Building CXX object CMakeFiles/recognition_main.dir/src/main.cpp.o
+[2.677s] /home/y/ros2_ws/src/recognition/src/sim_image_publisher.cpp: In function ‘int main(int, char**)’:
+[2.677s] /home/y/ros2_ws/src/recognition/src/sim_image_publisher.cpp:39:44: error: no matching function for call to ‘cv_bridge::CvImage::CvImage(rclcpp::Time, std::string, cv::Mat&)’
+[2.677s]    39 |       node->now(), std::string("bgr8"), img).toImageMsg();
+[2.677s]       |                                            ^
+[2.677s] In file included from /home/y/ros2_ws/src/recognition/src/sim_image_publisher.cpp:9:
+[2.678s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:100:3: note: candidate: ‘cv_bridge::CvImage::CvImage(const Header&, const string&, const cv::Mat&)’
+[2.678s]   100 |   CvImage(
+[2.678s]       |   ^~~~~~~
+[2.678s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:101:35: note:   no known conversion for argument 1 from ‘rclcpp::Time’ to ‘const Header&’ {aka ‘const std_msgs::msg::Header_<std::allocator<void> >&’}
+[2.678s]   101 |     const std_msgs::msg::Header & header, const std::string & encoding,
+[2.678s]       |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~
+[2.678s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:95:3: note: candidate: ‘cv_bridge::CvImage::CvImage()’
+[2.678s]    95 |   CvImage() {}
+[2.679s]       |   ^~~~~~~
+[2.679s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:95:3: note:   candidate expects 0 arguments, 3 provided
+[2.679s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:85:24: note: candidate: ‘cv_bridge::CvImage::CvImage(const cv_bridge::CvImage&)’
+[2.679s]    85 | class CV_BRIDGE_EXPORT CvImage
+[2.679s]       |                        ^~~~~~~
+[2.679s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:85:24: note:   candidate expects 1 argument, 3 provided
+[2.679s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:85:24: note: candidate: ‘cv_bridge::CvImage::CvImage(cv_bridge::CvImage&&)’
+[2.679s] /opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:85:24: note:   candidate expects 1 argument, 3 provided
+[3.218s] [ 87%] Linking CXX executable recognition_main
+[3.728s] gmake[2]: *** [CMakeFiles/sim_image_publisher.dir/build.make:76：CMakeFiles/sim_image_publisher.dir/src/sim_image_publisher.cpp.o] 错误 1
+[3.729s] gmake[1]: *** [CMakeFiles/Makefile2:221：CMakeFiles/sim_image_publisher.dir/all] 错误 2
+[3.729s] gmake[1]: *** 正在等待未完成的任务....
+[3.773s] [ 87%] Built target recognition_main
+[3.774s] gmake: *** [Makefile:146：all] 错误 2
+[3.777s] Invoked command in '/home/y/ros2_ws/build_y/recognition' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/y/ros2_ws/build_y/recognition -- -j24 -l24

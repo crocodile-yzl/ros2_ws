@@ -1,0 +1,4 @@
+source;share/recognition/local_setup.bash
+source;share/recognition/local_setup.dsv
+source;share/recognition/local_setup.sh
+source;share/recognition/local_setup.zsh
